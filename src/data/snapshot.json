@@ -1,0 +1,4075 @@
+{
+  "generatedAt": "2026-10-01T17:41:00+00:00",
+  "unit": "PLN million",
+  "budget": [
+    {
+      "period": "2018-01",
+      "revenue": 35191.206237,
+      "spending": 26629.004662,
+      "balance": 8562.201575,
+      "revenueCategories": {
+        "tax": 33534.555113,
+        "nonTax": 1636.688535,
+        "eu": 19.962589
+      },
+      "spendingCategories": {
+        "grants": 16149.081808,
+        "benefits": 2008.420276,
+        "operations": 4014.724433,
+        "capital": 188.151628,
+        "debtService": 3619.801871,
+        "euContribution": 245.517109,
+        "euProjects": 403.307537
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
+      "publishedAt": "2019-06-11",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2018-02",
+      "revenue": 62020.290263,
+      "spending": 57559.540073,
+      "balance": 4460.75019,
+      "revenueCategories": {
+        "tax": 58529.17127,
+        "nonTax": 3461.626446,
+        "eu": 29.492546
+      },
+      "spendingCategories": {
+        "grants": 34538.620652,
+        "benefits": 4097.352467,
+        "operations": 10486.079035,
+        "capital": 619.784394,
+        "debtService": 4016.566687,
+        "euContribution": 2783.743498,
+        "euProjects": 1017.393341
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
+      "publishedAt": "2019-06-11",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2018-03",
+      "revenue": 88469.165334,
+      "spending": 85341.535464,
+      "balance": 3127.62987,
+      "revenueCategories": {
+        "tax": 82859.363897,
+        "nonTax": 5571.001997,
+        "eu": 38.79944
+      },
+      "spendingCategories": {
+        "grants": 50149.767181,
+        "benefits": 6289.373092,
+        "operations": 16683.757045,
+        "capital": 1045.413313,
+        "debtService": 5129.564173,
+        "euContribution": 4409.325055,
+        "euProjects": 1634.335605
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
+      "publishedAt": "2019-06-11",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2018-04",
+      "revenue": 125162.284662,
+      "spending": 115837.084797,
+      "balance": 9325.199865,
+      "revenueCategories": {
+        "tax": 116036.311625,
+        "nonTax": 9083.562161,
+        "eu": 42.410875
+      },
+      "spendingCategories": {
+        "grants": 66849.365015,
+        "benefits": 8348.224748,
+        "operations": 22123.617098,
+        "capital": 1928.116749,
+        "debtService": 8539.059059,
+        "euContribution": 5901.721917,
+        "euProjects": 2146.98021
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
+      "publishedAt": "2019-06-11",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2018-05",
+      "revenue": 154008.582448,
+      "spending": 144423.242823,
+      "balance": 9585.339625,
+      "revenueCategories": {
+        "tax": 143034.972637,
+        "nonTax": 10827.750471,
+        "eu": 145.85934
+      },
+      "spendingCategories": {
+        "grants": 82862.609412,
+        "benefits": 10380.642502,
+        "operations": 27291.66994,
+        "capital": 3103.560259,
+        "debtService": 11061.720978,
+        "euContribution": 7124.573571,
+        "euProjects": 2598.466162
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
+      "publishedAt": "2019-06-11",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2018-06",
+      "revenue": 182007.754756,
+      "spending": 172472.28287,
+      "balance": 9535.471886,
+      "revenueCategories": {
+        "tax": 167806.090928,
+        "nonTax": 13644.589244,
+        "eu": 557.074584
+      },
+      "spendingCategories": {
+        "grants": 98735.035227,
+        "benefits": 12575.434784,
+        "operations": 32501.507746,
+        "capital": 3740.871709,
+        "debtService": 13661.811797,
+        "euContribution": 8113.605273,
+        "euProjects": 3144.016335
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
+      "publishedAt": "2019-06-11",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2018-07",
+      "revenue": 212154.410748,
+      "spending": 213013.111586,
+      "balance": -858.700838,
+      "revenueCategories": {
+        "tax": 195620.330919,
+        "nonTax": 15968.385029,
+        "eu": 565.694799
+      },
+      "spendingCategories": {
+        "grants": 116607.109494,
+        "benefits": 14784.343979,
+        "operations": 38037.69499,
+        "capital": 5093.926758,
+        "debtService": 25323.286419,
+        "euContribution": 9579.722397,
+        "euProjects": 3587.027548
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
+      "publishedAt": "2019-06-11",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2018-08",
+      "revenue": 243460.30106,
+      "spending": 242408.05622,
+      "balance": 1052.244839,
+      "revenueCategories": {
+        "tax": 224559.362469,
+        "nonTax": 18309.614334,
+        "eu": 591.324257
+      },
+      "spendingCategories": {
+        "grants": 132957.026713,
+        "benefits": 17024.232612,
+        "operations": 43388.071488,
+        "capital": 6687.925489,
+        "debtService": 25710.634626,
+        "euContribution": 12518.428888,
+        "euProjects": 4121.736404
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
+      "publishedAt": "2019-06-11",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2018-09",
+      "revenue": 272862.127694,
+      "spending": 269678.435078,
+      "balance": 3183.692616,
+      "revenueCategories": {
+        "tax": 251163.199718,
+        "nonTax": 20790.290929,
+        "eu": 908.637047
+      },
+      "spendingCategories": {
+        "grants": 149899.195218,
+        "benefits": 19361.936662,
+        "operations": 48688.930913,
+        "capital": 7961.03916,
+        "debtService": 26441.396251,
+        "euContribution": 12770.13436,
+        "euProjects": 4555.802515
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
+      "publishedAt": "2019-06-11",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2018-10",
+      "revenue": 309414.0001,
+      "spending": 302937.688947,
+      "balance": 6476.311153,
+      "revenueCategories": {
+        "tax": 284411.89865,
+        "nonTax": 24047.178248,
+        "eu": 954.923201
+      },
+      "spendingCategories": {
+        "grants": 169358.304595,
+        "benefits": 21532.903517,
+        "operations": 54730.846061,
+        "capital": 9650.595147,
+        "debtService": 28058.876844,
+        "euContribution": 14436.242842,
+        "euProjects": 5169.91994
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
+      "publishedAt": "2019-06-11",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2018-11",
+      "revenue": 343394.851654,
+      "spending": 332334.756932,
+      "balance": 11060.094722,
+      "revenueCategories": {
+        "tax": 315789.540119,
+        "nonTax": 26275.779379,
+        "eu": 1329.532156
+      },
+      "spendingCategories": {
+        "grants": 185681.033651,
+        "benefits": 23626.918541,
+        "operations": 60960.919031,
+        "capital": 11413.908753,
+        "debtService": 28721.450728,
+        "euContribution": 16093.689445,
+        "euProjects": 5836.836782
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
+      "publishedAt": "2019-06-11",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2018-12",
+      "revenue": 380048.14,
+      "spending": 390454.347,
+      "balance": -10406.208,
+      "revenueCategories": {
+        "tax": 349353.842854,
+        "nonTax": 28887.911405,
+        "eu": 1806.385354
+      },
+      "spendingCategories": {
+        "grants": 211287.236452,
+        "benefits": 25810.66931,
+        "operations": 72065.224375,
+        "capital": 26494.278216,
+        "debtService": 29486.21742,
+        "euContribution": 18660.769719,
+        "euProjects": 6649.951682
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
+      "publishedAt": "2019-06-11",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2019-01",
+      "revenue": 38737.015889,
+      "spending": 32149.648837,
+      "balance": 6587.367052,
+      "revenueCategories": {
+        "tax": 36178.821238,
+        "nonTax": 2548.922272,
+        "eu": 9.272379
+      },
+      "spendingCategories": {
+        "grants": 18713.797051,
+        "benefits": 2152.903655,
+        "operations": 4354.256662,
+        "capital": 390.825236,
+        "debtService": 4218.826905,
+        "euContribution": 1810.114113,
+        "euProjects": 508.925214
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
+      "publishedAt": "2020-06-04",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2019-02",
+      "revenue": 64777.342903,
+      "spending": 65570.214102,
+      "balance": -792.8712,
+      "revenueCategories": {
+        "tax": 60395.233506,
+        "nonTax": 4360.189221,
+        "eu": 21.920176
+      },
+      "spendingCategories": {
+        "grants": 36784.247799,
+        "benefits": 4393.994387,
+        "operations": 11318.593129,
+        "capital": 916.03802,
+        "debtService": 4929.443944,
+        "euContribution": 6154.077427,
+        "euProjects": 1073.819395
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
+      "publishedAt": "2020-06-04",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2019-03",
+      "revenue": 90286.468818,
+      "spending": 94776.282168,
+      "balance": -4489.813349,
+      "revenueCategories": {
+        "tax": 83834.060405,
+        "nonTax": 6423.433886,
+        "eu": 28.974527
+      },
+      "spendingCategories": {
+        "grants": 52697.223137,
+        "benefits": 6713.761134,
+        "operations": 17954.169304,
+        "capital": 1758.347178,
+        "debtService": 6126.942375,
+        "euContribution": 7957.372213,
+        "euProjects": 1568.466828
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
+      "publishedAt": "2020-06-04",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2019-04",
+      "revenue": 129965.669,
+      "spending": 130040.803,
+      "balance": -75.134,
+      "revenueCategories": {
+        "tax": 119935.856707,
+        "nonTax": 9993.888793,
+        "eu": 35.923269
+      },
+      "spendingCategories": {
+        "grants": 71661.34563,
+        "benefits": 9083.468553,
+        "operations": 24177.70699,
+        "capital": 2397.754198,
+        "debtService": 11303.585165,
+        "euContribution": 9323.327641,
+        "euProjects": 2093.614939
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
+      "publishedAt": "2020-06-04",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2019-05",
+      "revenue": 162865.625,
+      "spending": 164800.901,
+      "balance": -1935.276,
+      "revenueCategories": {
+        "tax": 150540.098244,
+        "nonTax": 11932.888213,
+        "eu": 392.63811
+      },
+      "spendingCategories": {
+        "grants": 93948.656037,
+        "benefits": 11953.762582,
+        "operations": 29950.127246,
+        "capital": 3019.696,
+        "debtService": 12814.616057,
+        "euContribution": 10524.896021,
+        "euProjects": 2589.147101
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
+      "publishedAt": "2020-06-04",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2019-06",
+      "revenue": 192177.123,
+      "spending": 197217.551,
+      "balance": -5040.428,
+      "revenueCategories": {
+        "tax": 177261.062714,
+        "nonTax": 14490.724464,
+        "eu": 425.335808
+      },
+      "spendingCategories": {
+        "grants": 112915.459847,
+        "benefits": 14406.315202,
+        "operations": 35755.749198,
+        "capital": 4250.553,
+        "debtService": 14249.356153,
+        "euContribution": 12521.35791,
+        "euProjects": 3118.759558
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
+      "publishedAt": "2020-06-04",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2019-07",
+      "revenue": 228765.89,
+      "spending": 233548.799,
+      "balance": -4782.909,
+      "revenueCategories": {
+        "tax": 210748.619731,
+        "nonTax": 17574.27274,
+        "eu": 442.997889
+      },
+      "spendingCategories": {
+        "grants": 131856.680004,
+        "benefits": 16846.399923,
+        "operations": 41931.480704,
+        "capital": 5466.922281,
+        "debtService": 19596.235857,
+        "euContribution": 14290.829032,
+        "euProjects": 3560.251692
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
+      "publishedAt": "2020-06-04",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2019-08",
+      "revenue": 262843.951,
+      "spending": 264824.688,
+      "balance": -1980.738,
+      "revenueCategories": {
+        "tax": 240969.55865,
+        "nonTax": 21028.423276,
+        "eu": 845.968874
+      },
+      "spendingCategories": {
+        "grants": 151518.088641,
+        "benefits": 19214.425696,
+        "operations": 47749.842982,
+        "capital": 6098.867535,
+        "debtService": 20128.786932,
+        "euContribution": 16068.419954,
+        "euProjects": 4046.256759
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
+      "publishedAt": "2020-06-04",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2019-09",
+      "revenue": 296027.884,
+      "spending": 297814.203,
+      "balance": -1786.319,
+      "revenueCategories": {
+        "tax": 270267.916238,
+        "nonTax": 24893.1853,
+        "eu": 866.782288
+      },
+      "spendingCategories": {
+        "grants": 171007.846988,
+        "benefits": 21614.869685,
+        "operations": 53636.971925,
+        "capital": 7319.321898,
+        "debtService": 21815.392828,
+        "euContribution": 17894.877799,
+        "euProjects": 4524.921497
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
+      "publishedAt": "2020-06-04",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2019-10",
+      "revenue": 332891.924,
+      "spending": 336083.992,
+      "balance": -3192.068,
+      "revenueCategories": {
+        "tax": 304546.810172,
+        "nonTax": 27342.013067,
+        "eu": 1003.100316
+      },
+      "spendingCategories": {
+        "grants": 193070.091657,
+        "benefits": 23871.049371,
+        "operations": 60317.951659,
+        "capital": 8756.799293,
+        "debtService": 24953.09639,
+        "euContribution": 19711.986004,
+        "euProjects": 5403.017306
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
+      "publishedAt": "2020-06-04",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2019-11",
+      "revenue": 367107.592,
+      "spending": 368989.937,
+      "balance": -1882.346,
+      "revenueCategories": {
+        "tax": 336238.447554,
+        "nonTax": 29460.27594,
+        "eu": 1408.868181
+      },
+      "spendingCategories": {
+        "grants": 212245.126172,
+        "benefits": 26063.942707,
+        "operations": 66974.529658,
+        "capital": 10741.544405,
+        "debtService": 26413.986211,
+        "euContribution": 20603.125114,
+        "euProjects": 5947.683114
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
+      "publishedAt": "2020-06-04",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2019-12",
+      "revenue": 400535.255,
+      "spending": 414273.014,
+      "balance": -13737.759,
+      "revenueCategories": {
+        "tax": 367290.720639,
+        "nonTax": 31379.033875,
+        "eu": 1865.500918
+      },
+      "spendingCategories": {
+        "grants": 233329.13559,
+        "benefits": 28364.687061,
+        "operations": 78197.306329,
+        "capital": 18610.437468,
+        "debtService": 27336.009369,
+        "euContribution": 21719.914608,
+        "euProjects": 6714.37043,
+        "sourceDifference": 1.153145
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
+      "publishedAt": "2020-06-04",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2020-01",
+      "revenue": 40271.703,
+      "spending": 36844.986,
+      "balance": 3426.717,
+      "revenueCategories": {
+        "tax": 37364.857538,
+        "nonTax": 2900.729158,
+        "eu": 6.1161
+      },
+      "spendingCategories": {
+        "grants": 21501.511481,
+        "benefits": 2058.382849,
+        "operations": 4973.834719,
+        "capital": 564.391226,
+        "debtService": 3637.611105,
+        "euContribution": 3547.050169,
+        "euProjects": 562.204724
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
+      "publishedAt": "2021-06-08",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2020-02",
+      "revenue": 69933.048,
+      "spending": 73245.089,
+      "balance": -3312.041,
+      "revenueCategories": {
+        "tax": 64396.018776,
+        "nonTax": 5501.792256,
+        "eu": 35.237005
+      },
+      "spendingCategories": {
+        "grants": 43030.328353,
+        "benefits": 4071.288181,
+        "operations": 12571.047469,
+        "capital": 2052.471895,
+        "debtService": 4542.075832,
+        "euContribution": 5739.182921,
+        "euProjects": 1238.693899
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
+      "publishedAt": "2021-06-08",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2020-03",
+      "revenue": 96198.155,
+      "spending": 105552.646,
+      "balance": -9354.491,
+      "revenueCategories": {
+        "tax": 86495.085892,
+        "nonTax": 9634.619601,
+        "eu": 68.449585
+      },
+      "spendingCategories": {
+        "grants": 61934.67155,
+        "benefits": 6278.029959,
+        "operations": 19695.850402,
+        "capital": 2823.955261,
+        "debtService": 5822.827123,
+        "euContribution": 7022.972606,
+        "euProjects": 1974.338867
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
+      "publishedAt": "2021-06-08",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2020-04",
+      "revenue": 129639.963,
+      "spending": 148522.814,
+      "balance": -18882.851,
+      "revenueCategories": {
+        "tax": 111227.402156,
+        "nonTax": 18327.792395,
+        "eu": 84.76835
+      },
+      "spendingCategories": {
+        "grants": 86267.084105,
+        "benefits": 8787.76206,
+        "operations": 26628.750436,
+        "capital": 3974.662474,
+        "debtService": 11258.891875,
+        "euContribution": 8967.316183,
+        "euProjects": 2638.346793
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
+      "publishedAt": "2021-06-08",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2020-05",
+      "revenue": 157069.687,
+      "spending": 182951.414,
+      "balance": -25881.726,
+      "revenueCategories": {
+        "tax": 136295.0445,
+        "nonTax": 20634.805978,
+        "eu": 139.836772
+      },
+      "spendingCategories": {
+        "grants": 106977.261214,
+        "benefits": 10882.13566,
+        "operations": 32716.639759,
+        "capital": 4718.172588,
+        "debtService": 12556.87344,
+        "euContribution": 11712.421185,
+        "euProjects": 3387.909762
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
+      "publishedAt": "2021-06-08",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2020-06",
+      "revenue": 197393.904,
+      "spending": 214512.294,
+      "balance": -17118.39,
+      "revenueCategories": {
+        "tax": 165548.408683,
+        "nonTax": 31278.922093,
+        "eu": 566.573258
+      },
+      "spendingCategories": {
+        "grants": 126102.592346,
+        "benefits": 13140.085147,
+        "operations": 38895.918362,
+        "capital": 5930.007289,
+        "debtService": 13111.39863,
+        "euContribution": 13261.553328,
+        "euProjects": 4070.738996
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
+      "publishedAt": "2021-06-08",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2020-07",
+      "revenue": 235806.92,
+      "spending": 252101.391,
+      "balance": -16294.471,
+      "revenueCategories": {
+        "tax": 200306.136038,
+        "nonTax": 34908.121495,
+        "eu": 592.662917
+      },
+      "spendingCategories": {
+        "grants": 146241.965919,
+        "benefits": 15424.973466,
+        "operations": 45598.472095,
+        "capital": 7264.497924,
+        "debtService": 18338.798222,
+        "euContribution": 14531.419874,
+        "euProjects": 4701.263512
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
+      "publishedAt": "2021-06-08",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2020-08",
+      "revenue": 268909.813,
+      "spending": 282208.426,
+      "balance": -13298.613,
+      "revenueCategories": {
+        "tax": 233210.076188,
+        "nonTax": 35100.091962,
+        "eu": 599.644555
+      },
+      "spendingCategories": {
+        "grants": 164671.58063,
+        "benefits": 17665.207312,
+        "operations": 51900.679869,
+        "capital": 8256.364437,
+        "debtService": 18799.912626,
+        "euContribution": 15532.75731,
+        "euProjects": 5381.923489
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
+      "publishedAt": "2021-06-08",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2020-09",
+      "revenue": 304511.825,
+      "spending": 318266.374,
+      "balance": -13754.55,
+      "revenueCategories": {
+        "tax": 264847.425457,
+        "nonTax": 38530.764276,
+        "eu": 1133.635049
+      },
+      "spendingCategories": {
+        "grants": 186154.724401,
+        "benefits": 19937.597205,
+        "operations": 58204.891311,
+        "capital": 9999.161531,
+        "debtService": 20776.377514,
+        "euContribution": 17136.516564,
+        "euProjects": 6057.10582
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
+      "publishedAt": "2021-06-08",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2020-10",
+      "revenue": 343972.696,
+      "spending": 356042.934,
+      "balance": -12070.238,
+      "revenueCategories": {
+        "tax": 300989.685995,
+        "nonTax": 41729.673015,
+        "eu": 1253.337219
+      },
+      "spendingCategories": {
+        "grants": 205720.903602,
+        "benefits": 22023.534533,
+        "operations": 65106.878624,
+        "capital": 11581.353052,
+        "debtService": 25953.941785,
+        "euContribution": 19052.643099,
+        "euProjects": 6603.679334
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
+      "publishedAt": "2021-06-08",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2020-11",
+      "revenue": 382487.793,
+      "spending": 395692.416,
+      "balance": -13204.624,
+      "revenueCategories": {
+        "tax": 335942.056232,
+        "nonTax": 44847.68069,
+        "eu": 1698.055671
+      },
+      "spendingCategories": {
+        "grants": 223105.898792,
+        "benefits": 24190.833072,
+        "operations": 72280.059243,
+        "capital": 17613.62312,
+        "debtService": 27821.99968,
+        "euContribution": 22681.619148,
+        "euProjects": 7998.383114
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
+      "publishedAt": "2021-06-08",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2020-12",
+      "revenue": 419795.677,
+      "spending": 504776.148,
+      "balance": -84980.471,
+      "revenueCategories": {
+        "tax": 370261.751775,
+        "nonTax": 47401.89508,
+        "eu": 2132.02992
+      },
+      "spendingCategories": {
+        "grants": 295768.308897,
+        "benefits": 26413.009667,
+        "operations": 85437.524863,
+        "capital": 33395.622169,
+        "debtService": 29300.232625,
+        "euContribution": 24827.509656,
+        "euProjects": 9633.939801
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
+      "publishedAt": "2021-06-08",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2021-01",
+      "revenue": 40655.999,
+      "spending": 34010.719,
+      "balance": 6645.281,
+      "revenueCategories": {
+        "tax": 39215.996908,
+        "nonTax": 1388.171508,
+        "eu": 51.830781
+      },
+      "spendingCategories": {
+        "grants": 19492.990785,
+        "benefits": 2092.153905,
+        "operations": 5184.555476,
+        "capital": 316.466146,
+        "debtService": 3236.700828,
+        "euContribution": 3143.462297,
+        "euProjects": 544.389205
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
+      "publishedAt": "2022-05-31",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2021-02",
+      "revenue": 71096.748,
+      "spending": 70220.863,
+      "balance": 875.885,
+      "revenueCategories": {
+        "tax": 65642.701728,
+        "nonTax": 5386.985823,
+        "eu": 67.060825
+      },
+      "spendingCategories": {
+        "grants": 39111.514134,
+        "benefits": 4244.251419,
+        "operations": 13518.990866,
+        "capital": 753.946115,
+        "debtService": 3836.168333,
+        "euContribution": 7559.663828,
+        "euProjects": 1196.328686
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
+      "publishedAt": "2022-05-31",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2021-03",
+      "revenue": 101060.605,
+      "spending": 104474.949,
+      "balance": -3414.344,
+      "revenueCategories": {
+        "tax": 92105.69731,
+        "nonTax": 8868.440524,
+        "eu": 86.467327
+      },
+      "spendingCategories": {
+        "grants": 58196.588029,
+        "benefits": 6665.345644,
+        "operations": 21087.605561,
+        "capital": 2009.672961,
+        "debtService": 5450.005672,
+        "euContribution": 9220.670066,
+        "euProjects": 1845.060904
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
+      "publishedAt": "2022-05-31",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2021-04",
+      "revenue": 147066.719,
+      "spending": 137907.798,
+      "balance": 9158.921,
+      "revenueCategories": {
+        "tax": 132467.393737,
+        "nonTax": 14465.532609,
+        "eu": 133.792746
+      },
+      "spendingCategories": {
+        "grants": 75236.14492,
+        "benefits": 9265.233056,
+        "operations": 27767.023638,
+        "capital": 2625.65071,
+        "debtService": 9423.137434,
+        "euContribution": 11118.560396,
+        "euProjects": 2472.048033
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
+      "publishedAt": "2022-05-31",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2021-05",
+      "revenue": 181478.807,
+      "spending": 172128.605,
+      "balance": 9350.202,
+      "revenueCategories": {
+        "tax": 162953.146088,
+        "nonTax": 18332.246784,
+        "eu": 193.414091
+      },
+      "spendingCategories": {
+        "grants": 96365.141249,
+        "benefits": 11463.724392,
+        "operations": 34340.783632,
+        "capital": 3430.216923,
+        "debtService": 10116.669784,
+        "euContribution": 13249.487246,
+        "euProjects": 3162.581651
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
+      "publishedAt": "2022-05-31",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2021-06",
+      "revenue": 233971.001,
+      "spending": 205979.637,
+      "balance": 27991.364,
+      "revenueCategories": {
+        "tax": 201096.485588,
+        "nonTax": 32085.078298,
+        "eu": 789.437255
+      },
+      "spendingCategories": {
+        "grants": 116506.81153,
+        "benefits": 13771.205475,
+        "operations": 40998.941234,
+        "capital": 4635.195338,
+        "debtService": 10797.797373,
+        "euContribution": 15446.983633,
+        "euProjects": 3822.702322
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
+      "publishedAt": "2022-05-31",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2021-07",
+      "revenue": 278083.53,
+      "spending": 242829.948,
+      "balance": 35253.582,
+      "revenueCategories": {
+        "tax": 240486.471383,
+        "nonTax": 36790.0228,
+        "eu": 807.036005
+      },
+      "spendingCategories": {
+        "grants": 136339.340109,
+        "benefits": 16391.919352,
+        "operations": 47630.724413,
+        "capital": 5763.391023,
+        "debtService": 15560.118657,
+        "euContribution": 16793.406622,
+        "euProjects": 4351.047607
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
+      "publishedAt": "2022-05-31",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2021-08",
+      "revenue": 320103.426,
+      "spending": 276736.273,
+      "balance": 43367.153,
+      "revenueCategories": {
+        "tax": 278122.145943,
+        "nonTax": 40794.46883,
+        "eu": 1186.810917
+      },
+      "spendingCategories": {
+        "grants": 156491.010215,
+        "benefits": 19421.992503,
+        "operations": 54338.793761,
+        "capital": 6711.559982,
+        "debtService": 15986.684184,
+        "euContribution": 18873.329194,
+        "euProjects": 4912.902952
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
+      "publishedAt": "2022-05-31",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2021-09",
+      "revenue": 360079.874,
+      "spending": 312491.371,
+      "balance": 47588.503,
+      "revenueCategories": {
+        "tax": 313109.210762,
+        "nonTax": 45723.668897,
+        "eu": 1246.994084
+      },
+      "spendingCategories": {
+        "grants": 177340.514223,
+        "benefits": 21971.470251,
+        "operations": 61097.521111,
+        "capital": 8257.139704,
+        "debtService": 17162.014384,
+        "euContribution": 21152.910211,
+        "euProjects": 5509.801183
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
+      "publishedAt": "2022-05-31",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2021-10",
+      "revenue": 405665.501,
+      "spending": 353777.367,
+      "balance": 51888.134,
+      "revenueCategories": {
+        "tax": 353847.308617,
+        "nonTax": 50552.111938,
+        "eu": 1266.08026
+      },
+      "spendingCategories": {
+        "grants": 198553.735911,
+        "benefits": 24163.89433,
+        "operations": 68340.011469,
+        "capital": 9724.258326,
+        "debtService": 22639.982302,
+        "euContribution": 23734.197892,
+        "euProjects": 6621.286497
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
+      "publishedAt": "2022-05-31",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2021-11",
+      "revenue": 451444.297,
+      "spending": 401063.049,
+      "balance": 50381.248,
+      "revenueCategories": {
+        "tax": 394312.710649,
+        "nonTax": 55444.077803,
+        "eu": 1687.508305
+      },
+      "spendingCategories": {
+        "grants": 221572.541881,
+        "benefits": 26560.761189,
+        "operations": 76302.185542,
+        "capital": 18146.091953,
+        "debtService": 24778.367452,
+        "euContribution": 26094.748974,
+        "euProjects": 7608.351778
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
+      "publishedAt": "2022-05-31",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2021-12",
+      "revenue": 494843.463,
+      "spending": 521216.817,
+      "balance": -26373.354,
+      "revenueCategories": {
+        "tax": 432170.398789,
+        "nonTax": 60521.154937,
+        "eu": 2151.909039
+      },
+      "spendingCategories": {
+        "grants": 290808.66776,
+        "benefits": 28987.570835,
+        "operations": 92370.614625,
+        "capital": 42041.180181,
+        "debtService": 25957.657894,
+        "euContribution": 32230.378296,
+        "euProjects": 8820.747189
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
+      "publishedAt": "2022-05-31",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2022-01",
+      "revenue": 58740.534944,
+      "spending": 36448.95,
+      "balance": 22291.584944,
+      "revenueCategories": {
+        "tax": 56009.51045,
+        "nonTax": 2697.918682,
+        "eu": 33.105812
+      },
+      "spendingCategories": {
+        "grants": 21617.568685,
+        "benefits": 2195.585465,
+        "operations": 5667.902917,
+        "capital": 311.933994,
+        "debtService": 3235.754946,
+        "euContribution": 2761.068896,
+        "euProjects": 659.135249
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
+      "publishedAt": "2023-06-05",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2022-02",
+      "revenue": 91615.007026,
+      "spending": 80350.891577,
+      "balance": 11264.115449,
+      "revenueCategories": {
+        "tax": 86107.879037,
+        "nonTax": 5454.817744,
+        "eu": 52.310244
+      },
+      "spendingCategories": {
+        "grants": 48865.200286,
+        "benefits": 4939.107213,
+        "operations": 14300.549775,
+        "capital": 816.968633,
+        "debtService": 3883.578397,
+        "euContribution": 6158.15015,
+        "euProjects": 1387.337123
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
+      "publishedAt": "2023-06-05",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2022-03",
+      "revenue": 120092.975,
+      "spending": 120360.433,
+      "balance": -267.457,
+      "revenueCategories": {
+        "tax": 111010.659399,
+        "nonTax": 9008.261703,
+        "eu": 74.054057
+      },
+      "spendingCategories": {
+        "grants": 71927.003161,
+        "benefits": 8127.811114,
+        "operations": 22977.666313,
+        "capital": 2016.748998,
+        "debtService": 5027.21011,
+        "euContribution": 8186.117072,
+        "euProjects": 2097.87576
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
+      "publishedAt": "2023-06-05",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2022-04",
+      "revenue": 168056.613,
+      "spending": 158849.425,
+      "balance": 9207.188,
+      "revenueCategories": {
+        "tax": 154192.191791,
+        "nonTax": 13722.11345,
+        "eu": 142.307612
+      },
+      "spendingCategories": {
+        "grants": 92065.863942,
+        "benefits": 11399.019024,
+        "operations": 30791.555628,
+        "capital": 2911.073189,
+        "debtService": 7984.413723,
+        "euContribution": 10889.396379,
+        "euProjects": 2808.103259
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
+      "publishedAt": "2023-06-05",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2022-05",
+      "revenue": 209964.755,
+      "spending": 197910.65,
+      "balance": 12054.105,
+      "revenueCategories": {
+        "tax": 192492.791544,
+        "nonTax": 16828.781929,
+        "eu": 643.181821
+      },
+      "spendingCategories": {
+        "grants": 113295.660749,
+        "benefits": 14249.090332,
+        "operations": 38314.733932,
+        "capital": 3965.852038,
+        "debtService": 10962.079047,
+        "euContribution": 13710.58569,
+        "euProjects": 3412.648475
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
+      "publishedAt": "2023-06-05",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2022-06",
+      "revenue": 263626.983,
+      "spending": 235893.326,
+      "balance": 27733.657,
+      "revenueCategories": {
+        "tax": 232054.461491,
+        "nonTax": 30906.601785,
+        "eu": 665.919822
+      },
+      "spendingCategories": {
+        "grants": 131636.735056,
+        "benefits": 20503.400377,
+        "operations": 45733.836079,
+        "capital": 5721.973395,
+        "debtService": 11707.748293,
+        "euContribution": 16436.220713,
+        "euProjects": 4153.412258
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
+      "publishedAt": "2023-06-05",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2022-07",
+      "revenue": 313291.788594,
+      "spending": 278631.550508,
+      "balance": 34660.238086,
+      "revenueCategories": {
+        "tax": 277723.535,
+        "nonTax": 34789.086911,
+        "eu": 779.166683
+      },
+      "spendingCategories": {
+        "grants": 149839.014287,
+        "benefits": 27163.407433,
+        "operations": 53264.767003,
+        "capital": 7123.466129,
+        "debtService": 17294.767128,
+        "euContribution": 19207.612595,
+        "euProjects": 4738.515932
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
+      "publishedAt": "2023-06-05",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2022-08",
+      "revenue": 345107.374,
+      "spending": 317579.96,
+      "balance": 27527.413,
+      "revenueCategories": {
+        "tax": 315381.804563,
+        "nonTax": 28502.417444,
+        "eu": 1223.15169
+      },
+      "spendingCategories": {
+        "grants": 168621.646641,
+        "benefits": 33838.981738,
+        "operations": 60699.068526,
+        "capital": 8493.154181,
+        "debtService": 18544.458715,
+        "euContribution": 21998.770697,
+        "euProjects": 5383.879802
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
+      "publishedAt": "2023-06-05",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2022-09",
+      "revenue": 383133.526,
+      "spending": 355676.066,
+      "balance": 27457.46,
+      "revenueCategories": {
+        "tax": 352076.935047,
+        "nonTax": 29803.853941,
+        "eu": 1252.736882
+      },
+      "spendingCategories": {
+        "grants": 184659.265628,
+        "benefits": 40886.719608,
+        "operations": 68499.658568,
+        "capital": 10026.248362,
+        "debtService": 20440.576069,
+        "euContribution": 24749.549628,
+        "euProjects": 6414.048129
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
+      "publishedAt": "2023-06-05",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2022-10",
+      "revenue": 425936.016,
+      "spending": 398701.312,
+      "balance": 27234.703,
+      "revenueCategories": {
+        "tax": 392923.274009,
+        "nonTax": 31738.253523,
+        "eu": 1274.488034
+      },
+      "spendingCategories": {
+        "grants": 203880.862356,
+        "benefits": 47038.692905,
+        "operations": 76759.088327,
+        "capital": 12474.362149,
+        "debtService": 24027.953633,
+        "euContribution": 27123.468618,
+        "euProjects": 7396.884321
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
+      "publishedAt": "2023-06-05",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2022-11",
+      "revenue": 464528.562,
+      "spending": 446252.367,
+      "balance": 18276.196,
+      "revenueCategories": {
+        "tax": 428662.186805,
+        "nonTax": 33811.442802,
+        "eu": 2054.932843
+      },
+      "spendingCategories": {
+        "grants": 223784.536703,
+        "benefits": 52707.892076,
+        "operations": 85302.892866,
+        "capital": 14643.096475,
+        "debtService": 31492.840406,
+        "euContribution": 29933.166777,
+        "euProjects": 8387.941644
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
+      "publishedAt": "2023-06-05",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2022-12",
+      "revenue": 504820.801,
+      "spending": 517398.907,
+      "balance": -12578.106,
+      "revenueCategories": {
+        "tax": 465456.10934,
+        "nonTax": 36782.345182,
+        "eu": 2582.346952
+      },
+      "spendingCategories": {
+        "grants": 256142.772289,
+        "benefits": 58951.753549,
+        "operations": 100295.632149,
+        "capital": 25238.003546,
+        "debtService": 32718.271061,
+        "euContribution": 34293.904719,
+        "euProjects": 9758.569671
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
+      "publishedAt": "2023-06-05",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2023-01",
+      "revenue": 54542.675,
+      "spending": 43310.336,
+      "balance": 11232.338,
+      "revenueCategories": {
+        "tax": 49833.310578,
+        "nonTax": 4632.920974,
+        "eu": 76.443173
+      },
+      "spendingCategories": {
+        "grants": 21455.474804,
+        "benefits": 6068.013234,
+        "operations": 6800.774791,
+        "capital": 782.731974,
+        "debtService": 5296.961038,
+        "euContribution": 2249.393552,
+        "euProjects": 656.987022
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
+      "publishedAt": "2024-06-04",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2023-02",
+      "revenue": 93140.143,
+      "spending": 93187.513,
+      "balance": -47.37,
+      "revenueCategories": {
+        "tax": 83714.441453,
+        "nonTax": 9338.994886,
+        "eu": 86.706616
+      },
+      "spendingCategories": {
+        "grants": 45071.088383,
+        "benefits": 12398.094715,
+        "operations": 17702.564546,
+        "capital": 4369.728925,
+        "debtService": 6488.403021,
+        "euContribution": 5648.633545,
+        "euProjects": 1508.999837
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
+      "publishedAt": "2024-06-04",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2023-03",
+      "revenue": 124691.116,
+      "spending": 136719.553,
+      "balance": -12028.437,
+      "revenueCategories": {
+        "tax": 109231.257008,
+        "nonTax": 15347.941326,
+        "eu": 111.91788
+      },
+      "spendingCategories": {
+        "grants": 64511.337541,
+        "benefits": 19552.15901,
+        "operations": 27767.059371,
+        "capital": 8140.639013,
+        "debtService": 8172.812513,
+        "euContribution": 6080.235186,
+        "euProjects": 2495.310562
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
+      "publishedAt": "2024-06-04",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2023-04",
+      "revenue": 173651.961,
+      "spending": 183678.793,
+      "balance": -10026.832,
+      "revenueCategories": {
+        "tax": 151850.619215,
+        "nonTax": 21613.369516,
+        "eu": 187.972292
+      },
+      "spendingCategories": {
+        "grants": 84795.361125,
+        "benefits": 26600.160168,
+        "operations": 37023.819104,
+        "capital": 10263.648733,
+        "debtService": 12799.907941,
+        "euContribution": 8698.182759,
+        "euProjects": 3497.713461
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
+      "publishedAt": "2024-06-04",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2023-05",
+      "revenue": 216356.101,
+      "spending": 237207.643,
+      "balance": -20851.541,
+      "revenueCategories": {
+        "tax": 189784.53546,
+        "nonTax": 26111.088937,
+        "eu": 460.476652
+      },
+      "spendingCategories": {
+        "grants": 105064.045863,
+        "benefits": 32843.058628,
+        "operations": 45655.627422,
+        "capital": 14416.292248,
+        "debtService": 23700.254631,
+        "euContribution": 11298.123878,
+        "euProjects": 4230.239877
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
+      "publishedAt": "2024-06-04",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2023-06",
+      "revenue": 270606.268,
+      "spending": 283288.513,
+      "balance": -12682.245,
+      "revenueCategories": {
+        "tax": 238485.352866,
+        "nonTax": 31135.665869,
+        "eu": 985.249692
+      },
+      "spendingCategories": {
+        "grants": 128198.931831,
+        "benefits": 39587.644463,
+        "operations": 54045.958945,
+        "capital": 17181.302481,
+        "debtService": 25174.318416,
+        "euContribution": 14135.733531,
+        "euProjects": 4964.623449
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
+      "publishedAt": "2024-06-04",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2023-07",
+      "revenue": 324012.485,
+      "spending": 337103.26,
+      "balance": -13090.775,
+      "revenueCategories": {
+        "tax": 285552.79045,
+        "nonTax": 37298.58634,
+        "eu": 1161.108045
+      },
+      "spendingCategories": {
+        "grants": 150180.235529,
+        "benefits": 46385.524328,
+        "operations": 63190.211168,
+        "capital": 20110.432528,
+        "debtService": 34676.992025,
+        "euContribution": 17002.485722,
+        "euProjects": 5557.37884
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
+      "publishedAt": "2024-06-04",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2023-08",
+      "revenue": 373759.195,
+      "spending": 390369.73,
+      "balance": -16610.534,
+      "revenueCategories": {
+        "tax": 328461.335458,
+        "nonTax": 44112.145138,
+        "eu": 1185.714793
+      },
+      "spendingCategories": {
+        "grants": 177993.190846,
+        "benefits": 54271.406989,
+        "operations": 72982.363927,
+        "capital": 23102.049325,
+        "debtService": 36248.533802,
+        "euContribution": 19517.587248,
+        "euProjects": 6254.597619
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
+      "publishedAt": "2024-06-04",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2023-09",
+      "revenue": 417988.255,
+      "spending": 452682.577,
+      "balance": -34694.321,
+      "revenueCategories": {
+        "tax": 366754.756539,
+        "nonTax": 49659.87411,
+        "eu": 1573.624562
+      },
+      "spendingCategories": {
+        "grants": 209268.815403,
+        "benefits": 61553.98618,
+        "operations": 82562.415588,
+        "capital": 31825.847718,
+        "debtService": 37834.279778,
+        "euContribution": 22298.053647,
+        "euProjects": 7339.178224
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
+      "publishedAt": "2024-06-04",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2023-10",
+      "revenue": 475392.786,
+      "spending": 511812.331,
+      "balance": -36419.545,
+      "revenueCategories": {
+        "tax": 419215.507607,
+        "nonTax": 54449.401216,
+        "eu": 1727.876918
+      },
+      "spendingCategories": {
+        "grants": 236318.239829,
+        "benefits": 68249.84604,
+        "operations": 92791.546611,
+        "capital": 35764.997849,
+        "debtService": 45050.534718,
+        "euContribution": 25105.99928,
+        "euProjects": 8531.166792
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
+      "publishedAt": "2024-06-04",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2023-11",
+      "revenue": 530330.456,
+      "spending": 572973.686,
+      "balance": -42643.23,
+      "revenueCategories": {
+        "tax": 468502.817681,
+        "nonTax": 59298.388631,
+        "eu": 2529.249771
+      },
+      "spendingCategories": {
+        "grants": 261769.538657,
+        "benefits": 74760.32956,
+        "operations": 103258.129796,
+        "capital": 40485.515763,
+        "debtService": 54978.680875,
+        "euContribution": 27911.061335,
+        "euProjects": 9810.4298
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
+      "publishedAt": "2024-06-04",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2023-12",
+      "revenue": 573957.932,
+      "spending": 659586.491,
+      "balance": -85628.559,
+      "revenueCategories": {
+        "tax": 506866.722685,
+        "nonTax": 63709.790634,
+        "eu": 3381.418459
+      },
+      "spendingCategories": {
+        "grants": 292774.361041,
+        "benefits": 81294.034692,
+        "operations": 122469.272184,
+        "capital": 59087.409239,
+        "debtService": 61710.339058,
+        "euContribution": 30313.619627,
+        "euProjects": 11937.455135
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
+      "publishedAt": "2024-06-04",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2024-01",
+      "revenue": 61510.213706,
+      "spending": 47826.002317,
+      "balance": 13684.211388,
+      "revenueCategories": {
+        "tax": 56379.482541,
+        "nonTax": 5128.467894,
+        "eu": 2.263271
+      },
+      "spendingCategories": {
+        "grants": 24988.112364,
+        "benefits": 8624.786904,
+        "operations": 7623.018311,
+        "capital": 735.048951,
+        "debtService": 3540.825717,
+        "euContribution": 1844.934998,
+        "euProjects": 469.275071
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
+      "publishedAt": "2025-06-03",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2024-02",
+      "revenue": 104028.574,
+      "spending": 111867.397,
+      "balance": -7838.824,
+      "revenueCategories": {
+        "tax": 93534.310239,
+        "nonTax": 10480.211454,
+        "eu": 14.051928
+      },
+      "spendingCategories": {
+        "grants": 57326.955953,
+        "benefits": 18041.174346,
+        "operations": 20828.658971,
+        "capital": 4610.305771,
+        "debtService": 5649.705306,
+        "euContribution": 4420.547005,
+        "euProjects": 990.050144
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
+      "publishedAt": "2025-06-03",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2024-03",
+      "revenue": 146449.665,
+      "spending": 170952.423,
+      "balance": -24502.758,
+      "revenueCategories": {
+        "tax": 131440.014439,
+        "nonTax": 14981.422791,
+        "eu": 28.227931
+      },
+      "spendingCategories": {
+        "grants": 84943.764159,
+        "benefits": 28871.634187,
+        "operations": 33053.775862,
+        "capital": 6085.418764,
+        "debtService": 7239.787324,
+        "euContribution": 9070.643479,
+        "euProjects": 1687.398953
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
+      "publishedAt": "2025-06-03",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2024-04",
+      "revenue": 214148.321,
+      "spending": 254003.753,
+      "balance": -39855.432,
+      "revenueCategories": {
+        "tax": 193730.376804,
+        "nonTax": 20354.475454,
+        "eu": 63.468568
+      },
+      "spendingCategories": {
+        "grants": 115635.641121,
+        "benefits": 55561.047646,
+        "operations": 44301.917416,
+        "capital": 10975.382842,
+        "debtService": 13838.336219,
+        "euContribution": 11317.586174,
+        "euProjects": 2373.841176
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
+      "publishedAt": "2025-06-03",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2024-05",
+      "revenue": 261042.696,
+      "spending": 314154.233,
+      "balance": -53111.537,
+      "revenueCategories": {
+        "tax": 236072.236185,
+        "nonTax": 24868.637115,
+        "eu": 101.822634
+      },
+      "spendingCategories": {
+        "grants": 142054.609908,
+        "benefits": 63091.867906,
+        "operations": 55045.692363,
+        "capital": 12682.50626,
+        "debtService": 24570.390296,
+        "euContribution": 13569.937575,
+        "euProjects": 3139.228928
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
+      "publishedAt": "2025-06-03",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2024-06",
+      "revenue": 303883.785,
+      "spending": 373786.582,
+      "balance": -69902.797,
+      "revenueCategories": {
+        "tax": 272374.646284,
+        "nonTax": 30994.752885,
+        "eu": 514.38605
+      },
+      "spendingCategories": {
+        "grants": 171597.754919,
+        "benefits": 71398.374943,
+        "operations": 65470.777521,
+        "capital": 18535.593607,
+        "debtService": 26649.762805,
+        "euContribution": 16234.102848,
+        "euProjects": 3900.215332
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
+      "publishedAt": "2025-06-03",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2024-07",
+      "revenue": 356503.906,
+      "spending": 439271.339,
+      "balance": -82767.433,
+      "revenueCategories": {
+        "tax": 318989.633307,
+        "nonTax": 36921.101985,
+        "eu": 593.170979
+      },
+      "spendingCategories": {
+        "grants": 201063.704575,
+        "benefits": 81842.037354,
+        "operations": 76450.727113,
+        "capital": 20878.773777,
+        "debtService": 35796.620514,
+        "euContribution": 18735.004757,
+        "euProjects": 4504.470919
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
+      "publishedAt": "2025-06-03",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2024-08",
+      "revenue": 409360.683,
+      "spending": 498010.721,
+      "balance": -88650.038,
+      "revenueCategories": {
+        "tax": 365761.225538,
+        "nonTax": 42821.942722,
+        "eu": 777.515055
+      },
+      "spendingCategories": {
+        "grants": 227445.586328,
+        "benefits": 93594.477471,
+        "operations": 87168.433616,
+        "capital": 25938.891027,
+        "debtService": 37461.442501,
+        "euContribution": 21250.429736,
+        "euProjects": 5151.460373
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
+      "publishedAt": "2025-06-03",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2024-09",
+      "revenue": 460196.34,
+      "spending": 567481.107,
+      "balance": -107284.767,
+      "revenueCategories": {
+        "tax": 411456.788911,
+        "nonTax": 47502.640456,
+        "eu": 1236.910963
+      },
+      "spendingCategories": {
+        "grants": 257499.756532,
+        "benefits": 113157.177171,
+        "operations": 98042.946148,
+        "capital": 29725.155776,
+        "debtService": 39578.519529,
+        "euContribution": 23854.170385,
+        "euProjects": 5623.381367
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
+      "publishedAt": "2025-06-03",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2024-10",
+      "revenue": 519523.317,
+      "spending": 649310.297,
+      "balance": -129786.98,
+      "revenueCategories": {
+        "tax": 464644.234795,
+        "nonTax": 53605.637424,
+        "eu": 1273.444649
+      },
+      "spendingCategories": {
+        "grants": 293345.465908,
+        "benefits": 123965.120527,
+        "operations": 109662.02653,
+        "capital": 37704.557636,
+        "debtService": 50970.816179,
+        "euContribution": 26495.047071,
+        "euProjects": 7167.262989
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
+      "publishedAt": "2025-06-03",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2024-11",
+      "revenue": 578752.586,
+      "spending": 720587.971,
+      "balance": -141835.385,
+      "revenueCategories": {
+        "tax": 518286.53346,
+        "nonTax": 58501.699175,
+        "eu": 1964.353524
+      },
+      "spendingCategories": {
+        "grants": 321826.66709,
+        "benefits": 133066.429404,
+        "operations": 121531.041237,
+        "capital": 43201.621696,
+        "debtService": 63355.803643,
+        "euContribution": 29141.108013,
+        "euProjects": 8465.299831
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
+      "publishedAt": "2025-06-03",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2024-12",
+      "revenue": 623239.831,
+      "spending": 834242.51,
+      "balance": -211002.679,
+      "revenueCategories": {
+        "tax": 555936.540318,
+        "nonTax": 64934.998495,
+        "eu": 2368.291813
+      },
+      "spendingCategories": {
+        "grants": 366475.021693,
+        "benefits": 142732.165785,
+        "operations": 144618.97322,
+        "capital": 71896.302855,
+        "debtService": 65791.191028,
+        "euContribution": 33197.979215,
+        "euProjects": 9530.875841
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
+      "publishedAt": "2025-06-03",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2025-01",
+      "revenue": 47390.95,
+      "spending": 50596.519,
+      "balance": -3205.569,
+      "revenueCategories": {
+        "tax": 43175.641866,
+        "nonTax": 4124.340265,
+        "eu": 90.968096
+      },
+      "spendingCategories": {
+        "grants": 22159.359601,
+        "benefits": 10332.323099,
+        "operations": 8963.666935,
+        "capital": 1423.674049,
+        "debtService": 4088.408788,
+        "euContribution": 2931.591518,
+        "euProjects": 697.495194
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
+      "publishedAt": "2026-06-01",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2025-02",
+      "revenue": 75718.933,
+      "spending": 112060.004,
+      "balance": -36341.07,
+      "revenueCategories": {
+        "tax": 67378.487688,
+        "nonTax": 8216.060248,
+        "eu": 124.385424
+      },
+      "spendingCategories": {
+        "grants": 46800.974882,
+        "benefits": 20367.847803,
+        "operations": 23820.370382,
+        "capital": 6980.3162,
+        "debtService": 6563.587418,
+        "euContribution": 5831.472247,
+        "euProjects": 1695.434886
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
+      "publishedAt": "2026-06-01",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2025-03",
+      "revenue": 118431.738,
+      "spending": 194716.22,
+      "balance": -76284.482,
+      "revenueCategories": {
+        "tax": 105691.126491,
+        "nonTax": 12602.960215,
+        "eu": 137.650946
+      },
+      "spendingCategories": {
+        "grants": 94963.932827,
+        "benefits": 31806.831491,
+        "operations": 37293.319924,
+        "capital": 9025.958657,
+        "debtService": 9607.270942,
+        "euContribution": 9615.65562,
+        "euProjects": 2403.250104
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
+      "publishedAt": "2026-06-01",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2025-04",
+      "revenue": 176402.585,
+      "spending": 267824.908,
+      "balance": -91422.323,
+      "revenueCategories": {
+        "tax": 157948.574522,
+        "nonTax": 18281.23395,
+        "eu": 172.776334
+      },
+      "spendingCategories": {
+        "grants": 115655.05302,
+        "benefits": 60191.374051,
+        "operations": 49828.685085,
+        "capital": 11774.513528,
+        "debtService": 14659.603935,
+        "euContribution": 12547.888932,
+        "euProjects": 3167.789602
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
+      "publishedAt": "2026-06-01",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2025-05",
+      "revenue": 223051.275,
+      "spending": 331345.583,
+      "balance": -108294.308,
+      "revenueCategories": {
+        "tax": 199566.178219,
+        "nonTax": 23109.298692,
+        "eu": 375.798273
+      },
+      "spendingCategories": {
+        "grants": 141328.377707,
+        "benefits": 69859.491954,
+        "operations": 61322.897065,
+        "capital": 15007.284902,
+        "debtService": 24393.877765,
+        "euContribution": 15544.488572,
+        "euProjects": 3889.164946
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
+      "publishedAt": "2026-06-01",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2025-06",
+      "revenue": 264252.117,
+      "spending": 383948.582,
+      "balance": -119696.464,
+      "revenueCategories": {
+        "tax": 233512.621342,
+        "nonTax": 29917.419279,
+        "eu": 822.076615
+      },
+      "spendingCategories": {
+        "grants": 164576.273011,
+        "benefits": 79553.090541,
+        "operations": 73155.771304,
+        "capital": 18293.831688,
+        "debtService": 26138.510695,
+        "euContribution": 17670.161386,
+        "euProjects": 4560.943085
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
+      "publishedAt": "2026-06-01",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2025-07",
+      "revenue": 313836.26,
+      "spending": 470559.533,
+      "balance": -156723.273,
+      "revenueCategories": {
+        "tax": 277332.014214,
+        "nonTax": 35609.319437,
+        "eu": 894.92667
+      },
+      "spendingCategories": {
+        "grants": 206981.313005,
+        "benefits": 91158.298911,
+        "operations": 85541.813829,
+        "capital": 21975.845746,
+        "debtService": 39023.325377,
+        "euContribution": 20557.766692,
+        "euProjects": 5321.169862
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
+      "publishedAt": "2026-06-01",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2025-08",
+      "revenue": 362778.896,
+      "spending": 534797.925,
+      "balance": -172019.029,
+      "revenueCategories": {
+        "tax": 321178.005275,
+        "nonTax": 40660.3214,
+        "eu": 940.569705
+      },
+      "spendingCategories": {
+        "grants": 232997.235137,
+        "benefits": 102784.232628,
+        "operations": 97232.930747,
+        "capital": 30822.860205,
+        "debtService": 41607.342242,
+        "euContribution": 23331.518318,
+        "euProjects": 6021.805797
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
+      "publishedAt": "2026-06-01",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2025-09",
+      "revenue": 415550.72,
+      "spending": 616985.111,
+      "balance": -201434.391,
+      "revenueCategories": {
+        "tax": 365836.311697,
+        "nonTax": 48440.774576,
+        "eu": 1273.633534
+      },
+      "spendingCategories": {
+        "grants": 270197.598942,
+        "benefits": 123666.987894,
+        "operations": 109125.601491,
+        "capital": 35014.759169,
+        "debtService": 45752.142562,
+        "euContribution": 26280.32629,
+        "euProjects": 6947.694562
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
+      "publishedAt": "2026-06-01",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2025-10",
+      "revenue": 471669.764,
+      "spending": 698760.071,
+      "balance": -227090.307,
+      "revenueCategories": {
+        "tax": 415945.726859,
+        "nonTax": 54265.215701,
+        "eu": 1458.821897
+      },
+      "spendingCategories": {
+        "grants": 303010.5351,
+        "benefits": 134616.058287,
+        "operations": 121828.09847,
+        "capital": 42070.069278,
+        "debtService": 59715.779531,
+        "euContribution": 29242.201798,
+        "euProjects": 8277.328706
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
+      "publishedAt": "2026-06-01",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2025-11",
+      "revenue": 526095.406,
+      "spending": 771025.831,
+      "balance": -244930.424,
+      "revenueCategories": {
+        "tax": 465901.420696,
+        "nonTax": 58169.828084,
+        "eu": 2024.157638
+      },
+      "spendingCategories": {
+        "grants": 331925.781778,
+        "benefits": 144321.42748,
+        "operations": 134908.640449,
+        "capital": 49835.626892,
+        "debtService": 68202.930648,
+        "euContribution": 32289.404073,
+        "euProjects": 9542.019575
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
+      "publishedAt": "2026-06-01",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2025-12",
+      "revenue": 594524.38,
+      "spending": 870190.612,
+      "balance": -275666.233,
+      "revenueCategories": {
+        "tax": 529224.947928,
+        "nonTax": 62080.624436,
+        "eu": 3218.807157
+      },
+      "spendingCategories": {
+        "grants": 358974.358515,
+        "benefits": 155951.76996,
+        "operations": 161036.538615,
+        "capital": 75294.180509,
+        "debtService": 72828.287758,
+        "euContribution": 35287.728815,
+        "euProjects": 10817.748038
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
+      "publishedAt": "2026-06-01",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2026-01",
+      "revenue": 55559.386,
+      "spending": 59279.205,
+      "balance": -3719.819,
+      "revenueCategories": {
+        "tax": 50742.633127,
+        "nonTax": 4812.016197,
+        "eu": 4.736961
+      },
+      "spendingCategories": {
+        "grants": 25212.191508,
+        "benefits": 10772.336982,
+        "operations": 9732.609347,
+        "capital": 981.145255,
+        "debtService": 8163.525559,
+        "euContribution": 3509.320774,
+        "euProjects": 908.076033
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645",
+      "publishedAt": "2026-09-07",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2026-02",
+      "revenue": 78320.87,
+      "spending": 126804.248,
+      "balance": -48483.377,
+      "revenueCategories": {
+        "tax": 69479.79436,
+        "nonTax": 8828.018985,
+        "eu": 13.057079
+      },
+      "spendingCategories": {
+        "grants": 52429.89217,
+        "benefits": 21474.637531,
+        "operations": 25496.267155,
+        "capital": 6431.777227,
+        "debtService": 11528.047076,
+        "euContribution": 7692.502284,
+        "euProjects": 1751.124197
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645",
+      "publishedAt": "2026-09-07",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2026-03",
+      "revenue": 125289.692,
+      "spending": 194745.938,
+      "balance": -69456.246,
+      "revenueCategories": {
+        "tax": 112399.085685,
+        "nonTax": 12809.786558,
+        "eu": 80.819891
+      },
+      "spendingCategories": {
+        "grants": 80296.835977,
+        "benefits": 36874.290316,
+        "operations": 40054.370336,
+        "capital": 9768.035232,
+        "debtService": 15273.276098,
+        "euContribution": 9960.40558,
+        "euProjects": 2518.724568
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645",
+      "publishedAt": "2026-09-07",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2026-04",
+      "revenue": 187000.343,
+      "spending": 276294.615,
+      "balance": -89294.272,
+      "revenueCategories": {
+        "tax": 168370.435456,
+        "nonTax": 18432.418255,
+        "eu": 197.489629
+      },
+      "spendingCategories": {
+        "grants": 105588.482833,
+        "benefits": 63723.33908,
+        "operations": 53128.889485,
+        "capital": 13935.106203,
+        "debtService": 23505.898511,
+        "euContribution": 13239.159679,
+        "euProjects": 3173.73964
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645",
+      "publishedAt": "2026-09-07",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2026-05",
+      "revenue": 233328.281,
+      "spending": 341542.501,
+      "balance": -108214.22,
+      "revenueCategories": {
+        "tax": 210926.043573,
+        "nonTax": 22148.756181,
+        "eu": 253.48148
+      },
+      "spendingCategories": {
+        "grants": 133238.925672,
+        "benefits": 73796.60844,
+        "operations": 65368.928181,
+        "capital": 16990.773729,
+        "debtService": 31629.147746,
+        "euContribution": 16565.476468,
+        "euProjects": 3952.64082
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645",
+      "publishedAt": "2026-09-07",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2026-06",
+      "revenue": 278705.92,
+      "spending": 402449.331,
+      "balance": -123743.411,
+      "revenueCategories": {
+        "tax": 245027.710686,
+        "nonTax": 32470.457084,
+        "eu": 1207.752052
+      },
+      "spendingCategories": {
+        "grants": 160600.03987,
+        "benefits": 84576.235231,
+        "operations": 77810.289683,
+        "capital": 21288.79439,
+        "debtService": 33690.561242,
+        "euContribution": 19840.16924,
+        "euProjects": 4643.240898
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645",
+      "publishedAt": "2026-09-07",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2026-07",
+      "revenue": 333904.337,
+      "spending": 474967.476,
+      "balance": -141063.139,
+      "revenueCategories": {
+        "tax": 295657.784037,
+        "nonTax": 36987.657495,
+        "eu": 1258.895776
+      },
+      "spendingCategories": {
+        "grants": 186688.892708,
+        "benefits": 97057.602029,
+        "operations": 90561.646535,
+        "capital": 25341.906779,
+        "debtService": 46599.767453,
+        "euContribution": 23402.50026,
+        "euProjects": 5315.160691
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645",
+      "publishedAt": "2026-09-07",
+      "status": "reported_actual"
+    }
+  ],
+  "debt": [
+    {
+      "period": "2018-01",
+      "value": 934690.069719,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2018-02",
+      "value": 952017.388918,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2018-03",
+      "value": 958125.870731,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2018-04",
+      "value": 948739.955315,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2018-05",
+      "value": 962022.992095,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2018-06",
+      "value": 955475.899412,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2018-07",
+      "value": 945895.124109,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2018-08",
+      "value": 948266.501868,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2018-09",
+      "value": 948985.815012,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2018-10",
+      "value": 959861.768234,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2018-11",
+      "value": 954136.89354,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2018-12",
+      "value": 954269.263783,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2019-01",
+      "value": 954658.560253,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2019-02",
+      "value": 963574.286464,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2019-03",
+      "value": 978996.930449,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2019-04",
+      "value": 978716.744257,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2019-05",
+      "value": 976141.732813,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2019-06",
+      "value": 975114.054402,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2019-07",
+      "value": 973307.731929,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2019-08",
+      "value": 977610.449546,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2019-09",
+      "value": 978560.978485,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2019-10",
+      "value": 960882.364934,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2019-11",
+      "value": 962013.362646,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2019-12",
+      "value": 973338.202435,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2020-01",
+      "value": 987605.895357,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2020-02",
+      "value": 997398.481361,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2020-03",
+      "value": 1036444.312363,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2020-04",
+      "value": 1077183.957181,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2020-05",
+      "value": 1087385.815678,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2020-06",
+      "value": 1088191.599925,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2020-07",
+      "value": 1094346.620946,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2020-08",
+      "value": 1091384.889687,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2020-09",
+      "value": 1100124.871025,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2020-10",
+      "value": 1103567.3414,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2020-11",
+      "value": 1090187.901409,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2020-12",
+      "value": 1097480.039197,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2021-01",
+      "value": 1089613.302941,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2021-02",
+      "value": 1122205.485524,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2021-03",
+      "value": 1131762.957275,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2021-04",
+      "value": 1122147.11271,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2021-05",
+      "value": 1125467.587651,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2021-06",
+      "value": 1133647.462658,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2021-07",
+      "value": 1135089.016071,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2021-08",
+      "value": 1135646.300686,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2021-09",
+      "value": 1144751.580923,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2021-10",
+      "value": 1126980.19938,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2021-11",
+      "value": 1138121.40388,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2021-12",
+      "value": 1138034.172713,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2022-01",
+      "value": 1137132.457913,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2022-02",
+      "value": 1144855.560314,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2022-03",
+      "value": 1148171.255009,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2022-04",
+      "value": 1153767.619238,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2022-05",
+      "value": 1168355.017935,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2022-06",
+      "value": 1198783.741518,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2022-07",
+      "value": 1192004.462159,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2022-08",
+      "value": 1204117.975027,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2022-09",
+      "value": 1205904.547562,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2022-10",
+      "value": 1209461.090387,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2022-11",
+      "value": 1210844.940012,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2022-12",
+      "value": 1238470.476851,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2023-01",
+      "value": 1205870.262655,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2023-02",
+      "value": 1234332.764782,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2023-03",
+      "value": 1240853.622229,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2023-04",
+      "value": 1256204.823868,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2023-05",
+      "value": 1266579.528908,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2023-06",
+      "value": 1277476.143739,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2023-07",
+      "value": 1271360.013645,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2023-08",
+      "value": 1278076.648236,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2023-09",
+      "value": 1306127.322143,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2023-10",
+      "value": 1297015.168947,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2023-11",
+      "value": 1309350.753386,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2023-12",
+      "value": 1346200.856546,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2024-01",
+      "value": 1364988.687916,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2024-02",
+      "value": 1383019.505455,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2024-03",
+      "value": 1430341.821724,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2024-04",
+      "value": 1445547.564554,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2024-05",
+      "value": 1449227.648138,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2024-06",
+      "value": 1475039.220159,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2024-07",
+      "value": 1476771.674464,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2024-08",
+      "value": 1492694.689432,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2024-09",
+      "value": 1516496.318246,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2024-10",
+      "value": 1537035.053022,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2024-11",
+      "value": 1568552.584687,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2024-12",
+      "value": 1629339.92269,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2025-01",
+      "value": 1657287.889492,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2025-02",
+      "value": 1709630.558209,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2025-03",
+      "value": 1740639.535553,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2025-04",
+      "value": 1750445.122746,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2025-05",
+      "value": 1772500.387563,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2025-06",
+      "value": 1802104.761097,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2025-07",
+      "value": 1832369.032817,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2025-08",
+      "value": 1852962.767625,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2025-09",
+      "value": 1868603.884684,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2025-10",
+      "value": 1894102.444687,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2025-11",
+      "value": 1908835.192175,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2025-12",
+      "value": 1951939.76393,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2026-01",
+      "value": 1998319.849414,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2026-02",
+      "value": 2037497.39367,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2026-03",
+      "value": 2050713.70551,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2026-04",
+      "value": 2088843.584224,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2026-05",
+      "value": 2135611.008247,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2026-06",
+      "value": 2191476.656137,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "period": "2026-07",
+      "value": 2213110.703857,
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "publishedAt": null,
+      "status": "reported_actual"
+    }
+  ],
+  "rates": [
+    {
+      "effectiveDate": "1998-02-26",
+      "value": 24.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "1998-04-23",
+      "value": 23.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "1998-05-21",
+      "value": 21.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "1998-07-17",
+      "value": 19.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "1998-09-10",
+      "value": 18.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "1998-10-29",
+      "value": 17.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "1998-12-10",
+      "value": 15.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "1999-01-21",
+      "value": 13.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "1999-09-23",
+      "value": 14.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "1999-11-18",
+      "value": 16.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2000-02-24",
+      "value": 17.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2000-08-31",
+      "value": 19.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2001-03-01",
+      "value": 18.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2001-03-29",
+      "value": 17.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2001-06-28",
+      "value": 15.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2001-08-23",
+      "value": 14.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2001-10-26",
+      "value": 13.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2001-11-29",
+      "value": 11.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2001-12-01",
+      "value": 11.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2002-01-31",
+      "value": 10.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2002-04-26",
+      "value": 9.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2002-05-30",
+      "value": 9.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2002-06-27",
+      "value": 8.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2002-08-29",
+      "value": 8.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2002-09-26",
+      "value": 7.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2002-10-24",
+      "value": 7.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2002-11-28",
+      "value": 6.75,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2003-01-30",
+      "value": 6.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2003-02-27",
+      "value": 6.25,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2003-03-27",
+      "value": 6.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2003-04-25",
+      "value": 5.75,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2003-05-29",
+      "value": 5.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2003-06-26",
+      "value": 5.25,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2004-07-01",
+      "value": 5.75,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2004-07-29",
+      "value": 6.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2004-08-26",
+      "value": 6.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2005-03-31",
+      "value": 6.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2005-04-28",
+      "value": 5.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2005-06-30",
+      "value": 5.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2005-07-28",
+      "value": 4.75,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2005-09-01",
+      "value": 4.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2006-02-01",
+      "value": 4.25,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2006-03-01",
+      "value": 4.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2007-04-26",
+      "value": 4.25,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2007-06-28",
+      "value": 4.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2007-08-30",
+      "value": 4.75,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2007-11-29",
+      "value": 5.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2008-01-31",
+      "value": 5.25,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2008-02-28",
+      "value": 5.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2008-03-27",
+      "value": 5.75,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2008-06-26",
+      "value": 6.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2008-11-27",
+      "value": 5.75,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2008-12-24",
+      "value": 5.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2009-01-28",
+      "value": 4.25,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2009-02-26",
+      "value": 4.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2009-03-26",
+      "value": 3.75,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2009-06-25",
+      "value": 3.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2010-01-01",
+      "value": 3.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2011-01-20",
+      "value": 3.75,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2011-04-06",
+      "value": 4.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2011-05-12",
+      "value": 4.25,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2011-06-09",
+      "value": 4.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2012-05-10",
+      "value": 4.75,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2012-11-08",
+      "value": 4.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2012-12-06",
+      "value": 4.25,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2013-01-10",
+      "value": 4.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2013-02-07",
+      "value": 3.75,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2013-03-07",
+      "value": 3.25,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2013-05-09",
+      "value": 3.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2013-06-06",
+      "value": 2.75,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2013-07-04",
+      "value": 2.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2014-10-09",
+      "value": 2.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2015-03-05",
+      "value": 1.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2020-03-18",
+      "value": 1.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2020-04-09",
+      "value": 0.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2020-05-29",
+      "value": 0.1,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2021-10-07",
+      "value": 0.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2021-11-04",
+      "value": 1.25,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2021-12-09",
+      "value": 1.75,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2022-01-05",
+      "value": 2.25,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2022-02-09",
+      "value": 2.75,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2022-03-09",
+      "value": 3.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2022-04-07",
+      "value": 4.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2022-05-06",
+      "value": 5.25,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2022-06-09",
+      "value": 6.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2022-07-08",
+      "value": 6.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2022-09-08",
+      "value": 6.75,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2023-09-07",
+      "value": 6.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2023-10-05",
+      "value": 5.75,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2025-05-08",
+      "value": 5.25,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2025-07-03",
+      "value": 5.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2025-09-04",
+      "value": 4.75,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2025-10-09",
+      "value": 4.5,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2025-11-06",
+      "value": 4.25,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2025-12-04",
+      "value": 4.0,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    },
+    {
+      "effectiveDate": "2026-03-05",
+      "value": 3.75,
+      "unit": "percent",
+      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
+      "publishedAt": null,
+      "status": "reported_actual"
+    }
+  ]
+}
