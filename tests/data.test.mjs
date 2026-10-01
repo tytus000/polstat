@@ -1,8 +1,7 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import test from "node:test";
-import { buildContext, isSupported } from "../api/context.ts";
-import handler from "../api/chat.ts";
+import handler, { buildContext, isSupported } from "../api/chat.ts";
 
 const snapshot = JSON.parse(
   readFileSync(new URL("../src/data/snapshot.json", import.meta.url), "utf8"),
@@ -60,8 +59,14 @@ test("monthly changes reset at year boundaries and source differences reconcile"
 
 test("debt and rate series have official links and chronological dates", () => {
   assert.ok(snapshot.debt.at(-1).period >= "2018-01");
-  assert.equal(snapshot.debt.length, new Set(snapshot.debt.map((row) => row.period)).size);
-  assert.deepEqual(snapshot.rates.map((row) => row.effectiveDate), snapshot.rates.map((row) => row.effectiveDate).toSorted());
+  assert.equal(
+    snapshot.debt.length,
+    new Set(snapshot.debt.map((row) => row.period)).size,
+  );
+  assert.deepEqual(
+    snapshot.rates.map((row) => row.effectiveDate),
+    snapshot.rates.map((row) => row.effectiveDate).toSorted(),
+  );
   assert.ok(
     snapshot.debt.every(
       (row) =>

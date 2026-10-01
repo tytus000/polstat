@@ -2,6 +2,8 @@
 
 Polish-first public guide to the **central state budget**. The site also displays State Treasury debt and the NBP reference rate as separate context. It uses official Ministry of Finance and NBP publications and keeps source links with every record.
 
+Public site: [polstat.vercel.app](https://polstat.vercel.app).
+
 ## Run locally
 
 Requires Node 24 and Python 3.12+.
@@ -29,6 +31,8 @@ Every figure has its period, unit, source URL, publication date when available, 
 
 The GitHub workflow checks sources each day. It publishes changed files only after import, tests and build pass. Vercel can deploy `main` automatically through its Git integration. A failed workflow leaves the prior Vercel deployment intact.
 
+The Vercel project must be connected to the GitHub repository for automatic deployment of validated updates. Until that connection is made, the workflow updates GitHub and a production deployment must be run manually.
+
 ## Chat setup
 
 The public figures work without the following services. To enable `/api/chat` on Vercel:
@@ -36,7 +40,7 @@ The public figures work without the following services. To enable `/api/chat` on
 1. Create a Cloudflare Workers AI account and API token with Workers AI permission. Use model `@cf/zai-org/glm-4.7-flash` on the free allocation.
 2. Create a Cloudflare Turnstile widget for the Vercel hostname.
 3. Create a Supabase project and run [chat_quota.sql](supabase/chat_quota.sql) once in the SQL editor. Use a **secret** API key only in Vercel server environment variables. The table stores daily salted IP hashes and counts, never questions or raw IPs. The function permits 10 requests per visitor and 100 globally each UTC day.
-4. Add the variables in `.env.example` to Vercel. `VITE_TURNSTILE_SITE_KEY` is public; all other secrets remain server-only. `RATE_LIMIT_SECRET` should be a long random string. `PUBLIC_HOSTNAME` is the Vercel hostname without `https://`.
+4. Add the variables in `.env.example` to the `polstat` Vercel project. `VITE_TURNSTILE_SITE_KEY` is public; all other secrets remain server-only. `RATE_LIMIT_SECRET` should be a long random string. Set `PUBLIC_HOSTNAME=polstat.vercel.app`.
 
 The chat returns 503 when required configuration or an upstream service is unavailable. The static data site remains available. Cloudflare's free allocation also has its own daily limit; exhaustion returns a clear message.
 
