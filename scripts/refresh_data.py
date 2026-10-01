@@ -62,7 +62,8 @@ def fetch(url: str) -> bytes:
     cache = Path(__file__).resolve().parents[1] / ".context/source-cache"
     cache.mkdir(parents=True, exist_ok=True)
     cache_path = cache / hashlib.sha256(url.encode()).hexdigest()
-    if cache_path.exists():
+    immutable_attachment = "/attachment/" in url
+    if immutable_attachment and cache_path.exists():
         return cache_path.read_bytes()
     request = urllib.request.Request(url, headers={"User-Agent": "Polstat/1.0 (+public data attribution)"})
     for attempt in range(3):
@@ -76,7 +77,8 @@ def fetch(url: str) -> bytes:
             time.sleep(2 ** attempt)
     if not data:
         raise ValueError(f"Empty source: {url}")
-    cache_path.write_bytes(data)
+    if immutable_attachment:
+        cache_path.write_bytes(data)
     return data
 
 
@@ -203,6 +205,12 @@ def parse_debt(data: bytes, url: str, published_at: str | None) -> list[dict]:
     ]
     if not result or len({item["period"] for item in result}) != len(result):
         raise ValueError("Missing or duplicate State Treasury debt periods")
+    for previous, current in zip(result, result[1:]):
+        year, month = map(int, previous["period"].split("-"))
+        next_year = year + 1 if month == 12 else year
+        next_period = f"{next_year}-{month % 12 + 1:02d}"
+        if current["period"] != next_period:
+            raise ValueError(f"State Treasury debt month gap after {previous['period']}")
     workbook.close()
     return result
 
@@ -214,8 +222,9 @@ def parse_rates(data: bytes) -> list[dict]:
         rate = next((item.get("oprocentowanie") for item in change.findall("pozycja") if item.get("id") == "ref"), None)
         effective = change.get("obowiazuje_od")
         if rate and effective:
+            date.fromisoformat(effective)
             result.append({"effectiveDate": effective, "value": float(rate.replace(",", ".")), "unit": "percent", "sourceUrl": RATE_URL, "publishedAt": None, "status": "reported_actual"})
-    if not result or result != sorted(result, key=lambda item: item["effectiveDate"]):
+    if not result or result != sorted(result, key=lambda item: item["effectiveDate"]) or len({item["effectiveDate"] for item in result}) != len(result):
         raise ValueError("Invalid NBP reference rate chronology")
     return result
 
