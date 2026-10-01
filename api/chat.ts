@@ -158,7 +158,8 @@ async function consumeQuota(
   const key = process.env.SUPABASE_SECRET_KEY;
   const salt = process.env.RATE_LIMIT_SECRET;
   if (!url || !key || !salt) throw new Error("Chat quota is not configured");
-  const hash = createHmac("sha256", salt).update(ip).digest("hex");
+  const day = new Date().toISOString().slice(0, 10);
+  const hash = createHmac("sha256", salt).update(`${day}:${ip}`).digest("hex");
   const response = await fetch(
     `${url.replace(/\/$/, "")}/rest/v1/rpc/consume_chat_quota`,
     {
