@@ -1,1124 +1,391 @@
 import { useState } from "react";
-import {
-  Area,
-  AreaChart,
-  Bar,
-  BarChart,
-  CartesianGrid,
-  Cell,
-  Line,
-  LineChart,
-  ReferenceLine,
-  ResponsiveContainer,
-  Tooltip,
-  XAxis,
-  YAxis,
-} from "recharts";
-import {
-  ArrowDownRight,
-  ArrowRight,
-  ArrowUpRight,
-  BookOpen,
-  CalendarDays,
-  CircleHelp,
-  Download,
-  ExternalLink,
-  Landmark,
-  Menu,
-  MessageCircle,
-  Minus,
-  ShieldCheck,
-  Wallet,
-} from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Bar, BarChart, CartesianGrid, Cell, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
+import { ArrowDown, ArrowRight, ArrowUpRight, Check, Download, ExternalLink, Menu } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
-import { Separator } from "@/components/ui/separator";
-import {
-  annualBudget,
-  data,
-  latestBudget,
-  latestDebt,
-  latestRate,
-  money,
-  monthlyBudget,
-  periodLabel,
-  revenueNames,
-  shortMonth,
-  spendingNames,
-  years,
+  annualSpending, data, latestSpending, money, monthlySpending, percent,
+  periodLabel, shortMonth, spendingNames, yearRecords, years,
 } from "@/lib/data";
-import type { BudgetRecord } from "@/lib/data";
-import { Chat } from "@/components/Chat";
+import type { Breakdown, SpendingRecord } from "@/lib/data";
 
-const colors = {
-  ink: "#17283f",
-  teal: "#0f746c",
-  coral: "#d85e43",
-  gold: "#e6ae49",
-  muted: "#9aa6ac",
-};
-const chartMargin = { top: 12, right: 8, bottom: 0, left: -20 };
-const tooltip = {
-  background: "#fffdf9",
-  border: "1px solid #e3e0d7",
-  borderRadius: 12,
-  boxShadow: "0 12px 32px #17283f1a",
-};
+const CATEGORY_COLORS = ["#c66046", "#d88867", "#e9ad8f", "#f0cfaf", "#4e6374", "#8395a1", "#b9c5c9"];
+const CHART_BLUE = "#2b4050";
+const CHART_ORANGE = "#cb664a";
+const sourcePage = "https://www.gov.pl/web/finanse/sprawozdania-operatywne-miesieczne";
 
-function Source({
-  href,
-  children = "Zobacz źródło",
-}: {
-  href: string;
-  children?: React.ReactNode;
-}) {
-  return (
-    <a
-      className="source-link"
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      {children}
-      <ExternalLink size={14} aria-hidden />
-    </a>
-  );
+function SourceLink({ href, children = "Otwórz raport MF" }: { href: string; children?: React.ReactNode }) {
+  return <a className="source-link" href={href} target="_blank" rel="noopener noreferrer">
+    {children} <ExternalLink size={14} aria-hidden />
+  </a>;
 }
 
-function SectionHeading({
-  eyebrow,
-  title,
-  description,
-  through,
-  id,
-}: {
-  eyebrow: string;
-  title: string;
-  description: string;
-  through: string;
-  id?: string;
+function DownloadLink({ href, children }: { href: string; children: React.ReactNode }) {
+  return <a className="download-link" href={href} download>
+    <Download size={15} aria-hidden /> {children}
+  </a>;
+}
+
+function DataTable({ caption, headers, rows }: {
+  caption: string; headers: string[]; rows: (string | number)[][];
 }) {
-  return (
-    <div className="section-heading" id={id}>
-      <div>
-        <p className="eyebrow">{eyebrow}</p>
-        <h2>{title}</h2>
-        <p className="section-intro">{description}</p>
-      </div>
-      <span className="through">
-        <CalendarDays size={15} aria-hidden /> Dane do: {through}
-      </span>
+  return <details className="data-table">
+    <summary>Zobacz pełną tabelę danych <ArrowDown size={15} aria-hidden /></summary>
+    <div className="table-scroll">
+      <table>
+        <caption>{caption}</caption>
+        <thead><tr>{headers.map((header) => <th scope="col" key={header}>{header}</th>)}</tr></thead>
+        <tbody>{rows.map((row, index) => <tr key={index}>
+          {row.map((value, column) => <td key={column}>{value}</td>)}
+        </tr>)}</tbody>
+      </table>
     </div>
-  );
-}
-
-function ChartTools({ csv, source }: { csv: string; source: string }) {
-  return (
-    <div className="chart-tools">
-      <a href={csv} download>
-        <Download size={15} aria-hidden /> Pobierz CSV
-      </a>
-      <Source href={source} />
-    </div>
-  );
-}
-
-function DataTable({
-  headers,
-  rows,
-  caption,
-}: {
-  headers: string[];
-  rows: (string | number)[][];
-  caption: string;
-}) {
-  return (
-    <details className="data-table">
-      <summary>Pokaż dane w tabeli</summary>
-      <div className="table-scroll">
-        <table>
-          <caption>{caption}</caption>
-          <thead>
-            <tr>
-              {headers.map((header) => (
-                <th key={header} scope="col">
-                  {header}
-                </th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {rows.map((row, index) => (
-              <tr key={index}>
-                {row.map((value, column) => (
-                  <td key={column}>{value}</td>
-                ))}
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </details>
-  );
+  </details>;
 }
 
 function Header() {
   const [open, setOpen] = useState(false);
-  const methodology = window.location.pathname === "/metodologia";
-  return (
-    <header className="site-header">
-      <div className="shell header-inner">
-        <a href="/" className="brand" aria-label="Polstat — strona główna">
-          <span className="brand-mark">
-            p<span>.</span>
-          </span>
-          <span>polstat</span>
-        </a>
-        <nav
-          className={open ? "nav-links open" : "nav-links"}
-          aria-label="Nawigacja główna"
-        >
-          <a href="/#budzet" onClick={() => setOpen(false)}>
-            Budżet
-          </a>
-          <a href="/#dlug" onClick={() => setOpen(false)}>
-            Dług i stopy
-          </a>
-          <a href="/#zapytaj" onClick={() => setOpen(false)}>
-            Zapytaj o dane
-          </a>
-          <a className={methodology ? "active" : ""} href="/metodologia">
-            Metodologia
-          </a>
-        </nav>
-        <Button
-          variant="outline"
-          size="icon"
-          className="mobile-menu"
-          aria-label="Otwórz menu"
-          aria-expanded={open}
-          onClick={() => setOpen(!open)}
-        >
-          <Menu size={20} />
-        </Button>
-      </div>
-    </header>
-  );
+  const method = window.location.pathname === "/metodologia";
+  return <header className="site-header">
+    <div className="shell header-inner">
+      <a href="/" className="brand" aria-label="Polstat — strona główna">
+        <span className="brand-symbol" aria-hidden>p.</span>
+        <span className="brand-word">polstat</span>
+        <span className="brand-divider" aria-hidden />
+        <span className="brand-caption">Wydatki państwa</span>
+      </a>
+      <nav className={open ? "main-nav is-open" : "main-nav"} aria-label="Nawigacja główna">
+        <a href="/#dzialy" onClick={() => setOpen(false)}>Na co</a>
+        <a href="/#rodzaje" onClick={() => setOpen(false)}>Jak</a>
+        <a href="/#w-czasie" onClick={() => setOpen(false)}>W czasie</a>
+        <a className={method ? "active" : ""} href="/metodologia">Źródła i metoda</a>
+      </nav>
+      <Button className="mobile-menu" variant="outline" size="icon"
+        aria-label={open ? "Zamknij menu" : "Otwórz menu"} aria-expanded={open}
+        onClick={() => setOpen(!open)}><Menu size={19} /></Button>
+    </div>
+  </header>;
 }
 
 function Footer() {
-  return (
-    <footer className="site-footer">
-      <div className="shell footer-inner">
-        <div>
-          <div className="brand">
-            <span className="brand-mark">
-              p<span>.</span>
-            </span>
-            <span>polstat</span>
-          </div>
-          <p>
-            Publiczny przewodnik po finansach państwa.
-            <br />
-            Dane pochodzą z Ministerstwa Finansów i NBP.
-          </p>
-        </div>
-        <div className="footer-links">
-          <a href="/metodologia">Źródła i metodologia</a>
-          <a href="/data/budzet.csv" download>
-            Dane budżetowe CSV
-          </a>
-          <a
-            href="https://github.com/tytus000/polstat"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Kod źródłowy <ExternalLink size={13} />
-          </a>
-        </div>
-      </div>
-    </footer>
-  );
+  return <footer className="site-footer"><div className="shell footer-inner">
+    <div>
+      <a href="/" className="brand footer-brand">
+        <span className="brand-symbol" aria-hidden>p.</span><span className="brand-word">polstat</span>
+      </a>
+      <p>Wydatki budżetu państwa w liczbach.<br />Projekt oparty na publikacjach Ministerstwa Finansów.</p>
+    </div>
+    <div className="footer-links">
+      <a href="/metodologia">Źródła i metoda</a>
+      <a href="https://github.com/tytus000/polstat" target="_blank" rel="noopener noreferrer">
+        Kod źródłowy <ExternalLink size={13} aria-hidden />
+      </a>
+    </div>
+  </div></footer>;
 }
 
-function Hero() {
-  return (
-    <section className="hero">
-      <div className="shell hero-grid">
-        <div className="hero-copy">
-          <Badge className="hero-badge" variant="outline">
-            <span className="live-dot" /> Oficjalne dane · prosty język
-          </Badge>
-          <h1>
-            Co dzieje się z <em>pieniędzmi państwa?</em>
-          </h1>
-          <p>
-            Dochody, wydatki i deficyt budżetu centralnego w jednym miejscu.
-            Zobacz liczby, zrozum ich znaczenie i sprawdź źródła.
-          </p>
-          <div className="hero-actions">
-            <Button asChild size="lg">
-              <a href="#budzet">
-                Zobacz dane <ArrowRight size={17} />
-              </a>
-            </Button>
-            <Button asChild variant="ghost" size="lg">
-              <a href="#jak-czytac">Jak to czytać?</a>
-            </Button>
-          </div>
-          <div className="hero-foot">
-            <ShieldCheck size={17} /> Dane raportowane, bez prognoz{" "}
-            <span>·</span> Aktualizacja do {periodLabel(latestBudget.period)}
-          </div>
-        </div>
-        <div className="hero-art" aria-hidden="true">
-          <div className="art-orbit orbit-one" />
-          <div className="art-orbit orbit-two" />
-          <div className="art-panel panel-in">
-            <span>DOCHODY</span>
-            <strong>{money(latestBudget.revenue / 1000, 0)}</strong>
-            <small>mld zł od stycznia</small>
-            <ArrowDownRight />
-          </div>
-          <div className="art-panel panel-out">
-            <span>WYDATKI</span>
-            <strong>{money(latestBudget.spending / 1000, 0)}</strong>
-            <small>mld zł od stycznia</small>
-            <ArrowUpRight />
-          </div>
-          <div className="art-coin coin-one">zł</div>
-          <div className="art-coin coin-two">zł</div>
-          <div className="art-baseline" />
-        </div>
-      </div>
-    </section>
-  );
+function YearSelect({ year, setYear }: { year: number; setYear: (year: number) => void }) {
+  return <Select value={String(year)} onValueChange={(value) => setYear(Number(value))}>
+    <SelectTrigger className="year-select" aria-label="Wybierz rok danych"><SelectValue /></SelectTrigger>
+    <SelectContent>{years.toReversed().map((value) =>
+      <SelectItem key={value} value={String(value)}>{value}</SelectItem>
+    )}</SelectContent>
+  </Select>;
 }
 
-function ReadingGuide() {
-  return (
-    <section className="shell guide" id="jak-czytac">
-      <div className="guide-title">
-        <p className="eyebrow">01 / Punkt wyjścia</p>
-        <h2>
-          Trzy liczby,
-          <br />
-          <em>jedna opowieść.</em>
-        </h2>
-      </div>
-      <div className="guide-grid">
-        <div className="guide-item">
-          <span className="guide-icon green">
-            <Wallet size={21} />
-          </span>
-          <h3>Dochody</h3>
-          <p>
-            Podatki i inne środki wpływające do budżetu państwa. To publikowane
-            dochody budżetowe, nie saldo rachunku bankowego.
-          </p>
-        </div>
-        <div className="guide-item">
-          <span className="guide-icon red">
-            <Landmark size={21} />
-          </span>
-          <h3>Wydatki</h3>
-          <p>
-            Pieniądze wydane w ramach budżetu centralnego. Nie obejmują całych
-            finansów publicznych ani wydatków samorządów.
-          </p>
-        </div>
-        <div className="guide-item">
-          <span className="guide-icon gold">
-            <Minus size={21} />
-          </span>
-          <h3>Deficyt</h3>
-          <p>
-            Różnica między dochodami a wydatkami. Gdy wydatki są wyższe, wynik
-            budżetu jest ujemny.
-          </p>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function MetricCard({
-  title,
-  value,
-  note,
-  tone,
-  icon,
-}: {
-  title: string;
-  value: string;
-  note: string;
-  tone: string;
-  icon: React.ReactNode;
+function SectionHeader({ number, title, description, through }: {
+  number: string; title: string; description: string; through: string;
 }) {
-  return (
-    <Card className={`metric-card ${tone}`}>
-      <CardContent>
-        <div className="metric-top">
-          <span>{title}</span>
-          {icon}
-        </div>
-        <strong>
-          {value}
-          <small> mld zł</small>
-        </strong>
-        <p>{note}</p>
-      </CardContent>
-    </Card>
-  );
+  return <div className="section-header">
+    <div className="section-number">{number}</div>
+    <div className="section-title"><h2>{title}</h2><p>{description}</p></div>
+    <div className="section-date">Dane do <strong>{through}</strong></div>
+  </div>;
 }
 
-function BudgetSection() {
-  const [selectedYear, setSelectedYear] = useState(years.at(-1)!);
+function Hero({ summary, breakdown, selectedYear, setSelectedYear }: {
+  summary: SpendingRecord; breakdown: Breakdown; selectedYear: number;
+  setSelectedYear: (year: number) => void;
+}) {
+  const latestMonth = monthlySpending(selectedYear).at(-1)!;
+  const complete = summary.period.endsWith("-12");
+  const execution = summary.total / breakdown.amendedPlan;
+  const top = [...breakdown.functions].sort((a, b) => b.actual - a.actual).slice(0, 3);
+  return <>
+    <section className="hero"><div className="shell hero-inner">
+      <div className="hero-intro">
+        <div className="hero-kicker">
+          <span className="eyebrow">Polska / budżet państwa</span>
+          <span className="edition">Przegląd wydatków · 2018—{years.at(-1)}</span>
+        </div>
+        <h1>Na co wydaje<br /><em>państwo?</em></h1>
+        <p>Jedno źródło, jasny zakres. Sprawdź, ile wydano z budżetu państwa,
+          na jakie zadania i jak te kwoty zmieniały się w czasie.</p>
+        <div className="hero-actions">
+          <Button asChild className="hero-button"><a href="#dzialy">Przejdź do danych <ArrowRight size={17} aria-hidden /></a></Button>
+          <a className="text-link" href="/metodologia">Co obejmują te liczby? <ArrowUpRight size={15} aria-hidden /></a>
+        </div>
+      </div>
+      <div className="hero-data" aria-label={"Wydatki budżetu państwa w " + selectedYear + " roku"}>
+        <div className="hero-data-top"><span>WYDATKI BUDŻETU PAŃSTWA</span><YearSelect year={selectedYear} setYear={setSelectedYear} /></div>
+        <div className="hero-figure"><strong>{money(summary.total / 1000)}</strong><span>mld zł</span></div>
+        <p className="hero-period">{complete ? "cały rok " + selectedYear : "od stycznia do " + periodLabel(summary.period)}</p>
+        <div className="plan-progress">
+          <div className="plan-progress-head"><span>Wykonanie planu po zmianach</span><strong>{percent(execution)}</strong></div>
+          <div className="plan-track"><span style={{ width: String(Math.min(execution * 100, 100)) + "%" }} /></div>
+          <span className="plan-total">Plan: {money(breakdown.amendedPlan / 1000)} mld zł</span>
+        </div>
+        <div className="hero-data-bottom">
+          <div><small>OSTATNI MIESIĄC</small><strong>{money(latestMonth.total / 1000)} <span>mld zł</span></strong></div>
+          <div><small>OKRESÓW W ROKU</small><strong>{yearRecords(selectedYear).length} <span>mies.</span></strong></div>
+        </div>
+      </div>
+    </div></section>
+    <div className="source-strip"><div className="shell source-strip-inner">
+      <span><Check size={15} aria-hidden /> Sprawozdanie operatywne Ministerstwa Finansów</span>
+      <span>Stan danych: {periodLabel(summary.period)}</span>
+      <SourceLink href={summary.sourceUrl}>Plik źródłowy XLSX</SourceLink>
+    </div></div>
+    <div className="shell three-facts" aria-label="Największe działy wydatków">
+      {top.map((item, index) => <div key={item.code} className="fact">
+        <span>0{index + 1} / NAJWIĘKSZY DZIAŁ</span>
+        <strong>{item.label}</strong>
+        <div>{money(item.actual / 1000)} mld zł <small>· {percent(item.actual / breakdown.total)} wydatków</small></div>
+      </div>)}
+    </div>
+  </>;
+}
+
+function FunctionsSection({ breakdown }: { breakdown: Breakdown }) {
+  const [showAll, setShowAll] = useState(false);
+  const items = [...breakdown.functions].sort((a, b) => b.actual - a.actual);
+  const max = items[0]?.actual ?? 1;
+  const visible = showAll ? items : items.slice(0, 12);
+  return <section className="section functions-section" id="dzialy"><div className="shell">
+    <SectionHeader number="01 / Na co" title="Wydatki według zadań państwa"
+      description="Działy budżetowe pokazują cel wydatku. To oficjalna klasyfikacja, od ubezpieczeń społecznych po obronę i zdrowie."
+      through={periodLabel(breakdown.period)} />
+    <Card className="data-panel"><CardContent className="panel-content">
+      <div className="panel-heading">
+        <div><span className="eyebrow">Podział funkcjonalny</span><h3>{breakdown.functions.length} działy budżetowe</h3></div>
+        <span className="panel-unit">mld zł · od stycznia</span>
+      </div>
+      <div className="function-list">{visible.map((item, index) => <div className="function-row" key={item.code}>
+        <div className="function-rank">{String(index + 1).padStart(2, "0")}</div>
+        <div className="function-main">
+          <div className="function-row-top">
+            <div><span className="function-code">{item.code}</span><strong>{item.label}</strong></div>
+            <div className="function-amount">{money(item.actual / 1000)} <small>mld zł</small></div>
+          </div>
+          <div className="function-track"><span style={{ width: String((item.actual / max) * 100) + "%" }} /></div>
+        </div>
+        <span className="function-share">{percent(item.actual / breakdown.total)}</span>
+      </div>)}</div>
+      <div className="panel-actions">
+        <Button variant="outline" onClick={() => setShowAll(!showAll)}>
+          {showAll ? "Pokaż 12 największych" : "Pokaż wszystkie " + items.length + " działy"} <ArrowDown size={15} aria-hidden />
+        </Button>
+        <DownloadLink href="/data/wydatki-dzialy.csv">Pobierz dane CSV</DownloadLink>
+      </div>
+      {breakdown.sourceDifference && <p className="source-difference">
+        W raporcie za {breakdown.period.slice(0, 4)} r. suma działów różni się od podanej kwoty ogółem o {money(breakdown.sourceDifference, 3)} mln zł. Zachowujemy tę różnicę bez korekty źródła.
+      </p>}
+      <DataTable caption={"Wydatki według działów w " + breakdown.period + ", mln zł"}
+        headers={["Kod", "Dział", "Wykonanie (mln zł)", "Plan po zmianach (mln zł)", "Udział"]}
+        rows={items.map((item) => [item.code, item.label, money(item.actual, 3),
+          money(item.amendedPlan, 3), percent(item.actual / breakdown.total)])} />
+      <div className="panel-source"><SourceLink href={breakdown.sourceUrl}>MF · tabela 7 w pliku XLSX</SourceLink></div>
+    </CardContent></Card>
+    <p className="under-note"><strong>Jak czytać:</strong> „Dział” opisuje rodzaj zadania, a nie instytucję,
+      która wykonała przelew. Wydatki przekazane innym podmiotom pozostają tu wydatkiem budżetu państwa.</p>
+  </div></section>;
+}
+
+function TypesSection({ summary }: { summary: SpendingRecord }) {
+  const entries = Object.entries(summary.categories)
+    .filter(([key, value]) => key !== "sourceDifference" && value >= 0)
+    .sort((a, b) => b[1] - a[1]);
+  return <section className="section types-section" id="rodzaje"><div className="shell">
+    <SectionHeader number="02 / W jaki sposób" title="Wydatki według rodzaju"
+      description="Ta sama kwota ogółem, uporządkowana inaczej: transfery, świadczenia, utrzymanie instytucji, inwestycje i obsługa długu."
+      through={periodLabel(summary.period)} />
+    <div className="type-layout">
+      <div className="type-visual">
+        <span className="eyebrow">Struktura / {summary.period.slice(0, 4)}</span>
+        <div className="type-big">{money(summary.total / 1000)} <small>mld zł</small></div>
+        <div className="type-stack" role="img" aria-label="Udziały siedmiu rodzajów wydatków budżetu państwa">
+          {entries.map(([key, value], index) => <span key={key}
+            title={spendingNames[key] + ": " + money(value / 1000) + " mld zł"}
+            style={{ width: String((value / summary.total) * 100) + "%", backgroundColor: CATEGORY_COLORS[index] }} />)}
+        </div>
+        <p>Podział ekonomiczny. Kategorie sumują się do wydatków ogółem, z wyjątkiem jawnie opisanej różnicy w raporcie źródłowym.</p>
+      </div>
+      <div className="type-list">{entries.map(([key, value], index) => <div className="type-row" key={key}>
+        <span className="type-swatch" style={{ backgroundColor: CATEGORY_COLORS[index] }} />
+        <div><strong>{spendingNames[key]}</strong><small>{percent(value / summary.total)} całych wydatków</small></div>
+        <span className="type-value">{money(value / 1000)} <small>mld zł</small></span>
+      </div>)}</div>
+    </div>
+    {summary.categories.sourceDifference && <p className="source-difference">
+      Raport za {summary.period.slice(0, 4)} r. zawiera różnicę {money(summary.categories.sourceDifference, 3)} mln zł między sumą kategorii a kwotą ogółem.
+    </p>}
+    <div className="section-tools">
+      <DownloadLink href="/data/wydatki-narastajaco.csv">Pobierz dane CSV</DownloadLink>
+      <SourceLink href={summary.sourceUrl}>MF · tabela 6 w pliku XLSX</SourceLink>
+    </div>
+    <DataTable caption={"Rodzaje wydatków w " + summary.period + ", mln zł"}
+      headers={["Rodzaj", "Kwota (mln zł)", "Udział"]}
+      rows={entries.map(([key, value]) => [spendingNames[key], money(value, 3), percent(value / summary.total)])} />
+  </div></section>;
+}
+
+function TimelineSection({ year, summary }: { year: number; summary: SpendingRecord }) {
   const [view, setView] = useState("monthly");
-  const yearRows = data.budget.filter((row) =>
-    row.period.startsWith(String(selectedYear)),
-  );
-  const end = yearRows.at(-1)!;
-  const monthRows = monthlyBudget(selectedYear);
-  const rows =
-    view === "monthly"
-      ? monthRows
-      : yearRows.map((row) => ({
-          period: row.period,
-          label: shortMonth(row.period),
-          revenue: row.revenue,
-          spending: row.spending,
-          balance: row.balance,
-          sourceUrl: row.sourceUrl,
-        }));
-  return (
-    <section className="section budget-section" id="budzet">
-      <div className="shell">
-        <SectionHeading
-          eyebrow="02 / Budżet państwa"
-          title="Skąd pochodzą pieniądze. Dokąd trafiają."
-          description="Wybierz rok i zobacz przepływ miesiąc po miesiącu. Kwoty miesięczne wyliczamy z narastających wartości w raportach Ministerstwa Finansów."
-          through={periodLabel(latestBudget.period)}
-        />
-        <div className="metric-grid">
-          <MetricCard
-            title="Dochody"
-            value={money(end.revenue / 1000)}
-            note={`Od stycznia do ${periodLabel(end.period)}`}
-            tone="income"
-            icon={<ArrowDownRight size={23} />}
-          />
-          <MetricCard
-            title="Wydatki"
-            value={money(end.spending / 1000)}
-            note={`Od stycznia do ${periodLabel(end.period)}`}
-            tone="expense"
-            icon={<ArrowUpRight size={23} />}
-          />
-          <MetricCard
-            title={end.balance < 0 ? "Deficyt" : "Nadwyżka"}
-            value={money(Math.abs(end.balance) / 1000)}
-            note="Dochody minus wydatki"
-            tone="balance"
-            icon={<Minus size={23} />}
-          />
-        </div>
-        <Card className="chart-card">
-          <CardContent>
-            <div className="chart-head">
-              <div>
-                <p className="eyebrow">Dochody i wydatki</p>
-                <h3>
-                  {view === "monthly"
-                    ? "W każdym miesiącu"
-                    : "Narastająco od stycznia"}
-                </h3>
-              </div>
-              <div className="chart-controls">
-                <Select
-                  value={String(selectedYear)}
-                  onValueChange={(value) => setSelectedYear(Number(value))}
-                >
-                  <SelectTrigger
-                    aria-label="Wybierz rok"
-                    className="year-select"
-                  >
-                    <SelectValue />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {years.toReversed().map((year) => (
-                      <SelectItem value={String(year)} key={year}>
-                        {year}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
-                <Tabs value={view} onValueChange={setView}>
-                  <TabsList>
-                    <TabsTrigger value="monthly">Miesięcznie</TabsTrigger>
-                    <TabsTrigger value="cumulative">Narastająco</TabsTrigger>
-                  </TabsList>
-                </Tabs>
-              </div>
-            </div>
-            <div className="legend">
-              <span>
-                <i style={{ background: colors.teal }} />
-                Dochody
-              </span>
-              <span>
-                <i style={{ background: colors.coral }} />
-                Wydatki
-              </span>
-            </div>
-            <div
-              className="chart-box"
-              role="img"
-              aria-label={`Wykres dochodów i wydatków budżetu w ${selectedYear} roku, w miliardach złotych`}
-            >
-              <ResponsiveContainer width="100%" height="100%">
-                <BarChart data={rows} margin={chartMargin} barGap={3}>
-                  <CartesianGrid vertical={false} stroke="#e8e5dc" />
-                  <XAxis
-                    dataKey="label"
-                    tickLine={false}
-                    axisLine={false}
-                    tick={{ fill: "#657584", fontSize: 12 }}
-                  />
-                  <YAxis
-                    tickFormatter={(n) => String(Math.round(n / 1000))}
-                    tickLine={false}
-                    axisLine={false}
-                    tick={{ fill: "#657584", fontSize: 12 }}
-                  />
-                  <Tooltip
-                    contentStyle={tooltip}
-                    formatter={(value, name) => [
-                      `${money(Number(value) / 1000)} mld zł`,
-                      name === "revenue" ? "Dochody" : "Wydatki",
-                    ]}
-                    labelFormatter={(label) => `${label} ${selectedYear}`}
-                  />
-                  <Bar
-                    dataKey="revenue"
-                    fill={colors.teal}
-                    radius={[4, 4, 0, 0]}
-                    maxBarSize={26}
-                  />
-                  <Bar
-                    dataKey="spending"
-                    fill={colors.coral}
-                    radius={[4, 4, 0, 0]}
-                    maxBarSize={26}
-                  />
-                </BarChart>
-              </ResponsiveContainer>
-            </div>
-            <div className="chart-bottom">
-              <p>
-                Wartości w mld zł.{" "}
-                {view === "monthly"
-                  ? "Miesiąc = zmiana względem poprzedniego raportu."
-                  : "Każda kolumna zawiera sumę od początku roku."}
-              </p>
-              <ChartTools
-                csv={
-                  view === "monthly"
-                    ? "/data/budzet-miesiecznie.csv"
-                    : "/data/budzet.csv"
-                }
-                source={end.sourceUrl}
-              />
-            </div>
-            <DataTable
-              caption={`Dochody i wydatki budżetu w ${selectedYear} roku, mln zł`}
-              headers={[
-                "Miesiąc",
-                "Dochody (mln zł)",
-                "Wydatki (mln zł)",
-                "Wynik (mln zł)",
-              ]}
-              rows={rows.map((row) => [
-                periodLabel(row.period),
-                money(row.revenue),
-                money(row.spending),
-                money(row.balance),
-              ])}
-            />
-          </CardContent>
-        </Card>
-        <div className="categories-grid">
-          <CategoryCard kind="revenue" row={end} />
-          <CategoryCard kind="spending" row={end} />
-        </div>
+  const records = yearRecords(year);
+  const rows = view === "monthly" ? monthlySpending(year)
+    : records.map((row) => ({ period: row.period, label: shortMonth(row.period), total: row.total }));
+  const maxValue = Math.max(...rows.map((row) => row.total));
+  return <section className="section timeline-section" id="w-czasie"><div className="shell">
+    <SectionHeader number="03 / W czasie" title="Miesiąc po miesiącu"
+      description="Raporty MF podają wartości narastająco od stycznia. Widok miesięczny wyliczamy jako różnicę dwóch kolejnych raportowanych wartości."
+      through={periodLabel(summary.period)} />
+    <Card className="data-panel chart-panel"><CardContent className="panel-content">
+      <div className="panel-heading timeline-heading">
+        <div><span className="eyebrow">Budżet państwa / {year}</span>
+          <h3>{view === "monthly" ? "Wydatki w miesiącu" : "Wydatki narastająco"}</h3></div>
+        <Tabs value={view} onValueChange={setView}><TabsList>
+          <TabsTrigger value="monthly">Miesięcznie</TabsTrigger>
+          <TabsTrigger value="cumulative">Narastająco</TabsTrigger>
+        </TabsList></Tabs>
       </div>
-    </section>
-  );
+      <div className="chart-annotation"><span className="annotation-line" />
+        <span>Każdy słupek to {view === "monthly" ? "jeden miesiąc" : "suma od początku roku"}. Kwoty nominalne, mld zł.</span>
+      </div>
+      <div className="chart-box" role="img"
+        aria-label={(view === "monthly" ? "Miesięczne" : "Narastające") + " wydatki budżetu państwa w " + year + " roku"}>
+        <ResponsiveContainer width="100%" height="100%">
+          <BarChart data={rows} margin={{ top: 18, right: 12, bottom: 0, left: -24 }} barCategoryGap="26%">
+            <CartesianGrid vertical={false} stroke="#e7e5e1" />
+            <XAxis dataKey="label" axisLine={false} tickLine={false} tick={{ fill: "#68727a", fontSize: 12 }} />
+            <YAxis axisLine={false} tickLine={false} tick={{ fill: "#68727a", fontSize: 12 }}
+              tickFormatter={(value) => String(Math.round(Number(value) / 1000))} />
+            <Tooltip cursor={{ fill: "#f3eee8" }}
+              contentStyle={{ background: "#fff", border: "1px solid #dcd9d3", borderRadius: 4, boxShadow: "0 14px 35px #162b3922" }}
+              formatter={(value) => [money(Number(value) / 1000) + " mld zł", "Wydatki"]}
+              labelFormatter={(label) => String(label) + " " + year} />
+            <Bar dataKey="total" radius={[2, 2, 0, 0]} maxBarSize={52}>
+              {rows.map((row) => <Cell key={row.period} fill={row.total === maxValue ? CHART_ORANGE : CHART_BLUE} />)}
+            </Bar>
+          </BarChart>
+        </ResponsiveContainer>
+      </div>
+      <div className="panel-actions">
+        <span>Źródło: sprawozdania operatywne MF</span>
+        <DownloadLink href={view === "monthly" ? "/data/wydatki-miesiecznie.csv" : "/data/wydatki-narastajaco.csv"}>
+          Pobierz dane CSV
+        </DownloadLink>
+      </div>
+      <DataTable caption={(view === "monthly" ? "Miesięczne" : "Narastające") + " wydatki w " + year + " roku, mln zł"}
+        headers={["Miesiąc", "Kwota (mln zł)"]}
+        rows={rows.map((row) => [periodLabel(row.period), money(row.total, 3)])} />
+      <div className="panel-source"><SourceLink href={summary.sourceUrl}>MF · raport za {periodLabel(summary.period)}</SourceLink></div>
+    </CardContent></Card>
+  </div></section>;
 }
 
-function CategoryCard({
-  kind,
-  row,
-}: {
-  kind: "revenue" | "spending";
-  row: BudgetRecord;
-}) {
-  const items = Object.entries(
-    kind === "revenue" ? row.revenueCategories : row.spendingCategories,
-  ).filter(([key, value]) => key === "sourceDifference" ? Math.abs(value) > 0.003 : value > 0);
-  const total = kind === "revenue" ? row.revenue : row.spending;
-  const names = kind === "revenue" ? revenueNames : spendingNames;
-  return (
-    <Card className="category-card">
-      <CardContent>
-        <div className="category-head">
-          <span className={`mini-icon ${kind === "revenue" ? "green" : "red"}`}>
-            {kind === "revenue" ? (
-              <ArrowDownRight size={19} />
-            ) : (
-              <ArrowUpRight size={19} />
-            )}
-          </span>
-          <div>
-            <p className="eyebrow">
-              {kind === "revenue" ? "Skąd wpływają" : "Na co idą"}
-            </p>
-            <h3>
-              {kind === "revenue" ? "Struktura dochodów" : "Struktura wydatków"}
-            </h3>
-          </div>
-        </div>
-        <p className="category-period">
-          {periodLabel(row.period)} · narastająco od stycznia
-        </p>
-        <div className="category-list">
-          {items.map(([key, value], index) => (
-            <div className="category-row" key={key}>
-              <div className="category-label">
-                <span>{names[key] ?? key}</span>
-                <strong>{key === "sourceDifference" ? `${money(value)} mln zł` : `${money(value / 1000)} mld zł`}</strong>
-              </div>
-              <div className="category-track">
-                <span
-                  style={{
-                    width: `${Math.max(0.4, (Math.abs(value) / total) * 100)}%`,
-                    background:
-                      kind === "revenue"
-                        ? [colors.teal, "#75b7a6", "#b8d9ce"][index]
-                        : [
-                            colors.coral,
-                            "#e89377",
-                            "#efb597",
-                            "#efc8a8",
-                            colors.gold,
-                            "#dbc998",
-                            "#c9c5bb",
-                            colors.muted,
-                          ][index],
-                  }}
-                />
-              </div>
-            </div>
-          ))}
-        </div>
-        <div className="category-source">
-          <Source href={row.sourceUrl}>Tabela źródłowa MF</Source>
-        </div>
-      </CardContent>
-    </Card>
-  );
-}
-
-function DeficitSection() {
-  const yearsData = annualBudget.map((row) => ({
-    year: row.period.slice(0, 4),
-    balance: row.balance / 1000,
-    sourceUrl: row.sourceUrl,
-  }));
-  return (
-    <section className="section deficit-section">
-      <div className="shell">
-        <SectionHeading
-          eyebrow="03 / Wynik budżetu"
-          title="Deficyt w dłuższej perspektywie."
-          description="Porównujemy wyłącznie zakończone lata. Rok bieżący jest niepełny i nie trafia do tego zestawienia."
-          through={periodLabel(latestBudget.period)}
-        />
-        <Card className="chart-card">
-          <CardContent>
-            <div className="chart-head">
-              <div>
-                <p className="eyebrow">Lata zakończone</p>
-                <h3>Roczny wynik budżetu</h3>
-              </div>
-              <span className="unit-pill">mld zł</span>
-            </div>
-            <div
-              className="chart-box"
-              role="img"
-              aria-label="Wykres rocznego wyniku budżetu w miliardach złotych"
-            >
-              <ResponsiveContainer width="100%" height="100%">
-                <BarChart data={yearsData} margin={chartMargin}>
-                  <CartesianGrid vertical={false} stroke="#e8e5dc" />
-                  <XAxis
-                    dataKey="year"
-                    tickLine={false}
-                    axisLine={false}
-                    tick={{ fill: "#657584", fontSize: 12 }}
-                  />
-                  <YAxis
-                    tickLine={false}
-                    axisLine={false}
-                    tick={{ fill: "#657584", fontSize: 12 }}
-                  />
-                  <ReferenceLine y={0} stroke={colors.ink} />
-                  <Tooltip
-                    contentStyle={tooltip}
-                    formatter={(value) => [
-                      `${money(Number(value))} mld zł`,
-                      "Wynik",
-                    ]}
-                  />
-                  <Bar dataKey="balance" radius={[4, 4, 4, 4]} maxBarSize={52}>
-                    {yearsData.map((row) => (
-                      <Cell
-                        key={row.year}
-                        fill={row.balance < 0 ? colors.coral : colors.teal}
-                      />
-                    ))}
-                  </Bar>
-                </BarChart>
-              </ResponsiveContainer>
-            </div>
-            <div className="chart-bottom">
-              <p>
-                Wynik = dochody minus wydatki. Słupki poniżej zera oznaczają
-                deficyt.
-              </p>
-              <ChartTools
-                csv="/data/budzet.csv"
-                source={annualBudget.at(-1)!.sourceUrl}
-              />
-            </div>
-            <DataTable
-              caption="Roczny wynik budżetu, mln zł"
-              headers={["Rok", "Wynik (mln zł)"]}
-              rows={annualBudget.map((row) => [
-                row.period.slice(0, 4),
-                money(row.balance),
-              ])}
-            />
-          </CardContent>
-        </Card>
-      </div>
-    </section>
-  );
-}
-
-function ContextSection() {
-  const debt = data.debt
-    .filter((row) => row.period >= "2018-01")
-    .map((row) => ({
-      ...row,
-      label: row.period.slice(0, 4),
-      billion: row.value / 1000,
-    }));
-  const rateBefore2018 = data.rates
-    .filter((row) => row.effectiveDate < "2018-01-01")
-    .at(-1);
-  const rates = [
-    ...(rateBefore2018
-      ? [{ ...rateBefore2018, effectiveDate: "2018-01-01" }]
-      : []),
-    ...data.rates.filter((row) => row.effectiveDate >= "2018-01-01"),
-  ].map((row) => ({ ...row, label: row.effectiveDate.slice(0, 7) }));
-  return (
-    <section className="section context-section" id="dlug">
-      <div className="shell">
-        <SectionHeading
-          eyebrow="04 / Szerszy kontekst"
-          title="Dług i stopy procentowe."
-          description="Dwa osobne wskaźniki pomagają czytać sytuację państwa. Nie są składnikami dochodów ani wydatków budżetu centralnego."
-          through={`${periodLabel(latestDebt.period)} (dług), ${latestRate.effectiveDate} (stopa)`}
-        />
-        <div className="context-grid">
-          <Card className="context-card">
-            <CardContent>
-              <div className="context-head">
-                <span className="mini-icon blue">
-                  <Landmark size={20} />
-                </span>
-                <span>DŁUG SKARBU PAŃSTWA</span>
-              </div>
-              <div className="context-value">
-                {money(latestDebt.value / 1000)}
-                <small> mld zł</small>
-              </div>
-              <p>
-                Stan na koniec {periodLabel(latestDebt.period)}. To zadłużenie
-                Skarbu Państwa, a nie całego sektora finansów publicznych.
-              </p>
-              <div
-                className="small-chart"
-                role="img"
-                aria-label="Wykres długu Skarbu Państwa od 2018 roku, w miliardach złotych"
-              >
-                <ResponsiveContainer width="100%" height="100%">
-                  <AreaChart
-                    data={debt}
-                    margin={{ top: 8, right: 0, bottom: 0, left: 0 }}
-                  >
-                    <defs>
-                      <linearGradient
-                        id="debtGradient"
-                        x1="0"
-                        y1="0"
-                        x2="0"
-                        y2="1"
-                      >
-                        <stop
-                          offset="0%"
-                          stopColor="#46758a"
-                          stopOpacity={0.25}
-                        />
-                        <stop
-                          offset="100%"
-                          stopColor="#46758a"
-                          stopOpacity={0}
-                        />
-                      </linearGradient>
-                    </defs>
-                    <XAxis
-                      dataKey="label"
-                      tickLine={false}
-                      axisLine={false}
-                      tick={{ fill: "#657584", fontSize: 11 }}
-                      interval={11}
-                    />
-                    <Tooltip
-                      contentStyle={tooltip}
-                      labelFormatter={(_, payload) =>
-                        payload[0]?.payload.period ?? ""
-                      }
-                      formatter={(value) => [
-                        `${money(Number(value))} mld zł`,
-                        "Dług",
-                      ]}
-                    />
-                    <Area
-                      type="monotone"
-                      dataKey="billion"
-                      stroke="#46758a"
-                      strokeWidth={2.5}
-                      fill="url(#debtGradient)"
-                    />
-                  </AreaChart>
-                </ResponsiveContainer>
-              </div>
-              <ChartTools
-                csv="/data/dlug-skarbu-panstwa.csv"
-                source={latestDebt.sourceUrl}
-              />
-              <DataTable
-                caption="Dług Skarbu Państwa, mln zł"
-                headers={["Miesiąc", "Dług (mln zł)"]}
-                rows={data.debt.map((row) => [
-                  periodLabel(row.period),
-                  money(row.value),
-                ])}
-              />
-            </CardContent>
-          </Card>
-          <Card className="context-card">
-            <CardContent>
-              <div className="context-head">
-                <span className="mini-icon gold">
-                  <ArrowUpRight size={20} />
-                </span>
-                <span>STOPA REFERENCYJNA NBP</span>
-              </div>
-              <div className="context-value">
-                {money(latestRate.value, 2)}
-                <small> %</small>
-              </div>
-              <p>
-                Obowiązuje od {latestRate.effectiveDate}. To stopa polityki
-                pieniężnej NBP, nie oprocentowanie długu państwa.
-              </p>
-              <div
-                className="small-chart"
-                role="img"
-                aria-label="Wykres zmian stopy referencyjnej NBP od 2018 roku"
-              >
-                <ResponsiveContainer width="100%" height="100%">
-                  <LineChart
-                    data={rates}
-                    margin={{ top: 8, right: 0, bottom: 0, left: 0 }}
-                  >
-                    <XAxis
-                      dataKey="label"
-                      tickLine={false}
-                      axisLine={false}
-                      tick={{ fill: "#657584", fontSize: 11 }}
-                      interval="preserveStartEnd"
-                    />
-                    <Tooltip
-                      contentStyle={tooltip}
-                      labelFormatter={(_, payload) =>
-                        payload[0]?.payload.effectiveDate ?? ""
-                      }
-                      formatter={(value) => [
-                        `${money(Number(value), 2)}%`,
-                        "Stopa",
-                      ]}
-                    />
-                    <Line
-                      type="stepAfter"
-                      dataKey="value"
-                      stroke={colors.gold}
-                      strokeWidth={2.8}
-                      dot={false}
-                      activeDot={{ r: 4 }}
-                    />
-                  </LineChart>
-                </ResponsiveContainer>
-              </div>
-              <ChartTools
-                csv="/data/stopa-referencyjna-nbp.csv"
-                source={latestRate.sourceUrl}
-              />
-              <DataTable
-                caption="Zmiany stopy referencyjnej NBP"
-                headers={["Data wejścia w życie", "Stopa (%)"]}
-                rows={rates.map((row) => [
-                  row.effectiveDate,
-                  money(row.value, 2),
-                ])}
-              />
-            </CardContent>
-          </Card>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function ChatSection() {
-  return (
-    <section className="section chat-section" id="zapytaj">
-      <div className="shell chat-layout">
-        <div>
-          <p className="eyebrow">05 / Zapytaj o dane</p>
-          <h2>
-            Masz pytanie?
-            <br />
-            <em>Zapytaj prosto.</em>
-          </h2>
-          <p>
-            Asystent odpowiada na podstawie wybranych, opublikowanych danych
-            Polstatu i podaje źródła. Nie ma dostępu do innych statystyk.
-          </p>
-          <div className="chat-note">
-            <CircleHelp size={19} />
-            <span>
-              Model: GLM-4.7-Flash (Cloudflare Workers AI). Dostępność zależy od
-              dziennego bezpłatnego limitu.
-            </span>
-          </div>
-        </div>
-        <Chat />
-      </div>
-    </section>
-  );
-}
-
-function Methodology() {
-  return (
-    <main className="method-page">
-      <div className="shell">
-        <div className="method-hero">
-          <p className="eyebrow">Źródła i metodologia</p>
-          <h1>
-            Skąd pochodzą
-            <br />
-            <em>te liczby?</em>
-          </h1>
-          <p>
-            Każda liczba na Polstacie ma definicję i link do publikacji
-            źródłowej. Dane budżetowe do {periodLabel(latestBudget.period)}.
-            Ostatni udany import:{" "}
-            {new Date(data.generatedAt).toLocaleString("pl-PL", {
-              dateStyle: "long",
-              timeStyle: "short",
-            })}
-            .
-          </p>
-        </div>
-        <div className="method-grid">
-          <aside className="method-aside">
-            <BookOpen size={26} />
-            <h2>Zakres ma znaczenie</h2>
-            <p>
-              Budżet państwa, dług Skarbu Państwa i stopy NBP opisują różne
-              rzeczy. Pokazujemy je obok siebie, bez dodawania do wspólnej sumy.
-            </p>
-          </aside>
-          <div className="method-content">
-            <article>
-              <span>01</span>
-              <h2>Budżet centralny</h2>
-              <p>
-                Dochody, wydatki i wynik pochodzą z miesięcznych sprawozdań
-                operatywnych Ministerstwa Finansów od 2018 r. Raporty podają
-                wykonanie narastająco od stycznia. Wartość miesięczna to różnica
-                dwóch kolejnych okresów w obrębie tego samego roku. Deficyt
-                zapisujemy jako ujemny wynik: dochody minus wydatki.
-              </p>
-              <p>
-                Do szeregu trafiają dane z raportów wykonania, bez wstępnych
-                szacunków. Kwoty przeliczamy na mln zł. Roczne porównania
-                obejmują tylko pełne lata.
-              </p>
-              <Source href={latestBudget.sourceUrl}>Ostatni raport MF</Source>
-            </article>
-            <Separator />
-            <article>
-              <span>02</span>
-              <h2>Kategorie dochodów i wydatków</h2>
-              <p>
-                Dochody grupujemy według trzech nadrzędnych pozycji raportu:
-                podatkowe, niepodatkowe i środki UE. Wydatki obejmują siedem
-                nadrzędnych kategorii z tabeli Ministerstwa. W raporcie za 2019
-                r. opublikowany wynik kategorii nie zawsze sumuje się dokładnie
-                do wydatków ogółem. Tę różnicę zapisujemy jawnie jako „Różnica w
-                tabeli źródłowej”.
-              </p>
-              <p>
-                Wykresy wyświetlają kwoty w mld zł dla czytelności. Pliki CSV
-                zachowują wartości w mln zł.
-              </p>
-            </article>
-            <Separator />
-            <article>
-              <span>03</span>
-              <h2>Dług Skarbu Państwa</h2>
-              <p>
-                Miesięczny stan zadłużenia według wartości nominalnej pochodzi z
-                szeregu czasowego Ministerstwa Finansów. To stan na koniec
-                miesiąca. Nie jest sumą wydatków budżetowych ani miarą długu
-                całego sektora instytucji rządowych i samorządowych.
-              </p>
-              <Source href={latestDebt.sourceUrl}>Szereg MF: zadłużenie</Source>
-            </article>
-            <Separator />
-            <article>
-              <span>04</span>
-              <h2>Stopy procentowe NBP</h2>
-              <p>
-                Daty zmian i poziomy stopy referencyjnej pochodzą z archiwum
-                Narodowego Banku Polskiego. Wykres pokazuje poziom obowiązujący
-                od podanej daty, a nie średnią miesięczną.
-              </p>
-              <Source href={latestRate.sourceUrl}>Archiwum NBP</Source>
-            </article>
-            <Separator />
-            <article>
-              <span>05</span>
-              <h2>Aktualizacja i jakość</h2>
-              <p>
-                Import sprawdza ciągłość miesięcy, równanie dochody minus
-                wydatki równa się wynik oraz zgodność kategorii z sumami. Nowy
-                zestaw trafia na stronę tylko po udanym imporcie i budowie. Gdy
-                źródło zmieni układ albo walidacja zawiedzie, poprzednia
-                opublikowana wersja zostaje dostępna, a jej data pozostaje
-                widoczna.
-              </p>
-              <p>
-                Źródła mogą być później korygowane przez instytucje. Dlatego
-                przechowujemy link do użytego pliku, status danych i, jeśli
-                dostępna, datę publikacji.
-              </p>
-            </article>
-            <Separator />
-            <article>
-              <span>06</span>
-              <h2>Asystent</h2>
-              <p>
-                Asystent dostaje tylko ograniczony kontekst z danych
-                opublikowanych na tej stronie. Jego odpowiedzi mogą zawierać
-                błędy; sprawdź cytowane źródło. Pytania spoza zakresu danych
-                powinny otrzymać informację o braku podstaw do odpowiedzi.
-                Wiadomości nie są zapisywane przez Polstat.
-              </p>
-            </article>
-          </div>
-        </div>
-        <div className="download-panel">
-          <div>
-            <h2>Pobierz dane i sprawdź samodzielnie</h2>
-            <p>Otwarte pliki CSV z linkami do oryginalnych publikacji.</p>
-          </div>
-          <div>
-            <Button asChild variant="outline">
-              <a href="/data/budzet.csv" download>
-                Budżet <Download size={16} />
-              </a>
-            </Button>
-            <Button asChild variant="outline">
-              <a href="/data/dlug-skarbu-panstwa.csv" download>
-                Dług <Download size={16} />
-              </a>
-            </Button>
-            <Button asChild variant="outline">
-              <a href="/data/stopa-referencyjna-nbp.csv" download>
-                Stopy <Download size={16} />
-              </a>
-            </Button>
-          </div>
-        </div>
-      </div>
-    </main>
-  );
+function AnnualSection() {
+  const rows = annualSpending.map((row) => ({ year: row.period.slice(0, 4), value: row.total }));
+  const max = Math.max(...rows.map((row) => row.value));
+  return <section className="section annual-section"><div className="shell annual-layout">
+    <div className="annual-copy">
+      <span className="eyebrow">04 / Lata zakończone</span>
+      <h2>Dłuższa<br />perspektywa.</h2>
+      <p>Roczne wydatki budżetu państwa od 2018 r. Bieżący, niepełny rok nie pojawia się w tym porównaniu. Kwoty są nominalne.</p>
+      <DownloadLink href="/data/wydatki-narastajaco.csv">Pobierz serię CSV</DownloadLink>
+    </div>
+    <div className="annual-bars">
+      {rows.map((row) => <div className="annual-row" key={row.year}>
+        <span>{row.year}</span>
+        <div><span style={{ width: String((row.value / max) * 100) + "%" }} /></div>
+        <strong>{money(row.value / 1000)} <small>mld zł</small></strong>
+      </div>)}
+      <p>Porównanie nominalne. Źródła: grudniowe <a href={sourcePage} target="_blank" rel="noopener noreferrer">
+        sprawozdania MF <ExternalLink size={13} aria-hidden /></a>.</p>
+      <DataTable caption="Wydatki budżetu państwa w zakończonych latach, mln zł"
+        headers={["Rok", "Kwota (mln zł)"]}
+        rows={rows.map((row) => [row.year, money(row.value, 3)])} />
+    </div>
+  </div></section>;
 }
 
 function Home() {
-  return (
+  const [selectedYear, setSelectedYear] = useState(years.at(-1)!);
+  const summary = yearRecords(selectedYear).at(-1)!;
+  const breakdown = data.breakdowns.find((row) => row.period === summary.period)!;
+  return <>
+    <Header />
     <main>
-      <Hero />
-      <ReadingGuide />
-      <BudgetSection />
-      <DeficitSection />
-      <ContextSection />
-      <ChatSection />
-      <div className="shell end-note">
-        <MessageCircle size={21} />
-        <p>
-          Dane publiczne najlepiej czytać w kontekście.{" "}
-          <a href="/metodologia">
-            Sprawdź definicje, ograniczenia i źródła <ArrowRight size={15} />
-          </a>
-        </p>
+      <Hero summary={summary} breakdown={breakdown} selectedYear={selectedYear} setSelectedYear={setSelectedYear} />
+      <FunctionsSection key={selectedYear} breakdown={breakdown} />
+      <TypesSection summary={summary} />
+      <TimelineSection key={"timeline-" + selectedYear} year={selectedYear} summary={summary} />
+      <AnnualSection />
+      <div className="shell closing-note">
+        <Badge variant="outline">Jeden zakres danych</Badge>
+        <p>Pokazujemy wydatki centralnego budżetu państwa. Nie sumujemy tu wydatków samorządów, ZUS, NFZ ani funduszy poza budżetem.</p>
+        <a href="/metodologia">Sprawdź zakres i metodę <ArrowRight size={16} aria-hidden /></a>
       </div>
     </main>
-  );
+    <Footer />
+  </>;
+}
+
+function Methodology() {
+  return <>
+    <Header />
+    <main className="method-page"><div className="shell">
+      <div className="method-hero">
+        <span className="eyebrow">Źródła / zakres / obliczenia</span>
+        <h1>Liczby, które<br /><em>można sprawdzić.</em></h1>
+        <p>Polstat pokazuje wyłącznie wydatki budżetu państwa publikowane przez Ministerstwo Finansów. Każda kwota ma okres, jednostkę i link do pliku źródłowego.</p>
+      </div>
+      <div className="method-grid">
+        <aside className="method-aside">
+          <strong>Zakres PoC</strong>
+          <p>Budżet państwa · wydatki kasowe · 2018–{years.at(-1)} · mln zł w danych, mld zł na wykresach.</p>
+          <span>Ostatni okres: {periodLabel(latestSpending.period)}</span>
+        </aside>
+        <div className="method-copy">
+          <article><span>01 / Źródło</span><h2>Sprawozdania operatywne MF</h2>
+            <p>Seria miesięcznych arkuszy Ministerstwa Finansów. Wydatki ogółem sprawdzamy między tabelami 1 i 6. Podział według rodzaju pochodzi z tabeli 6, a podział według działów z tabeli 7. Publikujemy raportowane wykonanie, bez wcześniejszych szacunków. Data w nazwie pliku źródłowego nie jest traktowana jako data publikacji.</p>
+            <SourceLink href={sourcePage}>Przejdź do archiwum raportów</SourceLink></article>
+          <article><span>02 / Zakres</span><h2>Co obejmuje budżet państwa?</h2>
+            <p>To centralny budżet państwa. Transfer do funduszu lub samorządu jest tu wydatkiem centralnym. Wydatki wykonane później przez ten fundusz lub samorząd nie są dodawane ponownie. Ta seria nie obejmuje pełnych wydatków całego sektora publicznego.</p></article>
+          <article><span>03 / Czas</span><h2>Miesiąc i rok</h2>
+            <p>Arkusze podają wydatki narastająco od stycznia. Kwotę za pojedynczy miesiąc wyliczamy, odejmując poprzedni miesiąc w tym samym roku. Grudniowy raport wyznacza wartość całoroczną; aktualny rok pokazujemy jako niepełny.</p></article>
+          <article><span>04 / Kontrola</span><h2>Uzgadnianie danych</h2>
+            <p>Import wymaga ciągłości miesięcy oraz zgodności kwoty ogółem z tabelami źródłowymi. Arkusze historyczne różnią się skalą zapisanych komórek; ustalamy ją przez porównanie z kwotą ogółem. W raporcie za 2019 r. suma pozycji jest o około 1,15 mln zł niższa od opublikowanej kwoty ogółem. Różnica pozostaje jawna.</p></article>
+          <article><span>05 / Porównania</span><h2>Jak czytać wykresy</h2>
+            <p>Kwoty są nominalne, bez korekty o inflację. Działy i rodzaje wydatków są dwiema klasyfikacjami tej samej sumy, nie dwoma zbiorami do dodania. Nazwy działów mogą zmieniać się między latami, dlatego kod działu i nazwa z danego raportu pozostają razem.</p></article>
+        </div>
+      </div>
+      <div className="download-panel">
+        <div><span className="eyebrow">Dane do pobrania</span><h2>Sprawdź samodzielnie.</h2>
+          <p>CSV zawierają kwoty w mln zł, okres, adres źródła i status danych.</p></div>
+        <div>
+          <DownloadLink href="/data/wydatki-miesiecznie.csv">Miesięcznie</DownloadLink>
+          <DownloadLink href="/data/wydatki-narastajaco.csv">Narastająco</DownloadLink>
+          <DownloadLink href="/data/wydatki-dzialy.csv">Według działów</DownloadLink>
+        </div>
+      </div>
+    </div></main>
+    <Footer />
+  </>;
 }
 
 export default function App() {
-  return (
-    <>
-      <Header />
-      {window.location.pathname === "/metodologia" ? <Methodology /> : <Home />}
-      <Footer />
-    </>
-  );
+  return window.location.pathname === "/metodologia" ? <Methodology /> : <Home />;
 }

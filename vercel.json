@@ -1,5 +1,4 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "rewrites": [{ "source": "/metodologia", "destination": "/index.html" }],
-  "functions": { "api/chat.ts": { "maxDuration": 60 } }
+  "rewrites": [{ "source": "/metodologia", "destination": "/index.html" }]
 }

@@ -1,51 +1,43 @@
 # Polstat
 
-Polish-first public guide to the **central state budget**. The site also displays State Treasury debt and the NBP reference rate as separate context. It uses official Ministry of Finance and NBP publications and keeps source links with every record.
+A Polish-language proof of concept focused on **central state budget spending**. It shows how much the budget spent, what functions it funded, the economic type of expenditure, and how spending changed over time. The public interface does not display revenue, deficit, debt, interest rates, or chat.
 
-Public site: [polstat.vercel.app](https://polstat.vercel.app).
+The live URL is [polstat.vercel.app](https://polstat.vercel.app). Check the deployment before assuming it contains the latest local version.
 
 ## Run locally
 
 Requires Node 24 and Python 3.12+.
 
-```sh
+~~~sh
 npm ci
 python -m pip install openpyxl==3.1.5
 python scripts/refresh_data.py
 npm test
 npm run dev
-```
+~~~
 
-The repository includes a validated data snapshot, so the UI can also be built without a new import. `npm run build` checks TypeScript and creates `dist/`.
+The checked-in snapshot allows a build without fetching source files.
 
 ## Data
 
-`scripts/refresh_data.py` reads the latest operational monthly workbook for each year from 2018, the Ministry's State Treasury debt time series and the NBP rate-change XML. It rejects gaps and budget identities that fail. A small difference between a published spending total and its seven category rows is retained as `sourceDifference` rather than hidden.
+The importer in scripts/refresh_data.py reads the latest [Ministry of Finance operational monthly report](https://www.gov.pl/web/finanse/sprawozdania-operatywne-miesieczne) for every year from 2018 onward. It extracts:
 
-- `src/data/snapshot.json`: versioned, validated records consumed by the site and chat.
-- `public/data/budzet.csv`: cumulative budget values and categories, mln zł.
-- `public/data/budzet-miesiecznie.csv`: monthly changes calculated within each year, mln zł.
-- Other files in `public/data/`: debt and rate series.
+- cumulative and monthly central-budget spending from tables 1 and 6;
+- seven economic spending categories from table 6;
+- spending by official budget function (*dział*) and original/amended plans from table 7, for the latest reported period of each year.
 
-Every figure has its period, unit, source URL, publication date when available, and status. The debt spreadsheet and NBP archive do not expose a reliable per-record publication date; those entries use `null`. A local `.context/source-cache/` speeds repeat imports and is not published.
+The importer reconciles independent totals, checks month continuity, and determines the varying scale of historical functional sheets by matching their total to table 1. The 2019 source contains an approximately 1.15 million PLN difference between its total and category/function sums. The snapshot retains that difference explicitly.
 
-The GitHub workflow checks sources each day. It publishes changed files only after import, tests and build pass. Vercel can deploy `main` automatically through its Git integration. A failed workflow leaves the prior Vercel deployment intact.
+The snapshot is src/data/snapshot.json. Public CSV exports are in public/data/:
 
-The Vercel project must be connected to the GitHub repository for automatic deployment of validated updates. Until that connection is made, the workflow updates GitHub and a production deployment must be run manually.
+- wydatki-miesiecznie.csv: calculated single-month spending;
+- wydatki-narastajaco.csv: published cumulative spending and economic categories;
+- wydatki-dzialy.csv: functional spending, one row per function and year-end/latest period.
 
-## Chat setup
+All records carry a period, unit, source attachment URL, and reported-actual status. A date embedded in the attachment filename is stored as `sourceFileDate`. It is not treated as the publication date; `publishedAt` remains null because the Ministry's page does not identify an unambiguous publication date for each attachment. No preliminary estimates enter the series. The functional categories describe **another classification of the same central-budget total**; they are not added to the economic categories. A central-budget transfer to another entity counts here, but that entity's subsequent spending does not.
 
-The public figures work without the following services. To enable `/api/chat` on Vercel:
+## Updates and deployment
 
-1. Create a Cloudflare Workers AI account and API token with Workers AI permission. Use model `@cf/zai-org/glm-4.7-flash` on the free allocation.
-2. Create a Cloudflare Turnstile widget for the Vercel hostname.
-3. Create a Supabase project and run [chat_quota.sql](supabase/chat_quota.sql) once in the SQL editor. Use a **secret** API key only in Vercel server environment variables. The table stores daily salted IP hashes and counts, never questions or raw IPs. The function permits 10 requests per visitor and 100 globally each UTC day.
-4. Add the variables in `.env.example` to the `polstat` Vercel project. `VITE_TURNSTILE_SITE_KEY` is public; all other secrets remain server-only. `RATE_LIMIT_SECRET` should be a long random string. Set `PUBLIC_HOSTNAME=polstat.vercel.app`.
+The GitHub workflow checks official sources daily, validates the import, runs tests and build, then commits a changed snapshot to main. Failed validation leaves the previous snapshot untouched. Vercel can deploy main automatically once its GitHub integration is connected to tytus000/polstat.
 
-The chat returns 503 when required configuration or an upstream service is unavailable. The static data site remains available. Cloudflare's free allocation also has its own daily limit; exhaustion returns a clear message.
-
-## Deployment
-
-Create a Vercel project from the GitHub repository using Vite defaults: build command `npm run build`, output directory `dist`. Vercel serves `/api/chat` as a Function and rewrites `/metodologia` to the app entry point. Enable the GitHub Actions workflow's `contents: write` permission so a passing scheduled refresh can update `main`.
-
-No secrets belong in this repository. The site does not store chat messages.
+The site is a Vite static build (build command: npm run build, output: dist). The /metodologia path rewrites to the app entry point. No runtime service credentials are needed for this spending-only PoC.

@@ -1,4 +1,4 @@
-"""Build the public, source-linked snapshot from Polish official publications."""
+"""Publish reconciled central-budget spending from Ministry of Finance reports."""
 
 from __future__ import annotations
 
@@ -8,32 +8,26 @@ import hashlib
 import io
 import json
 import re
+import time
 import urllib.error
 import urllib.request
-import time
-import xml.etree.ElementTree as ET
 from datetime import date, datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 
 from openpyxl import load_workbook
 
-
 FIRST_YEAR = 2018
 MINISTRY = "https://www.gov.pl"
-BUDGET_PAGE = MINISTRY + "/web/finanse/sprawozdania-miesieczne-{year}"
-DEBT_PAGE = MINISTRY + "/web/finanse/szeregiczasowe"
-RATE_URL = "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml"
-
-REVENUE_LABELS = {
-    "tax": re.compile(r"^1\.\s*Dochody podatkowe", re.I),
-    "nonTax": re.compile(r"^2\.\s*Dochody niepodatkowe", re.I),
-    "eu": re.compile(r"^3\.\s*Środki z Unii Europejskiej", re.I),
-}
-SPENDING_KEYS = ("grants", "benefits", "operations", "capital", "debtService", "euContribution", "euProjects")
-SPENDING_NUMBERS = {key: f"{number}." for number, key in enumerate(SPENDING_KEYS, start=1)}
-ROMAN_MONTHS = {"I": 1, "II": 2, "III": 3, "IV": 4, "V": 5, "VI": 6, "VII": 7, "VIII": 8, "IX": 9, "X": 10, "XI": 11, "XII": 12}
+REPORT_PAGE = MINISTRY + "/web/finanse/sprawozdania-miesieczne-{year}"
+ROMAN_MONTHS = {"I": 1, "II": 2, "III": 3, "IV": 4, "V": 5, "VI": 6,
+                "VII": 7, "VIII": 8, "IX": 9, "X": 10, "XI": 11, "XII": 12}
 MONTH_HEADER = re.compile(r"^I(?:\s*[-–]\s*(XII|XI|X|IX|VIII|VII|VI|V|IV|III|II))?(?:\s*\*.*)?$", re.I)
+CATEGORY_CODES = {
+    "grants": "1.", "benefits": "2.", "operations": "3.",
+    "capital": "4.", "debtService": "5.", "euContribution": "6.",
+    "euProjects": "7.",
+}
 
 
 class Links(HTMLParser):
@@ -62,8 +56,7 @@ def fetch(url: str) -> bytes:
     cache = Path(__file__).resolve().parents[1] / ".context/source-cache"
     cache.mkdir(parents=True, exist_ok=True)
     cache_path = cache / hashlib.sha256(url.encode()).hexdigest()
-    immutable_attachment = "/attachment/" in url
-    if immutable_attachment and cache_path.exists():
+    if "/attachment/" in url and cache_path.exists():
         return cache_path.read_bytes()
     request = urllib.request.Request(url, headers={"User-Agent": "Polstat/1.0 (+public data attribution)"})
     for attempt in range(3):
@@ -77,38 +70,38 @@ def fetch(url: str) -> bytes:
             time.sleep(2 ** attempt)
     if not data:
         raise ValueError(f"Empty source: {url}")
-    if immutable_attachment:
+    if "/attachment/" in url:
         cache_path.write_bytes(data)
     return data
 
 
-def source_link(page: str, match: str) -> tuple[str, str | None]:
+def source_link(page: str) -> tuple[str, str | None]:
     parser = Links()
     parser.feed(fetch(page).decode("utf-8"))
     for href, label in parser.links:
-        if match.lower() in label.lower() and ".xlsx" in label.lower():
-            date_match = re.search(r"(?<!\d)(20\d{6})(?!\d)", label)
-            publication = None
-            if date_match:
+        if "Sprawozdanie operatywne" in label and ".xlsx" in label.lower():
+            match = re.search(r"(?<!\d)(20\d{6})(?!\d)", label)
+            source_file_date = None
+            if match:
                 try:
-                    publication = datetime.strptime(date_match.group(1), "%Y%m%d").date().isoformat()
+                    source_file_date = datetime.strptime(match.group(1), "%Y%m%d").date().isoformat()
                 except ValueError:
                     pass
-            return urllib.request.urljoin(MINISTRY, href), publication
-    raise ValueError(f"No matching spreadsheet on {page}: {match}")
+            return urllib.request.urljoin(MINISTRY, href), source_file_date
+    raise ValueError(f"No operational XLSX report on {page}")
 
 
 def sheet(workbook, title: str):
-    return workbook[next(name for name in workbook.sheetnames if name.strip() == title)]
+    return workbook[next(name for name in workbook.sheetnames if " ".join(name.split()) == title)]
 
 
-def number(value: object, *, scale: float) -> float:
+def number(value: object, scale: float) -> float:
     if isinstance(value, bool) or not isinstance(value, (int, float)):
         raise ValueError(f"Expected a numeric source cell, got {value!r}")
     return round(float(value) / scale, 6)
 
 
-def blocks(worksheet) -> dict[int, tuple[list[tuple[object, ...]], int, int]]:
+def blocks(worksheet) -> dict[int, tuple[list[tuple[object, ...]], int, int, int]]:
     rows = list(worksheet.iter_rows(values_only=True))
     headers: list[tuple[int, int, int]] = []
     for row_index, row in enumerate(rows):
@@ -121,178 +114,194 @@ def blocks(worksheet) -> dict[int, tuple[list[tuple[object, ...]], int, int]]:
                 headers.append((month, row_index, col_index))
     if not headers:
         raise ValueError(f"No monthly columns in {worksheet.title}")
-    found = {}
+    result = {}
     for month, row_index, col_index in headers:
         next_header = min((r for _, r, _ in headers if r > row_index + 2), default=len(rows))
-        found[month] = (rows, row_index + 1, min(next_header, row_index + 50), col_index)
-    return found
+        result[month] = (rows, row_index + 1, min(next_header, row_index + 50), col_index)
+    return result
 
 
-def cell_for_label(block, predicate, scale: float) -> float:
+def value_for(block, predicate, scale: float) -> float:
     rows, start, end, col = block
     for row in rows[start:end]:
         if predicate(row):
-            return number(row[col], scale=scale)
-    raise ValueError(f"Required metric missing near row {start + 1}")
+            return number(row[col], scale)
+    raise ValueError(f"Missing spending cell near source row {start + 1}")
 
 
-def parse_budget(data: bytes, year: int, url: str, published_at: str | None) -> list[dict]:
+def parse_functions(worksheet, expected_total: float, period: str, url: str,
+                    source_file_date: str | None) -> dict:
+    rows = list(worksheet.iter_rows(values_only=True))
+    overall = next(
+        i for i, row in enumerate(rows)
+        if len(row) > 4 and row[3] == "c" and isinstance(row[4], (int, float))
+    )
+    raw_total = float(rows[overall][4])
+    # Historical sheets sometimes store displayed thousands and sometimes PLN.
+    # Reconcile against the independently parsed monthly total before scaling.
+    scale = next((candidate for candidate in (1_000, 1_000_000)
+                  if abs(raw_total / candidate - expected_total) < 0.01), None)
+    if scale is None:
+        raise ValueError(f"Unrecognised functional-spending scale in {period}: {raw_total}")
+    functions = []
+    for index, row in enumerate(rows):
+        code = row[0] if row else None
+        label = row[2] if len(row) > 2 else None
+        if not (isinstance(code, str) and len(code.strip()) == 3 and
+                code.strip().isdigit() and isinstance(label, str) and label.strip()):
+            continue
+        measures = {candidate[3]: (0.0 if candidate[4] is None or
+                                  isinstance(candidate[4], str) and not candidate[4].strip()
+                                  else number(candidate[4], scale))
+                    for candidate in rows[index:index + 5]
+                    if len(candidate) > 4 and candidate[3] in ("a", "b", "c")}
+        if set(measures) != {"a", "b", "c"}:
+            raise ValueError(f"Incomplete functional row {code} in {period}")
+        functions.append({
+            "code": code.strip(), "label": " ".join(label.split()),
+            "actual": measures["c"], "originalPlan": measures["a"],
+            "amendedPlan": measures["b"],
+        })
+    if not functions or len({item["code"] for item in functions}) != len(functions):
+        raise ValueError(f"Missing or duplicate spending functions in {period}")
+    difference = round(expected_total - sum(item["actual"] for item in functions), 6)
+    if abs(difference) > 2:
+        raise ValueError(f"Functional spending does not reconcile in {period}: {difference}")
+    result = {
+        "period": period, "total": expected_total,
+        "originalPlan": number(rows[overall - 2][4], scale),
+        "amendedPlan": number(rows[overall - 1][4], scale),
+        "functions": functions, "unit": "PLN million", "sourceUrl": url,
+        "publishedAt": None, "sourceFileDate": source_file_date,
+        "status": "reported_actual",
+    }
+    if abs(difference) > 0.01:
+        result["sourceDifference"] = difference
+    return result
+
+
+def parse_report(data: bytes, year: int, url: str,
+                 source_file_date: str | None) -> tuple[list[dict], dict]:
     workbook = load_workbook(io.BytesIO(data), read_only=True, data_only=True)
     general = blocks(sheet(workbook, "TABLICA 1"))
-    revenue = blocks(sheet(workbook, "TABLICA 3"))
-    spending = blocks(sheet(workbook, "TABLICA 6"))
+    economic = blocks(sheet(workbook, "TABLICA 6"))
     months = sorted(
-        month for month in set(general) & set(revenue) & set(spending)
-        if any(
-            isinstance(row[0], str) and re.match(r"^I\.\s*DOCHODY", row[0].strip(), re.I)
-            and isinstance(row[general[month][3]], (int, float))
-            for row in general[month][0][general[month][1]:general[month][2]]
-        )
+        month for month in set(general) & set(economic)
+        if any(isinstance(row[0], str) and
+               re.match(r"^II\.\s*WYDATKI", row[0].strip(), re.I) and
+               isinstance(row[general[month][3]], (int, float))
+               for row in general[month][0][general[month][1]:general[month][2]])
     )
-    if months != list(range(1, max(months) + 1)):
-        raise ValueError(f"Budget month gap in {year}: {months}")
-    result = []
+    if not months or months != list(range(1, max(months) + 1)):
+        raise ValueError(f"Spending month gap in {year}: {months}")
+    spending = []
     for month in months:
-        g, r, s = general[month], revenue[month], spending[month]
-        by_general = lambda label: cell_for_label(
-            g, lambda row: isinstance(row[0], str) and re.match(label, row[0].strip(), re.I), 1000
+        g, e = general[month], economic[month]
+        total = value_for(
+            g, lambda row: isinstance(row[0], str)
+            and bool(re.match(r"^II\.\s*WYDATKI", row[0].strip(), re.I)), 1_000
         )
-        revenue_total = by_general(r"^I\.\s*DOCHODY")
-        spending_total = by_general(r"^II\.\s*WYDATKI")
-        balance = by_general(r"^III\.\s*DEFICYT")
-        revenue_parts = {
-            key: cell_for_label(r, lambda row, pattern=pattern: isinstance(row[0], str) and bool(pattern.match(row[0].strip())), 1000)
-            for key, pattern in REVENUE_LABELS.items()
+        economic_total = value_for(
+            e, lambda row: isinstance(row[1], str) and
+            "WYDATKI OGÓŁEM" in row[1], 1_000_000
+        )
+        if abs(total - economic_total) > 0.003:
+            raise ValueError(f"Spending totals differ in {year}-{month:02d}")
+        categories = {
+            name: value_for(e, lambda row, code=code: row[1] == code, 1_000_000)
+            for name, code in CATEGORY_CODES.items()
         }
-        spending_parts = {}
-        for key in SPENDING_KEYS:
-            category_number = SPENDING_NUMBERS[key]
-            spending_parts[key] = cell_for_label(
-                s,
-                lambda row, category_number=category_number: row[1] == category_number,
-                1_000_000,
-            )
-        if abs(revenue_total - spending_total - balance) > 0.003:
-            raise ValueError(f"Budget identity failed in {year}-{month:02d}")
-        if abs(sum(revenue_parts.values()) - revenue_total) > 0.003:
-            raise ValueError(f"Revenue categories do not reconcile in {year}-{month:02d}")
-        residual = round(spending_total - sum(spending_parts.values()), 6)
-        if abs(residual) > 0.003:
-            if abs(residual) > spending_total * 0.005:
-                raise ValueError(f"Spending categories do not reconcile in {year}-{month:02d}: {residual}")
-            # The published 2019 table has a small difference between its total and seven displayed categories.
-            spending_parts["sourceDifference"] = residual
-        result.append({
-            "period": f"{year}-{month:02d}", "revenue": revenue_total, "spending": spending_total,
-            "balance": balance, "revenueCategories": revenue_parts, "spendingCategories": spending_parts,
-            "unit": "PLN million", "sourceUrl": url, "publishedAt": published_at, "status": "reported_actual",
+        difference = round(total - sum(categories.values()), 6)
+        if abs(difference) > 0.003:
+            if abs(difference) > 2:
+                raise ValueError(f"Spending categories do not reconcile in {year}-{month:02d}")
+            categories["sourceDifference"] = difference
+        spending.append({
+            "period": f"{year}-{month:02d}", "total": total,
+            "categories": categories, "unit": "PLN million", "sourceUrl": url,
+            "publishedAt": None, "sourceFileDate": source_file_date,
+            "status": "reported_actual",
         })
+    last = spending[-1]
+    functions = parse_functions(sheet(workbook, "TABLICA 7"), last["total"],
+                                last["period"], url, source_file_date)
     workbook.close()
-    return result
-
-
-def parse_debt(data: bytes, url: str, published_at: str | None) -> list[dict]:
-    workbook = load_workbook(io.BytesIO(data), read_only=True, data_only=True)
-    worksheet = workbook["zadłużenie wg instrumentów"]
-    if "mln zł" not in str(worksheet["A1"].value) or worksheet["A3"].value != "Zadłużenie Skarbu Państwa":
-        raise ValueError("Unexpected State Treasury debt workbook layout")
-    dates = next(worksheet.iter_rows(min_row=2, max_row=2, values_only=True))
-    values = next(worksheet.iter_rows(min_row=3, max_row=3, values_only=True))
-    result = [
-        {"period": period.strftime("%Y-%m"), "value": number(value, scale=1), "unit": "PLN million", "sourceUrl": url, "publishedAt": published_at, "status": "reported_actual"}
-        for period, value in zip(dates[1:], values[1:])
-        if isinstance(period, datetime) and period.year >= FIRST_YEAR and isinstance(value, (int, float))
-    ]
-    if not result or len({item["period"] for item in result}) != len(result):
-        raise ValueError("Missing or duplicate State Treasury debt periods")
-    for previous, current in zip(result, result[1:]):
-        year, month = map(int, previous["period"].split("-"))
-        next_year = year + 1 if month == 12 else year
-        next_period = f"{next_year}-{month % 12 + 1:02d}"
-        if current["period"] != next_period:
-            raise ValueError(f"State Treasury debt month gap after {previous['period']}")
-    workbook.close()
-    return result
-
-
-def parse_rates(data: bytes) -> list[dict]:
-    root = ET.fromstring(data.decode("utf-8-sig"))
-    result = []
-    for change in root.findall("pozycje"):
-        rate = next((item.get("oprocentowanie") for item in change.findall("pozycja") if item.get("id") == "ref"), None)
-        effective = change.get("obowiazuje_od")
-        if rate and effective:
-            date.fromisoformat(effective)
-            result.append({"effectiveDate": effective, "value": float(rate.replace(",", ".")), "unit": "percent", "sourceUrl": RATE_URL, "publishedAt": None, "status": "reported_actual"})
-    if not result or result != sorted(result, key=lambda item: item["effectiveDate"]) or len({item["effectiveDate"] for item in result}) != len(result):
-        raise ValueError("Invalid NBP reference rate chronology")
-    return result
+    return spending, functions
 
 
 def build_snapshot(today: date | None = None) -> dict:
     today = today or date.today()
-    retrieved_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
-    budget = []
+    spending, breakdowns = [], []
     for year in range(FIRST_YEAR, today.year + 1):
         try:
-            url, published_at = source_link(BUDGET_PAGE.format(year=year), "Sprawozdanie operatywne")
+            url, source_file_date = source_link(REPORT_PAGE.format(year=year))
         except (ValueError, urllib.error.HTTPError):
-            if year == today.year and today.month <= 3 and budget and budget[-1]["period"] == f"{year - 1}-12":
+            if year == today.year and today.month <= 3 and spending and spending[-1]["period"] == f"{year - 1}-12":
                 break
             raise
-        records = parse_budget(fetch(url), year, url, published_at)
+        records, functions = parse_report(fetch(url), year, url, source_file_date)
         if year < today.year and records[-1]["period"] != f"{year}-12":
             raise ValueError(f"Historical year {year} lacks December")
-        budget.extend(records)
-    debt_url, debt_published_at = source_link(DEBT_PAGE, "Zadłużenie Skarbu Państwa")
-    debt = parse_debt(fetch(debt_url), debt_url, debt_published_at)
-    rates = parse_rates(fetch(RATE_URL))
-    if today.month > 3 and budget[-1]["period"] < f"{today.year}-01":
-        raise ValueError("Current year budget data is missing")
-    if today.month > 3 and debt[-1]["period"] < f"{today.year}-01":
-        raise ValueError("Current year debt data is missing")
-    return {"generatedAt": retrieved_at, "unit": "PLN million", "budget": budget, "debt": debt, "rates": rates}
+        spending.extend(records)
+        breakdowns.append(functions)
+    if today.month > 3 and spending[-1]["period"] < f"{today.year}-01":
+        raise ValueError("Current-year spending data is missing")
+    return {
+        "generatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "unit": "PLN million", "spending": spending, "breakdowns": breakdowns,
+    }
+
+
+def write_csv(path: Path, fields: list[str], rows: list[dict]) -> None:
+    with path.open("w", newline="", encoding="utf-8") as output:
+        writer = csv.DictWriter(output, fieldnames=fields, extrasaction="ignore", lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(rows)
 
 
 def write_snapshot(snapshot: dict, root: Path) -> None:
-    json_path = root / "src/data/snapshot.json"
-    json_path.parent.mkdir(parents=True, exist_ok=True)
-    if json_path.exists():
-        current = json.loads(json_path.read_text())
-        if {key: value for key, value in current.items() if key != "generatedAt"} == {key: value for key, value in snapshot.items() if key != "generatedAt"}:
-            return
-    json_path.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n")
+    path = root / "src/data/snapshot.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if path.exists():
+        current = json.loads(path.read_text())
+        comparable = lambda data: {key: value for key, value in data.items() if key != "generatedAt"}
+        if comparable(current) == comparable(snapshot):
+            snapshot = current
+        else:
+            path.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n")
+    else:
+        path.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n")
     data_dir = root / "public/data"
     data_dir.mkdir(parents=True, exist_ok=True)
-    budget_rows = [
-        {**row, **{f"revenue_{key}": value for key, value in row["revenueCategories"].items()},
-         **{f"spending_{key}": value for key, value in row["spendingCategories"].items()}}
-        for row in snapshot["budget"]
-    ]
-    monthly_rows = []
+    category_fields = list(CATEGORY_CODES) + ["sourceDifference"]
+    cumulative = [{**row, **row["categories"]} for row in snapshot["spending"]]
+    source_fields = ["unit", "sourceUrl", "publishedAt", "sourceFileDate", "status"]
+    write_csv(data_dir / "wydatki-narastajaco.csv",
+              ["period", "total", *category_fields, *source_fields], cumulative)
+    monthly = []
     previous = None
-    for row in snapshot["budget"]:
-        if previous is None or previous["period"][:4] != row["period"][:4]:
+    for row in snapshot["spending"]:
+        if previous and previous["period"][:4] != row["period"][:4]:
             previous = None
-        monthly_rows.append({
+        monthly.append({
             "period": row["period"],
-            "revenue": round(row["revenue"] - (previous["revenue"] if previous else 0), 6),
-            "spending": round(row["spending"] - (previous["spending"] if previous else 0), 6),
-            "balance": round(row["balance"] - (previous["balance"] if previous else 0), 6),
-            "unit": "PLN million", "sourceUrl": row["sourceUrl"],
-            "publishedAt": row["publishedAt"], "status": row["status"],
+            "total": round(row["total"] - (previous["total"] if previous else 0), 6),
+            "unit": row["unit"], "sourceUrl": row["sourceUrl"],
+            "publishedAt": row["publishedAt"],
+            "sourceFileDate": row["sourceFileDate"], "status": row["status"],
         })
         previous = row
-    for name, rows, fields in (
-        ("budzet", budget_rows, ["period", "revenue", "spending", "balance", "revenue_tax", "revenue_nonTax", "revenue_eu", "spending_grants", "spending_benefits", "spending_operations", "spending_capital", "spending_debtService", "spending_euContribution", "spending_euProjects", "spending_sourceDifference", "unit", "sourceUrl", "publishedAt", "status"]),
-        ("budzet-miesiecznie", monthly_rows, ["period", "revenue", "spending", "balance", "unit", "sourceUrl", "publishedAt", "status"]),
-        ("dlug-skarbu-panstwa", snapshot["debt"], ["period", "value", "unit", "sourceUrl", "publishedAt", "status"]),
-        ("stopa-referencyjna-nbp", snapshot["rates"], ["effectiveDate", "value", "unit", "sourceUrl", "publishedAt", "status"]),
-    ):
-        with (data_dir / f"{name}.csv").open("w", newline="", encoding="utf-8") as output:
-            writer = csv.DictWriter(output, fieldnames=fields, extrasaction="ignore", lineterminator="\n")
-            writer.writeheader()
-            writer.writerows(rows)
+    write_csv(data_dir / "wydatki-miesiecznie.csv", ["period", "total", *source_fields], monthly)
+    functions = [
+        {"period": group["period"], **item, "unit": group["unit"],
+         "sourceUrl": group["sourceUrl"], "publishedAt": group["publishedAt"],
+         "sourceFileDate": group["sourceFileDate"],
+         "status": group["status"]}
+        for group in snapshot["breakdowns"] for item in group["functions"]
+    ]
+    write_csv(data_dir / "wydatki-dzialy.csv",
+              ["period", "code", "label", "actual", "originalPlan", "amendedPlan", *source_fields],
+              functions)
 
 
 if __name__ == "__main__":
@@ -301,5 +310,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
     snapshot = build_snapshot()
     write_snapshot(snapshot, args.root)
-    print(f"Imported {len(snapshot['budget'])} budget months, {len(snapshot['debt'])} debt months, {len(snapshot['rates'])} NBP changes")
-    print(f"Latest budget: {snapshot['budget'][-1]['period']}; debt: {snapshot['debt'][-1]['period']}")
+    print(f"Imported {len(snapshot['spending'])} spending months and {len(snapshot['breakdowns'])} functional breakdowns")
+    print(f"Latest period: {snapshot['spending'][-1]['period']}")

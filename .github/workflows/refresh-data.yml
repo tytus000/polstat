@@ -1,4 +1,4 @@
-name: Refresh public data
+name: Refresh spending data
 
 on:
   schedule:
@@ -40,5 +40,5 @@ jobs:
           fi
           git config user.name "polstat-data-bot"
           git config user.email "polstat-data-bot@users.noreply.github.com"
-          git commit -m "data: refresh official Polish finance snapshot"
+          git commit -m "data: refresh official spending snapshot"
           git push origin HEAD:main

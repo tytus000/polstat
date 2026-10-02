@@ -1,0 +1,300 @@
+period,code,label,actual,originalPlan,amendedPlan,unit,sourceUrl,publishedAt,sourceFileDate,status
+2018-12,010,Rolnictwo i łowiectwo,9935.903155,5143.786,10238.426419,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,020,Leśnictwo,10.602566,9.114,11.639502,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,050,Rybołówstwo i rybactwo,171.940858,151.055,215.251118,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,100,Górnictwo i kopalnictwo,1552.743532,576.276,1576.276,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,150,Przetwórstwo przemysłowe,843.274684,905.236,926.796997,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,400,Wytwarzanie i zaopatrywanie w,0.215082,0.0,0.215082,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,500,Handel,362.741334,364.289,366.910843,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,550,Hotele i restauracje,15.456018,18.0,15.702589,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,600,Transport i łączność,17455.555835,10899.314,17656.440996,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,630,Turystyka,57.822883,57.94,58.079563,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,700,Gospodarka mieszkaniowa,2312.775107,1332.054,2341.695917,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,710,Działalność usługowa,442.452037,438.923,453.44167,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,720,Informatyka,195.172265,195.499,195.733821,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,730,Nauka,6627.757524,6347.221,6702.248789,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,750,Administracja publiczna,14101.118791,13836.776,14500.266174,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,751,Urzędy naczelnych organów,2836.536892,2652.203,3079.560237,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,752,Obrona narodowa,34750.186884,33299.427,34906.084172,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,753,Obowiązkowe ubezpieczenia,76770.778281,85210.187,76805.337879,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,754,Bezpieczeństwo publiczne,16434.132942,14993.881,16483.504645,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,755,Wymiar sprawiedliwości,12540.527167,12527.357,12616.071545,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,756,"Dochody od osób prawnych,",5.976248,0.0,5.976249,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,757,Obsługa długu publicznego,29486.28978,30700.0,29700.0,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,758,Różne rozliczenia,79118.082509,101616.346,82508.244521,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,801,Oświata i wychowanie,3888.781569,1935.346,3981.821712,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,803,Szkolnictwo wyższe,16100.290008,16063.403,16156.639676,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,851,Ochrona zdrowia,10643.695819,7295.462,10800.073184,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,852,Pomoc społeczna,4576.575405,3856.204,4748.202455,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,853,Pozostałe zadania w zakresie,4658.691606,4254.482,4737.705065,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,854,Edukacyjna opieka,386.043606,113.866,435.797206,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,855,Rodzina,39859.607637,38760.545,40564.065069,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,900,Gospodarka komunalna,1630.185702,982.669,1671.167519,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,921,Kultura i ochrona,2307.715672,2288.005,2358.142204,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,925,Ogrody botaniczne,110.423075,114.02,114.4701,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2018-12,926,Kultura fizyczna,264.294701,258.519,265.416082,PLN million,https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76,,2019-06-11,reported_actual
+2019-12,010,Rolnictwo i łowiectwo,8371.622388,4895.636,8455.473531,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,020,Leśnictwo,11.206488,9.013,11.345144,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,050,Rybołówstwo i rybactwo,144.203698,82.741,151.330446,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,100,Górnictwo i kopalnictwo,910.040693,575.364,918.635417,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,150,Przetwórstwo przemysłowe,816.017913,833.206,835.350772,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,400,Wytwarzanie i zaopatrywanie w,1.5,0.0,1.5,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,500,Handel,373.04489,427.089,374.249639,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,550,Hotele i restauracje,17.623414,19.5,18.092512,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,600,Transport i łączność,12011.739162,11510.767,12084.106169,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,630,Turystyka,58.308717,58.251,58.449733,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,700,Gospodarka mieszkaniowa,767.549656,747.97,794.050875,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,710,Działalność usługowa,474.965907,467.012,483.362473,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,720,Informatyka,24.385893,25.265,24.795062,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,730,Szkolnictwo wyższe i nauka,24007.999176,23202.541,24084.770854,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,750,Administracja publiczna,15401.274825,14511.767,15643.53692,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,751,Urzędy naczelnych organów,2898.599478,2750.003,3073.282417,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,752,Obrona narodowa,35741.076829,36452.9,35761.632741,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,753,Obowiązkowe ubezpieczenia,88093.615546,88819.232,88204.693637,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,754,Bezpieczeństwo publiczne,18682.565441,15905.755,18705.37683,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,755,Wymiar sprawiedliwości,13556.304315,13396.411,13616.377972,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,756,"Dochody od osób prawnych,",5.587967,0.0,5.587967,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,757,Obsługa długu publicznego,27336.115635,29200.0,27346.0,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,758,Różne rozliczenia,85336.951683,110806.38,85550.182077,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,801,Oświata i wychowanie,3976.273948,2085.616,4053.294042,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,803,Szkolnictwo wyższe,0.0,0.0,0.0,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,851,Ochrona zdrowia,10931.115512,8248.57,11056.344327,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,852,Pomoc społeczna,4641.038467,3903.045,4724.806337,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,853,Pozostałe zadania w zakresie,5505.17043,5003.094,5529.595425,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,854,Edukacyjna opieka,388.481797,125.019,432.137728,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,855,Rodzina,48827.913996,37794.82,49192.107196,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,900,Gospodarka komunalna,2032.8276,1505.117,2068.884583,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,921,Kultura i ochrona,2542.976428,2501.951,2589.71144,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,925,Ogrody botaniczne,112.407595,112.172,113.077513,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2019-12,926,Kultura fizyczna,271.355367,258.313,272.378223,PLN million,https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f,,2020-06-04,reported_actual
+2020-12,010,Rolnictwo i łowiectwo,10951.772812,5626.812,11064.550254,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,020,Leśnictwo,11.650476,12.329,12.215213,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,050,Rybołówstwo i rybactwo,181.239233,123.8,190.147068,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,100,Górnictwo i kopalnictwo,2045.340104,2020.359,2054.252979,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,150,Przetwórstwo przemysłowe,583.38271,811.832,664.083732,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,400,Wytwarzanie i zaopatrywanie w,1.493165,0.0,1.498962,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,500,Handel,2074.395165,441.849,2214.597784,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,550,Hotele i restauracje,12.279464,21.0,12.309173,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,600,Transport i łączność,29548.653261,25996.859,29693.50978,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,630,Turystyka,58.403834,58.458,58.654583,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,700,Gospodarka mieszkaniowa,885.107775,741.488,900.429484,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,710,Działalność usługowa,493.281751,500.335,498.583937,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,720,Informatyka,23.269094,23.781,23.45142,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,730,Szkolnictwo wyższe i nauka,25741.174281,25439.955,25949.174399,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,750,Administracja publiczna,26303.181299,16036.993,26778.602032,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,751,Urzędy naczelnych organów,2931.970689,2751.371,3004.132485,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,752,Obrona narodowa,43674.594153,43956.841,43721.228439,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,753,Obowiązkowe ubezpieczenia,89420.551961,91923.927,89607.660964,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,754,Bezpieczeństwo publiczne,19563.981833,18674.477,19580.885633,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,755,Wymiar sprawiedliwości,14839.173414,15088.214,14874.361818,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,756,"Dochody od osób prawnych,",6.094427,0.0,6.094428,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,757,Obsługa długu publicznego,29300.228064,29100.0,29301.49,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,758,Różne rozliczenia,93920.824057,119863.958,94420.459343,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,801,Oświata i wychowanie,4394.324957,2318.856,4478.233378,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,851,Ochrona zdrowia,9937.647793,10498.972,10227.322396,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,852,Pomoc społeczna,4685.610437,4077.373,4831.228918,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,853,Pozostałe zadania w zakresie,28245.706938,27792.677,28270.704638,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,854,Edukacyjna opieka,375.03734,140.248,408.155046,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,855,Rodzina,59060.164913,58557.322,59504.178673,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,900,Gospodarka komunalna,1528.819395,1439.698,1587.628529,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,921,Kultura i ochrona,3573.833713,3577.156,3670.495076,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,925,Ogrody botaniczne,117.409472,119.031,119.211059,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2020-12,926,Kultura fizyczna,285.549696,283.322,289.761376,PLN million,https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc,,2021-06-08,reported_actual
+2021-12,010,Rolnictwo i łowiectwo,10837.094542,6570.504,10942.591784,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,020,Leśnictwo,13.87397,13.185,14.55435,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,050,Rybołówstwo i rybactwo,128.507306,116.372,139.761621,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,100,Górnictwo i kopalnictwo,1551.805048,1409.287,1554.469018,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,150,Przetwórstwo przemysłowe,848.56345,749.58,887.740571,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,400,Wytwarzanie i zaopatrywanie w,0.044495,0.0,0.044495,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,500,Handel,1020.919247,981.301,1026.7465,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,550,Hotele i restauracje,18.474009,20.219,19.60072,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,600,Transport i łączność,20276.350865,18976.35,20378.603767,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,630,Turystyka,67.424978,69.772,72.525312,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,700,Gospodarka mieszkaniowa,873.737653,476.36,985.069044,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,710,Działalność usługowa,544.536314,533.093,550.544839,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,720,Informatyka,23.46751,25.105,23.753596,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,730,Szkolnictwo wyższe i nauka,27374.542534,26723.025,27563.261437,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,750,Administracja publiczna,32595.704975,17202.263,32920.333046,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,751,Urzędy naczelnych organów,2750.951485,2862.076,2798.048438,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,752,Obrona narodowa,49118.545679,49125.102,49137.297959,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,753,Obowiązkowe ubezpieczenia,79301.112756,98715.611,79337.042204,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,754,Bezpieczeństwo publiczne,23066.993707,20404.751,23082.822653,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,755,Wymiar sprawiedliwości,16089.445847,16247.932,16111.213643,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,756,"Dochody od osób prawnych,",7.481553,0.0,7.481553,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,757,Obsługa długu publicznego,25957.657894,26000.0,25975.0,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,758,Różne rozliczenia,116472.026173,141273.15,116823.077405,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,801,Oświata i wychowanie,4784.804354,2509.69,4869.61611,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,851,Ochrona zdrowia,20499.766581,21057.563,20701.859162,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,852,Pomoc społeczna,4594.991454,4219.883,4677.088861,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,853,Pozostałe zadania w zakresie,15891.371732,2290.427,15912.855392,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,854,Edukacyjna opieka,367.03648,154.707,402.691402,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,855,Rodzina,59349.489906,58771.447,59648.141958,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,900,Gospodarka komunalna,2464.220963,1753.63,2547.472628,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,921,Kultura i ochrona,3869.338684,3840.018,3920.138766,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,925,Ogrody botaniczne,115.498949,112.398,117.320986,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2021-12,926,Kultura fizyczna,341.035687,288.064,344.095778,PLN million,https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5,,2022-05-31,reported_actual
+2022-12,010,Rolnictwo i łowiectwo,11713.45364,7960.152,12056.549844,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,020,Leśnictwo,21.298611,21.553,24.663772,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,050,Rybołówstwo i rybactwo,134.121249,143.467,158.844652,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,100,Górnictwo i kopalnictwo,960.355772,385.074,961.224392,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,150,Przetwórstwo przemysłowe,756.863384,1386.43,919.286838,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,400,Wytwarzanie i zaopatrywanie w,0.0,0.0,0.0,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,500,Handel,1450.705639,558.916,1459.246948,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,550,Hotele i restauracje,40.466688,20.365,40.47742,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,600,Transport i łączność,11534.791037,10217.583,11588.080378,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,630,Turystyka,77.906982,72.244,81.135826,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,700,Gospodarka mieszkaniowa,1301.921465,468.85,1466.457406,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,710,Działalność usługowa,593.418186,577.489,607.105073,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,720,Informatyka,53.26013,23.517,53.54755,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,730,Szkolnictwo wyższe i nauka,27791.503596,27311.695,27952.808071,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,750,Administracja publiczna,34179.881364,18140.306,34715.563127,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,751,Urzędy naczelnych organów,2920.706709,3052.151,2967.734239,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,752,Obrona narodowa,47317.041884,47577.454,47339.876474,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,753,Obowiązkowe ubezpieczenia,86132.304713,91388.944,86166.41052,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,754,Bezpieczeństwo publiczne,20369.083181,19061.197,20412.958938,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,755,Wymiar sprawiedliwości,17059.156109,17213.783,17221.851971,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,756,"Dochody od osób prawnych,",350.318698,0.0,350.318698,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,757,Obsługa długu publicznego,32718.271061,26000.0,32800.0,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,758,Różne rozliczenia,110996.277018,149809.73,112077.830686,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,801,Oświata i wychowanie,5048.744284,2552.69,5164.355371,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,851,Ochrona zdrowia,20285.325437,20944.713,20539.588733,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,852,Pomoc społeczna,7430.049054,4311.107,7675.216144,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,853,Pozostałe zadania w zakresie,4830.108055,4101.287,4849.734928,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,854,Edukacyjna opieka,379.029526,161.788,436.747489,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,855,Rodzina,63083.852648,62297.071,63607.508705,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,900,Gospodarka komunalna,2994.183226,1702.091,3072.729402,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,921,Kultura i ochrona,3696.393386,3754.738,3851.29313,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,925,Ogrody botaniczne,161.050413,157.044,162.171888,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2022-12,926,Kultura fizyczna,1017.063836,463.521,1055.631388,PLN million,https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70,,2023-06-05,reported_actual
+2023-12,010,Rolnictwo i łowiectwo,14775.237007,8672.925,16565.257934,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,020,Leśnictwo,13.191473,14.27,16.663165,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,050,Rybołówstwo i rybactwo,223.608725,194.725,231.230437,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,100,Górnictwo i kopalnictwo,1768.479409,1794.091,1794.25337,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,150,Przetwórstwo przemysłowe,2690.20663,1336.86,2964.185712,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,400,Wytwarzanie i zaopatrywanie w,1.356,0.0,1.856,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,500,Handel,1303.209034,1003.512,2227.482591,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,550,Hotele i restauracje,45.293037,34.399,45.360425,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,600,Transport i łączność,20142.856581,16555.492,21000.331242,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,630,Turystyka,103.918352,104.69,106.46005,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,700,Gospodarka mieszkaniowa,2266.524914,1656.499,2342.655159,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,710,Działalność usługowa,749.4614,735.961,781.71861,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,720,Informatyka,130.914872,132.1,133.075765,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,730,Szkolnictwo wyższe i nauka,30634.221257,30947.339,30949.047728,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,750,Administracja publiczna,32810.743463,21012.43,33518.071267,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,751,Urzędy naczelnych organów,3705.46648,3514.891,4003.510478,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,752,Obrona narodowa,85551.985094,85691.21,85587.075767,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,753,Obowiązkowe ubezpieczenia,108578.521842,112579.365,111633.38265,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,754,Bezpieczeństwo publiczne,25961.153008,22856.993,26073.749127,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,755,Wymiar sprawiedliwości,20364.463774,20045.701,20533.770086,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,756,"Dochody od osób prawnych,",10.750456,0.0,10.750456,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,757,Obsługa długu publicznego,61710.339058,62000.0,62000.0,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,758,Różne rozliczenia,131956.102086,199762.069,153765.947274,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,801,Oświata i wychowanie,5861.08952,3054.25,6035.644518,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,851,Ochrona zdrowia,17348.553958,17488.446,17908.281201,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,852,Pomoc społeczna,5365.037876,4561.393,5536.368701,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,853,Pozostałe zadania w zakresie,11677.707468,4391.508,11853.1103,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,854,Edukacyjna opieka,404.693114,231.857,470.995886,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,855,Rodzina,63135.18948,63650.49,64280.060593,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,900,Gospodarka komunalna,3358.145663,2183.529,3473.450345,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,921,Kultura i ochrona,4892.735756,5253.886,5339.700574,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,925,Ogrody botaniczne,163.564308,160.54,165.228249,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2023-12,926,Kultura fizyczna,1881.769885,1756.945,2029.690338,PLN million,https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a,,2024-06-04,reported_actual
+2024-12,010,Rolnictwo i łowiectwo,17009.249208,10423.439,18071.047373,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,020,Leśnictwo,10.167577,9.729,12.496926,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,050,Rybołówstwo i rybactwo,146.137586,121.201,151.498448,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,100,Górnictwo i kopalnictwo,2340.557874,2379.411,2384.776023,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,150,Przetwórstwo przemysłowe,4175.240922,1742.143,4908.735612,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,400,Wytwarzanie i zaopatrywanie w,1.696184,0.0,2.055833,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,500,Handel,886.996958,1614.589,1623.752086,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,550,Hotele i restauracje,63.851493,71.328,77.549301,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,600,Transport i łączność,22280.714537,19146.145,22883.329232,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,630,Turystyka,108.906598,111.065,112.493055,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,700,Gospodarka mieszkaniowa,3183.443843,2615.87,3280.133873,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,710,Działalność usługowa,891.476632,885.429,918.215363,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,720,Informatyka,205.778126,213.107,213.161959,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,730,Szkolnictwo wyższe i nauka,37645.729214,38036.356,38019.266463,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,750,Administracja publiczna,40003.148679,27251.294,41333.009672,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,751,Urzędy naczelnych organów,4673.293787,4079.416,4929.457829,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,752,Obrona narodowa,104439.412569,104647.871,104545.72696,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,753,Obowiązkowe ubezpieczenia,158926.339916,169619.717,164828.825823,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,754,Bezpieczeństwo publiczne,31578.907026,29563.41,31690.173077,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,755,Wymiar sprawiedliwości,23970.173734,24531.131,24542.729583,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,756,"Dochody od osób prawnych,",15.727382,0.0,15.727382,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,757,Obsługa długu publicznego,65791.191028,66500.0,66500.0,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,758,Różne rozliczenia,155346.209534,216712.895,170134.736723,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,801,Oświata i wychowanie,9044.156095,3699.131,9289.33068,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,851,Ochrona zdrowia,31999.498026,31920.889,32324.442555,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,852,Pomoc społeczna,8553.030922,4974.999,9174.750757,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,853,Pozostałe zadania w zakresie,5304.938324,5136.202,5497.486731,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,854,Edukacyjna opieka,433.156474,266.928,496.227065,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,855,Rodzina,92556.14193,89175.201,94115.109176,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,900,Gospodarka komunalna,3437.537795,2447.191,3698.868774,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,921,Kultura i ochrona,7335.71563,5776.553,7850.452778,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,925,Ogrody botaniczne,203.85613,187.58,214.287192,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2024-12,926,Kultura fizyczna,1680.127904,2515.527,2535.892698,PLN million,https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af,,2025-06-03,reported_actual
+2025-12,010,Rolnictwo i łowiectwo,17822.37439,11091.653,18493.595757,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,020,Leśnictwo,9.677625,8.044,10.990973,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,050,Rybołówstwo i rybactwo,244.611179,141.839,248.319404,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,100,Górnictwo i kopalnictwo,3288.845049,3670.317,3683.708793,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,150,Przetwórstwo przemysłowe,2901.405131,2071.172,3632.963882,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,400,Wytwarzanie i zaopatrywanie w,6.593757,0.0,6.604792,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,500,Handel,983.398514,1536.504,1541.382335,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,550,Hotele i restauracje,74.229482,61.438,74.233682,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,600,Transport i łączność,28159.939117,24786.78,28629.017019,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,630,Turystyka,121.216656,118.109,123.927939,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,700,Gospodarka mieszkaniowa,5185.834798,2957.808,5278.775107,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,710,Działalność usługowa,962.933753,983.002,1003.665126,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,720,Informatyka,283.448394,287.116,287.116,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,730,Szkolnictwo wyższe i nauka,39698.450079,39846.996,39862.062596,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,750,Administracja publiczna,52873.779968,30032.922,53808.532273,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,751,Urzędy naczelnych organów,4638.91316,4421.283,4899.971931,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,752,Obrona narodowa,108958.11855,109583.16,109853.166652,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,753,Obowiązkowe ubezpieczenia,162821.451866,184064.401,178959.51021,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,754,Bezpieczeństwo publiczne,33798.377055,31434.956,33923.409088,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,755,Wymiar sprawiedliwości,27142.604025,27412.628,27550.866539,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,756,"Dochody od osób prawnych,",4.994954,0.0,4.994954,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,757,Obsługa długu publicznego,107490.619758,110162.332,110162.332,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,758,Różne rozliczenia,88820.823343,173163.699,110448.906369,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,801,Oświata i wychowanie,5142.0379,4351.286,5374.455489,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,851,Ochrona zdrowia,48560.637026,40503.11,48796.356427,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,852,Pomoc społeczna,8394.494497,5971.709,8643.844096,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,853,Pozostałe zadania w zakresie,4972.668438,5369.816,5618.529703,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,854,Edukacyjna opieka,456.685205,299.136,499.553331,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,855,Rodzina,103128.393868,97191.947,106260.25113,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,900,Gospodarka komunalna,4056.672653,2587.033,4216.032207,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,921,Kultura i ochrona,7424.78479,5671.481,7857.433912,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,925,Ogrody botaniczne,214.245305,231.352,234.754314,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2025-12,926,Kultura fizyczna,1547.351925,1605.186,1628.95097,PLN million,https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5,,2026-06-01,reported_actual
+2026-07,010,Rolnictwo i łowiectwo,8368.270416,9575.45,12576.497653,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,020,Leśnictwo,4.087653,7.658,9.20702,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,050,Rybołówstwo i rybactwo,126.649702,243.33,245.323039,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,100,Górnictwo i kopalnictwo,2804.560997,5634.233,5729.729926,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,150,Przetwórstwo przemysłowe,1226.570442,2224.221,2552.49542,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,400,Wytwarzanie i zaopatrywanie w,0.019155,0.0,2.618816,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,500,Handel,553.49803,1324.009,1435.797819,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,550,Hotele i restauracje,48.18455,70.718,70.853314,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,600,Transport i łączność,12111.944974,21820.688,22910.4395,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,630,Turystyka,81.062506,131.585,132.996174,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,700,Gospodarka mieszkaniowa,5449.115956,7033.79,7192.533052,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,710,Działalność usługowa,530.021599,1029.995,1052.2604,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,720,Informatyka,232.329198,298.326,298.326,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,730,Szkolnictwo wyższe i nauka,24122.005311,41241.437,41129.27612,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,750,Administracja publiczna,19565.04013,30207.86,33700.929531,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,751,Urzędy naczelnych organów,2501.523842,4690.337,4709.44198,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,752,Obrona narodowa,47330.037067,109231.48,109585.411554,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,753,Obowiązkowe ubezpieczenia,97489.461891,195970.695,195971.65882,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,754,Bezpieczeństwo publiczne,19680.363094,31139.276,33176.495939,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,755,Wymiar sprawiedliwości,15494.920018,28682.245,28782.953238,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,756,"Dochody od osób prawnych,",6.576667,0.0,7.494483,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,757,Obsługa długu publicznego,46938.704953,90388.313,90388.313,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,758,Różne rozliczenia,60366.267532,162527.526,142063.167109,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,801,Oświata i wychowanie,3375.129277,4700.145,5650.541778,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,851,Ochrona zdrowia,31172.695212,54242.749,57907.570358,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,852,Pomoc społeczna,4725.992746,6911.63,8182.683978,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,853,Pozostałe zadania w zakresie,1454.273453,2213.5,2556.687697,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,854,Edukacyjna opieka,247.623839,290.956,392.227266,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,855,Rodzina,63032.647564,97921.791,99474.670343,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,900,Gospodarka komunalna,1405.377113,2692.013,3064.63351,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,921,Kultura i ochrona,3863.528367,5488.396,6979.321081,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,925,Ogrody botaniczne,127.629047,232.531,232.158693,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual
+2026-07,926,Kultura fizyczna,531.364156,773.117,775.285387,PLN million,https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645,,2026-09-07,reported_actual

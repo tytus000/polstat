@@ -1,18 +1,11 @@
 {
-  "generatedAt": "2026-10-01T17:41:00+00:00",
+  "generatedAt": "2026-10-02T08:58:39+00:00",
   "unit": "PLN million",
-  "budget": [
+  "spending": [
     {
       "period": "2018-01",
-      "revenue": 35191.206237,
-      "spending": 26629.004662,
-      "balance": 8562.201575,
-      "revenueCategories": {
-        "tax": 33534.555113,
-        "nonTax": 1636.688535,
-        "eu": 19.962589
-      },
-      "spendingCategories": {
+      "total": 26629.004662,
+      "categories": {
         "grants": 16149.081808,
         "benefits": 2008.420276,
         "operations": 4014.724433,
@@ -23,20 +16,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
-      "publishedAt": "2019-06-11",
+      "publishedAt": null,
+      "sourceFileDate": "2019-06-11",
       "status": "reported_actual"
     },
     {
       "period": "2018-02",
-      "revenue": 62020.290263,
-      "spending": 57559.540073,
-      "balance": 4460.75019,
-      "revenueCategories": {
-        "tax": 58529.17127,
-        "nonTax": 3461.626446,
-        "eu": 29.492546
-      },
-      "spendingCategories": {
+      "total": 57559.540073,
+      "categories": {
         "grants": 34538.620652,
         "benefits": 4097.352467,
         "operations": 10486.079035,
@@ -47,20 +34,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
-      "publishedAt": "2019-06-11",
+      "publishedAt": null,
+      "sourceFileDate": "2019-06-11",
       "status": "reported_actual"
     },
     {
       "period": "2018-03",
-      "revenue": 88469.165334,
-      "spending": 85341.535464,
-      "balance": 3127.62987,
-      "revenueCategories": {
-        "tax": 82859.363897,
-        "nonTax": 5571.001997,
-        "eu": 38.79944
-      },
-      "spendingCategories": {
+      "total": 85341.535464,
+      "categories": {
         "grants": 50149.767181,
         "benefits": 6289.373092,
         "operations": 16683.757045,
@@ -71,20 +52,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
-      "publishedAt": "2019-06-11",
+      "publishedAt": null,
+      "sourceFileDate": "2019-06-11",
       "status": "reported_actual"
     },
     {
       "period": "2018-04",
-      "revenue": 125162.284662,
-      "spending": 115837.084797,
-      "balance": 9325.199865,
-      "revenueCategories": {
-        "tax": 116036.311625,
-        "nonTax": 9083.562161,
-        "eu": 42.410875
-      },
-      "spendingCategories": {
+      "total": 115837.084797,
+      "categories": {
         "grants": 66849.365015,
         "benefits": 8348.224748,
         "operations": 22123.617098,
@@ -95,20 +70,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
-      "publishedAt": "2019-06-11",
+      "publishedAt": null,
+      "sourceFileDate": "2019-06-11",
       "status": "reported_actual"
     },
     {
       "period": "2018-05",
-      "revenue": 154008.582448,
-      "spending": 144423.242823,
-      "balance": 9585.339625,
-      "revenueCategories": {
-        "tax": 143034.972637,
-        "nonTax": 10827.750471,
-        "eu": 145.85934
-      },
-      "spendingCategories": {
+      "total": 144423.242823,
+      "categories": {
         "grants": 82862.609412,
         "benefits": 10380.642502,
         "operations": 27291.66994,
@@ -119,20 +88,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
-      "publishedAt": "2019-06-11",
+      "publishedAt": null,
+      "sourceFileDate": "2019-06-11",
       "status": "reported_actual"
     },
     {
       "period": "2018-06",
-      "revenue": 182007.754756,
-      "spending": 172472.28287,
-      "balance": 9535.471886,
-      "revenueCategories": {
-        "tax": 167806.090928,
-        "nonTax": 13644.589244,
-        "eu": 557.074584
-      },
-      "spendingCategories": {
+      "total": 172472.28287,
+      "categories": {
         "grants": 98735.035227,
         "benefits": 12575.434784,
         "operations": 32501.507746,
@@ -143,20 +106,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
-      "publishedAt": "2019-06-11",
+      "publishedAt": null,
+      "sourceFileDate": "2019-06-11",
       "status": "reported_actual"
     },
     {
       "period": "2018-07",
-      "revenue": 212154.410748,
-      "spending": 213013.111586,
-      "balance": -858.700838,
-      "revenueCategories": {
-        "tax": 195620.330919,
-        "nonTax": 15968.385029,
-        "eu": 565.694799
-      },
-      "spendingCategories": {
+      "total": 213013.111586,
+      "categories": {
         "grants": 116607.109494,
         "benefits": 14784.343979,
         "operations": 38037.69499,
@@ -167,20 +124,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
-      "publishedAt": "2019-06-11",
+      "publishedAt": null,
+      "sourceFileDate": "2019-06-11",
       "status": "reported_actual"
     },
     {
       "period": "2018-08",
-      "revenue": 243460.30106,
-      "spending": 242408.05622,
-      "balance": 1052.244839,
-      "revenueCategories": {
-        "tax": 224559.362469,
-        "nonTax": 18309.614334,
-        "eu": 591.324257
-      },
-      "spendingCategories": {
+      "total": 242408.05622,
+      "categories": {
         "grants": 132957.026713,
         "benefits": 17024.232612,
         "operations": 43388.071488,
@@ -191,20 +142,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
-      "publishedAt": "2019-06-11",
+      "publishedAt": null,
+      "sourceFileDate": "2019-06-11",
       "status": "reported_actual"
     },
     {
       "period": "2018-09",
-      "revenue": 272862.127694,
-      "spending": 269678.435078,
-      "balance": 3183.692616,
-      "revenueCategories": {
-        "tax": 251163.199718,
-        "nonTax": 20790.290929,
-        "eu": 908.637047
-      },
-      "spendingCategories": {
+      "total": 269678.435078,
+      "categories": {
         "grants": 149899.195218,
         "benefits": 19361.936662,
         "operations": 48688.930913,
@@ -215,20 +160,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
-      "publishedAt": "2019-06-11",
+      "publishedAt": null,
+      "sourceFileDate": "2019-06-11",
       "status": "reported_actual"
     },
     {
       "period": "2018-10",
-      "revenue": 309414.0001,
-      "spending": 302937.688947,
-      "balance": 6476.311153,
-      "revenueCategories": {
-        "tax": 284411.89865,
-        "nonTax": 24047.178248,
-        "eu": 954.923201
-      },
-      "spendingCategories": {
+      "total": 302937.688947,
+      "categories": {
         "grants": 169358.304595,
         "benefits": 21532.903517,
         "operations": 54730.846061,
@@ -239,20 +178,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
-      "publishedAt": "2019-06-11",
+      "publishedAt": null,
+      "sourceFileDate": "2019-06-11",
       "status": "reported_actual"
     },
     {
       "period": "2018-11",
-      "revenue": 343394.851654,
-      "spending": 332334.756932,
-      "balance": 11060.094722,
-      "revenueCategories": {
-        "tax": 315789.540119,
-        "nonTax": 26275.779379,
-        "eu": 1329.532156
-      },
-      "spendingCategories": {
+      "total": 332334.756932,
+      "categories": {
         "grants": 185681.033651,
         "benefits": 23626.918541,
         "operations": 60960.919031,
@@ -263,20 +196,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
-      "publishedAt": "2019-06-11",
+      "publishedAt": null,
+      "sourceFileDate": "2019-06-11",
       "status": "reported_actual"
     },
     {
       "period": "2018-12",
-      "revenue": 380048.14,
-      "spending": 390454.347,
-      "balance": -10406.208,
-      "revenueCategories": {
-        "tax": 349353.842854,
-        "nonTax": 28887.911405,
-        "eu": 1806.385354
-      },
-      "spendingCategories": {
+      "total": 390454.347,
+      "categories": {
         "grants": 211287.236452,
         "benefits": 25810.66931,
         "operations": 72065.224375,
@@ -287,20 +214,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
-      "publishedAt": "2019-06-11",
+      "publishedAt": null,
+      "sourceFileDate": "2019-06-11",
       "status": "reported_actual"
     },
     {
       "period": "2019-01",
-      "revenue": 38737.015889,
-      "spending": 32149.648837,
-      "balance": 6587.367052,
-      "revenueCategories": {
-        "tax": 36178.821238,
-        "nonTax": 2548.922272,
-        "eu": 9.272379
-      },
-      "spendingCategories": {
+      "total": 32149.648837,
+      "categories": {
         "grants": 18713.797051,
         "benefits": 2152.903655,
         "operations": 4354.256662,
@@ -311,20 +232,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
-      "publishedAt": "2020-06-04",
+      "publishedAt": null,
+      "sourceFileDate": "2020-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2019-02",
-      "revenue": 64777.342903,
-      "spending": 65570.214102,
-      "balance": -792.8712,
-      "revenueCategories": {
-        "tax": 60395.233506,
-        "nonTax": 4360.189221,
-        "eu": 21.920176
-      },
-      "spendingCategories": {
+      "total": 65570.214102,
+      "categories": {
         "grants": 36784.247799,
         "benefits": 4393.994387,
         "operations": 11318.593129,
@@ -335,20 +250,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
-      "publishedAt": "2020-06-04",
+      "publishedAt": null,
+      "sourceFileDate": "2020-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2019-03",
-      "revenue": 90286.468818,
-      "spending": 94776.282168,
-      "balance": -4489.813349,
-      "revenueCategories": {
-        "tax": 83834.060405,
-        "nonTax": 6423.433886,
-        "eu": 28.974527
-      },
-      "spendingCategories": {
+      "total": 94776.282168,
+      "categories": {
         "grants": 52697.223137,
         "benefits": 6713.761134,
         "operations": 17954.169304,
@@ -359,20 +268,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
-      "publishedAt": "2020-06-04",
+      "publishedAt": null,
+      "sourceFileDate": "2020-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2019-04",
-      "revenue": 129965.669,
-      "spending": 130040.803,
-      "balance": -75.134,
-      "revenueCategories": {
-        "tax": 119935.856707,
-        "nonTax": 9993.888793,
-        "eu": 35.923269
-      },
-      "spendingCategories": {
+      "total": 130040.803,
+      "categories": {
         "grants": 71661.34563,
         "benefits": 9083.468553,
         "operations": 24177.70699,
@@ -383,20 +286,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
-      "publishedAt": "2020-06-04",
+      "publishedAt": null,
+      "sourceFileDate": "2020-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2019-05",
-      "revenue": 162865.625,
-      "spending": 164800.901,
-      "balance": -1935.276,
-      "revenueCategories": {
-        "tax": 150540.098244,
-        "nonTax": 11932.888213,
-        "eu": 392.63811
-      },
-      "spendingCategories": {
+      "total": 164800.901,
+      "categories": {
         "grants": 93948.656037,
         "benefits": 11953.762582,
         "operations": 29950.127246,
@@ -407,20 +304,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
-      "publishedAt": "2020-06-04",
+      "publishedAt": null,
+      "sourceFileDate": "2020-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2019-06",
-      "revenue": 192177.123,
-      "spending": 197217.551,
-      "balance": -5040.428,
-      "revenueCategories": {
-        "tax": 177261.062714,
-        "nonTax": 14490.724464,
-        "eu": 425.335808
-      },
-      "spendingCategories": {
+      "total": 197217.551,
+      "categories": {
         "grants": 112915.459847,
         "benefits": 14406.315202,
         "operations": 35755.749198,
@@ -431,20 +322,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
-      "publishedAt": "2020-06-04",
+      "publishedAt": null,
+      "sourceFileDate": "2020-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2019-07",
-      "revenue": 228765.89,
-      "spending": 233548.799,
-      "balance": -4782.909,
-      "revenueCategories": {
-        "tax": 210748.619731,
-        "nonTax": 17574.27274,
-        "eu": 442.997889
-      },
-      "spendingCategories": {
+      "total": 233548.799,
+      "categories": {
         "grants": 131856.680004,
         "benefits": 16846.399923,
         "operations": 41931.480704,
@@ -455,20 +340,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
-      "publishedAt": "2020-06-04",
+      "publishedAt": null,
+      "sourceFileDate": "2020-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2019-08",
-      "revenue": 262843.951,
-      "spending": 264824.688,
-      "balance": -1980.738,
-      "revenueCategories": {
-        "tax": 240969.55865,
-        "nonTax": 21028.423276,
-        "eu": 845.968874
-      },
-      "spendingCategories": {
+      "total": 264824.688,
+      "categories": {
         "grants": 151518.088641,
         "benefits": 19214.425696,
         "operations": 47749.842982,
@@ -479,20 +358,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
-      "publishedAt": "2020-06-04",
+      "publishedAt": null,
+      "sourceFileDate": "2020-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2019-09",
-      "revenue": 296027.884,
-      "spending": 297814.203,
-      "balance": -1786.319,
-      "revenueCategories": {
-        "tax": 270267.916238,
-        "nonTax": 24893.1853,
-        "eu": 866.782288
-      },
-      "spendingCategories": {
+      "total": 297814.203,
+      "categories": {
         "grants": 171007.846988,
         "benefits": 21614.869685,
         "operations": 53636.971925,
@@ -503,20 +376,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
-      "publishedAt": "2020-06-04",
+      "publishedAt": null,
+      "sourceFileDate": "2020-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2019-10",
-      "revenue": 332891.924,
-      "spending": 336083.992,
-      "balance": -3192.068,
-      "revenueCategories": {
-        "tax": 304546.810172,
-        "nonTax": 27342.013067,
-        "eu": 1003.100316
-      },
-      "spendingCategories": {
+      "total": 336083.992,
+      "categories": {
         "grants": 193070.091657,
         "benefits": 23871.049371,
         "operations": 60317.951659,
@@ -527,20 +394,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
-      "publishedAt": "2020-06-04",
+      "publishedAt": null,
+      "sourceFileDate": "2020-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2019-11",
-      "revenue": 367107.592,
-      "spending": 368989.937,
-      "balance": -1882.346,
-      "revenueCategories": {
-        "tax": 336238.447554,
-        "nonTax": 29460.27594,
-        "eu": 1408.868181
-      },
-      "spendingCategories": {
+      "total": 368989.937,
+      "categories": {
         "grants": 212245.126172,
         "benefits": 26063.942707,
         "operations": 66974.529658,
@@ -551,20 +412,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
-      "publishedAt": "2020-06-04",
+      "publishedAt": null,
+      "sourceFileDate": "2020-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2019-12",
-      "revenue": 400535.255,
-      "spending": 414273.014,
-      "balance": -13737.759,
-      "revenueCategories": {
-        "tax": 367290.720639,
-        "nonTax": 31379.033875,
-        "eu": 1865.500918
-      },
-      "spendingCategories": {
+      "total": 414273.014,
+      "categories": {
         "grants": 233329.13559,
         "benefits": 28364.687061,
         "operations": 78197.306329,
@@ -576,20 +431,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
-      "publishedAt": "2020-06-04",
+      "publishedAt": null,
+      "sourceFileDate": "2020-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2020-01",
-      "revenue": 40271.703,
-      "spending": 36844.986,
-      "balance": 3426.717,
-      "revenueCategories": {
-        "tax": 37364.857538,
-        "nonTax": 2900.729158,
-        "eu": 6.1161
-      },
-      "spendingCategories": {
+      "total": 36844.986,
+      "categories": {
         "grants": 21501.511481,
         "benefits": 2058.382849,
         "operations": 4973.834719,
@@ -600,20 +449,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
-      "publishedAt": "2021-06-08",
+      "publishedAt": null,
+      "sourceFileDate": "2021-06-08",
       "status": "reported_actual"
     },
     {
       "period": "2020-02",
-      "revenue": 69933.048,
-      "spending": 73245.089,
-      "balance": -3312.041,
-      "revenueCategories": {
-        "tax": 64396.018776,
-        "nonTax": 5501.792256,
-        "eu": 35.237005
-      },
-      "spendingCategories": {
+      "total": 73245.089,
+      "categories": {
         "grants": 43030.328353,
         "benefits": 4071.288181,
         "operations": 12571.047469,
@@ -624,20 +467,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
-      "publishedAt": "2021-06-08",
+      "publishedAt": null,
+      "sourceFileDate": "2021-06-08",
       "status": "reported_actual"
     },
     {
       "period": "2020-03",
-      "revenue": 96198.155,
-      "spending": 105552.646,
-      "balance": -9354.491,
-      "revenueCategories": {
-        "tax": 86495.085892,
-        "nonTax": 9634.619601,
-        "eu": 68.449585
-      },
-      "spendingCategories": {
+      "total": 105552.646,
+      "categories": {
         "grants": 61934.67155,
         "benefits": 6278.029959,
         "operations": 19695.850402,
@@ -648,20 +485,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
-      "publishedAt": "2021-06-08",
+      "publishedAt": null,
+      "sourceFileDate": "2021-06-08",
       "status": "reported_actual"
     },
     {
       "period": "2020-04",
-      "revenue": 129639.963,
-      "spending": 148522.814,
-      "balance": -18882.851,
-      "revenueCategories": {
-        "tax": 111227.402156,
-        "nonTax": 18327.792395,
-        "eu": 84.76835
-      },
-      "spendingCategories": {
+      "total": 148522.814,
+      "categories": {
         "grants": 86267.084105,
         "benefits": 8787.76206,
         "operations": 26628.750436,
@@ -672,20 +503,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
-      "publishedAt": "2021-06-08",
+      "publishedAt": null,
+      "sourceFileDate": "2021-06-08",
       "status": "reported_actual"
     },
     {
       "period": "2020-05",
-      "revenue": 157069.687,
-      "spending": 182951.414,
-      "balance": -25881.726,
-      "revenueCategories": {
-        "tax": 136295.0445,
-        "nonTax": 20634.805978,
-        "eu": 139.836772
-      },
-      "spendingCategories": {
+      "total": 182951.414,
+      "categories": {
         "grants": 106977.261214,
         "benefits": 10882.13566,
         "operations": 32716.639759,
@@ -696,20 +521,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
-      "publishedAt": "2021-06-08",
+      "publishedAt": null,
+      "sourceFileDate": "2021-06-08",
       "status": "reported_actual"
     },
     {
       "period": "2020-06",
-      "revenue": 197393.904,
-      "spending": 214512.294,
-      "balance": -17118.39,
-      "revenueCategories": {
-        "tax": 165548.408683,
-        "nonTax": 31278.922093,
-        "eu": 566.573258
-      },
-      "spendingCategories": {
+      "total": 214512.294,
+      "categories": {
         "grants": 126102.592346,
         "benefits": 13140.085147,
         "operations": 38895.918362,
@@ -720,20 +539,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
-      "publishedAt": "2021-06-08",
+      "publishedAt": null,
+      "sourceFileDate": "2021-06-08",
       "status": "reported_actual"
     },
     {
       "period": "2020-07",
-      "revenue": 235806.92,
-      "spending": 252101.391,
-      "balance": -16294.471,
-      "revenueCategories": {
-        "tax": 200306.136038,
-        "nonTax": 34908.121495,
-        "eu": 592.662917
-      },
-      "spendingCategories": {
+      "total": 252101.391,
+      "categories": {
         "grants": 146241.965919,
         "benefits": 15424.973466,
         "operations": 45598.472095,
@@ -744,20 +557,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
-      "publishedAt": "2021-06-08",
+      "publishedAt": null,
+      "sourceFileDate": "2021-06-08",
       "status": "reported_actual"
     },
     {
       "period": "2020-08",
-      "revenue": 268909.813,
-      "spending": 282208.426,
-      "balance": -13298.613,
-      "revenueCategories": {
-        "tax": 233210.076188,
-        "nonTax": 35100.091962,
-        "eu": 599.644555
-      },
-      "spendingCategories": {
+      "total": 282208.426,
+      "categories": {
         "grants": 164671.58063,
         "benefits": 17665.207312,
         "operations": 51900.679869,
@@ -768,20 +575,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
-      "publishedAt": "2021-06-08",
+      "publishedAt": null,
+      "sourceFileDate": "2021-06-08",
       "status": "reported_actual"
     },
     {
       "period": "2020-09",
-      "revenue": 304511.825,
-      "spending": 318266.374,
-      "balance": -13754.55,
-      "revenueCategories": {
-        "tax": 264847.425457,
-        "nonTax": 38530.764276,
-        "eu": 1133.635049
-      },
-      "spendingCategories": {
+      "total": 318266.374,
+      "categories": {
         "grants": 186154.724401,
         "benefits": 19937.597205,
         "operations": 58204.891311,
@@ -792,20 +593,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
-      "publishedAt": "2021-06-08",
+      "publishedAt": null,
+      "sourceFileDate": "2021-06-08",
       "status": "reported_actual"
     },
     {
       "period": "2020-10",
-      "revenue": 343972.696,
-      "spending": 356042.934,
-      "balance": -12070.238,
-      "revenueCategories": {
-        "tax": 300989.685995,
-        "nonTax": 41729.673015,
-        "eu": 1253.337219
-      },
-      "spendingCategories": {
+      "total": 356042.934,
+      "categories": {
         "grants": 205720.903602,
         "benefits": 22023.534533,
         "operations": 65106.878624,
@@ -816,20 +611,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
-      "publishedAt": "2021-06-08",
+      "publishedAt": null,
+      "sourceFileDate": "2021-06-08",
       "status": "reported_actual"
     },
     {
       "period": "2020-11",
-      "revenue": 382487.793,
-      "spending": 395692.416,
-      "balance": -13204.624,
-      "revenueCategories": {
-        "tax": 335942.056232,
-        "nonTax": 44847.68069,
-        "eu": 1698.055671
-      },
-      "spendingCategories": {
+      "total": 395692.416,
+      "categories": {
         "grants": 223105.898792,
         "benefits": 24190.833072,
         "operations": 72280.059243,
@@ -840,20 +629,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
-      "publishedAt": "2021-06-08",
+      "publishedAt": null,
+      "sourceFileDate": "2021-06-08",
       "status": "reported_actual"
     },
     {
       "period": "2020-12",
-      "revenue": 419795.677,
-      "spending": 504776.148,
-      "balance": -84980.471,
-      "revenueCategories": {
-        "tax": 370261.751775,
-        "nonTax": 47401.89508,
-        "eu": 2132.02992
-      },
-      "spendingCategories": {
+      "total": 504776.148,
+      "categories": {
         "grants": 295768.308897,
         "benefits": 26413.009667,
         "operations": 85437.524863,
@@ -864,20 +647,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
-      "publishedAt": "2021-06-08",
+      "publishedAt": null,
+      "sourceFileDate": "2021-06-08",
       "status": "reported_actual"
     },
     {
       "period": "2021-01",
-      "revenue": 40655.999,
-      "spending": 34010.719,
-      "balance": 6645.281,
-      "revenueCategories": {
-        "tax": 39215.996908,
-        "nonTax": 1388.171508,
-        "eu": 51.830781
-      },
-      "spendingCategories": {
+      "total": 34010.719,
+      "categories": {
         "grants": 19492.990785,
         "benefits": 2092.153905,
         "operations": 5184.555476,
@@ -888,20 +665,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
-      "publishedAt": "2022-05-31",
+      "publishedAt": null,
+      "sourceFileDate": "2022-05-31",
       "status": "reported_actual"
     },
     {
       "period": "2021-02",
-      "revenue": 71096.748,
-      "spending": 70220.863,
-      "balance": 875.885,
-      "revenueCategories": {
-        "tax": 65642.701728,
-        "nonTax": 5386.985823,
-        "eu": 67.060825
-      },
-      "spendingCategories": {
+      "total": 70220.863,
+      "categories": {
         "grants": 39111.514134,
         "benefits": 4244.251419,
         "operations": 13518.990866,
@@ -912,20 +683,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
-      "publishedAt": "2022-05-31",
+      "publishedAt": null,
+      "sourceFileDate": "2022-05-31",
       "status": "reported_actual"
     },
     {
       "period": "2021-03",
-      "revenue": 101060.605,
-      "spending": 104474.949,
-      "balance": -3414.344,
-      "revenueCategories": {
-        "tax": 92105.69731,
-        "nonTax": 8868.440524,
-        "eu": 86.467327
-      },
-      "spendingCategories": {
+      "total": 104474.949,
+      "categories": {
         "grants": 58196.588029,
         "benefits": 6665.345644,
         "operations": 21087.605561,
@@ -936,20 +701,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
-      "publishedAt": "2022-05-31",
+      "publishedAt": null,
+      "sourceFileDate": "2022-05-31",
       "status": "reported_actual"
     },
     {
       "period": "2021-04",
-      "revenue": 147066.719,
-      "spending": 137907.798,
-      "balance": 9158.921,
-      "revenueCategories": {
-        "tax": 132467.393737,
-        "nonTax": 14465.532609,
-        "eu": 133.792746
-      },
-      "spendingCategories": {
+      "total": 137907.798,
+      "categories": {
         "grants": 75236.14492,
         "benefits": 9265.233056,
         "operations": 27767.023638,
@@ -960,20 +719,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
-      "publishedAt": "2022-05-31",
+      "publishedAt": null,
+      "sourceFileDate": "2022-05-31",
       "status": "reported_actual"
     },
     {
       "period": "2021-05",
-      "revenue": 181478.807,
-      "spending": 172128.605,
-      "balance": 9350.202,
-      "revenueCategories": {
-        "tax": 162953.146088,
-        "nonTax": 18332.246784,
-        "eu": 193.414091
-      },
-      "spendingCategories": {
+      "total": 172128.605,
+      "categories": {
         "grants": 96365.141249,
         "benefits": 11463.724392,
         "operations": 34340.783632,
@@ -984,20 +737,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
-      "publishedAt": "2022-05-31",
+      "publishedAt": null,
+      "sourceFileDate": "2022-05-31",
       "status": "reported_actual"
     },
     {
       "period": "2021-06",
-      "revenue": 233971.001,
-      "spending": 205979.637,
-      "balance": 27991.364,
-      "revenueCategories": {
-        "tax": 201096.485588,
-        "nonTax": 32085.078298,
-        "eu": 789.437255
-      },
-      "spendingCategories": {
+      "total": 205979.637,
+      "categories": {
         "grants": 116506.81153,
         "benefits": 13771.205475,
         "operations": 40998.941234,
@@ -1008,20 +755,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
-      "publishedAt": "2022-05-31",
+      "publishedAt": null,
+      "sourceFileDate": "2022-05-31",
       "status": "reported_actual"
     },
     {
       "period": "2021-07",
-      "revenue": 278083.53,
-      "spending": 242829.948,
-      "balance": 35253.582,
-      "revenueCategories": {
-        "tax": 240486.471383,
-        "nonTax": 36790.0228,
-        "eu": 807.036005
-      },
-      "spendingCategories": {
+      "total": 242829.948,
+      "categories": {
         "grants": 136339.340109,
         "benefits": 16391.919352,
         "operations": 47630.724413,
@@ -1032,20 +773,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
-      "publishedAt": "2022-05-31",
+      "publishedAt": null,
+      "sourceFileDate": "2022-05-31",
       "status": "reported_actual"
     },
     {
       "period": "2021-08",
-      "revenue": 320103.426,
-      "spending": 276736.273,
-      "balance": 43367.153,
-      "revenueCategories": {
-        "tax": 278122.145943,
-        "nonTax": 40794.46883,
-        "eu": 1186.810917
-      },
-      "spendingCategories": {
+      "total": 276736.273,
+      "categories": {
         "grants": 156491.010215,
         "benefits": 19421.992503,
         "operations": 54338.793761,
@@ -1056,20 +791,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
-      "publishedAt": "2022-05-31",
+      "publishedAt": null,
+      "sourceFileDate": "2022-05-31",
       "status": "reported_actual"
     },
     {
       "period": "2021-09",
-      "revenue": 360079.874,
-      "spending": 312491.371,
-      "balance": 47588.503,
-      "revenueCategories": {
-        "tax": 313109.210762,
-        "nonTax": 45723.668897,
-        "eu": 1246.994084
-      },
-      "spendingCategories": {
+      "total": 312491.371,
+      "categories": {
         "grants": 177340.514223,
         "benefits": 21971.470251,
         "operations": 61097.521111,
@@ -1080,20 +809,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
-      "publishedAt": "2022-05-31",
+      "publishedAt": null,
+      "sourceFileDate": "2022-05-31",
       "status": "reported_actual"
     },
     {
       "period": "2021-10",
-      "revenue": 405665.501,
-      "spending": 353777.367,
-      "balance": 51888.134,
-      "revenueCategories": {
-        "tax": 353847.308617,
-        "nonTax": 50552.111938,
-        "eu": 1266.08026
-      },
-      "spendingCategories": {
+      "total": 353777.367,
+      "categories": {
         "grants": 198553.735911,
         "benefits": 24163.89433,
         "operations": 68340.011469,
@@ -1104,20 +827,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
-      "publishedAt": "2022-05-31",
+      "publishedAt": null,
+      "sourceFileDate": "2022-05-31",
       "status": "reported_actual"
     },
     {
       "period": "2021-11",
-      "revenue": 451444.297,
-      "spending": 401063.049,
-      "balance": 50381.248,
-      "revenueCategories": {
-        "tax": 394312.710649,
-        "nonTax": 55444.077803,
-        "eu": 1687.508305
-      },
-      "spendingCategories": {
+      "total": 401063.049,
+      "categories": {
         "grants": 221572.541881,
         "benefits": 26560.761189,
         "operations": 76302.185542,
@@ -1128,20 +845,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
-      "publishedAt": "2022-05-31",
+      "publishedAt": null,
+      "sourceFileDate": "2022-05-31",
       "status": "reported_actual"
     },
     {
       "period": "2021-12",
-      "revenue": 494843.463,
-      "spending": 521216.817,
-      "balance": -26373.354,
-      "revenueCategories": {
-        "tax": 432170.398789,
-        "nonTax": 60521.154937,
-        "eu": 2151.909039
-      },
-      "spendingCategories": {
+      "total": 521216.817,
+      "categories": {
         "grants": 290808.66776,
         "benefits": 28987.570835,
         "operations": 92370.614625,
@@ -1152,20 +863,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
-      "publishedAt": "2022-05-31",
+      "publishedAt": null,
+      "sourceFileDate": "2022-05-31",
       "status": "reported_actual"
     },
     {
       "period": "2022-01",
-      "revenue": 58740.534944,
-      "spending": 36448.95,
-      "balance": 22291.584944,
-      "revenueCategories": {
-        "tax": 56009.51045,
-        "nonTax": 2697.918682,
-        "eu": 33.105812
-      },
-      "spendingCategories": {
+      "total": 36448.95,
+      "categories": {
         "grants": 21617.568685,
         "benefits": 2195.585465,
         "operations": 5667.902917,
@@ -1176,20 +881,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
-      "publishedAt": "2023-06-05",
+      "publishedAt": null,
+      "sourceFileDate": "2023-06-05",
       "status": "reported_actual"
     },
     {
       "period": "2022-02",
-      "revenue": 91615.007026,
-      "spending": 80350.891577,
-      "balance": 11264.115449,
-      "revenueCategories": {
-        "tax": 86107.879037,
-        "nonTax": 5454.817744,
-        "eu": 52.310244
-      },
-      "spendingCategories": {
+      "total": 80350.891577,
+      "categories": {
         "grants": 48865.200286,
         "benefits": 4939.107213,
         "operations": 14300.549775,
@@ -1200,20 +899,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
-      "publishedAt": "2023-06-05",
+      "publishedAt": null,
+      "sourceFileDate": "2023-06-05",
       "status": "reported_actual"
     },
     {
       "period": "2022-03",
-      "revenue": 120092.975,
-      "spending": 120360.433,
-      "balance": -267.457,
-      "revenueCategories": {
-        "tax": 111010.659399,
-        "nonTax": 9008.261703,
-        "eu": 74.054057
-      },
-      "spendingCategories": {
+      "total": 120360.433,
+      "categories": {
         "grants": 71927.003161,
         "benefits": 8127.811114,
         "operations": 22977.666313,
@@ -1224,20 +917,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
-      "publishedAt": "2023-06-05",
+      "publishedAt": null,
+      "sourceFileDate": "2023-06-05",
       "status": "reported_actual"
     },
     {
       "period": "2022-04",
-      "revenue": 168056.613,
-      "spending": 158849.425,
-      "balance": 9207.188,
-      "revenueCategories": {
-        "tax": 154192.191791,
-        "nonTax": 13722.11345,
-        "eu": 142.307612
-      },
-      "spendingCategories": {
+      "total": 158849.425,
+      "categories": {
         "grants": 92065.863942,
         "benefits": 11399.019024,
         "operations": 30791.555628,
@@ -1248,20 +935,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
-      "publishedAt": "2023-06-05",
+      "publishedAt": null,
+      "sourceFileDate": "2023-06-05",
       "status": "reported_actual"
     },
     {
       "period": "2022-05",
-      "revenue": 209964.755,
-      "spending": 197910.65,
-      "balance": 12054.105,
-      "revenueCategories": {
-        "tax": 192492.791544,
-        "nonTax": 16828.781929,
-        "eu": 643.181821
-      },
-      "spendingCategories": {
+      "total": 197910.65,
+      "categories": {
         "grants": 113295.660749,
         "benefits": 14249.090332,
         "operations": 38314.733932,
@@ -1272,20 +953,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
-      "publishedAt": "2023-06-05",
+      "publishedAt": null,
+      "sourceFileDate": "2023-06-05",
       "status": "reported_actual"
     },
     {
       "period": "2022-06",
-      "revenue": 263626.983,
-      "spending": 235893.326,
-      "balance": 27733.657,
-      "revenueCategories": {
-        "tax": 232054.461491,
-        "nonTax": 30906.601785,
-        "eu": 665.919822
-      },
-      "spendingCategories": {
+      "total": 235893.326,
+      "categories": {
         "grants": 131636.735056,
         "benefits": 20503.400377,
         "operations": 45733.836079,
@@ -1296,20 +971,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
-      "publishedAt": "2023-06-05",
+      "publishedAt": null,
+      "sourceFileDate": "2023-06-05",
       "status": "reported_actual"
     },
     {
       "period": "2022-07",
-      "revenue": 313291.788594,
-      "spending": 278631.550508,
-      "balance": 34660.238086,
-      "revenueCategories": {
-        "tax": 277723.535,
-        "nonTax": 34789.086911,
-        "eu": 779.166683
-      },
-      "spendingCategories": {
+      "total": 278631.550508,
+      "categories": {
         "grants": 149839.014287,
         "benefits": 27163.407433,
         "operations": 53264.767003,
@@ -1320,20 +989,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
-      "publishedAt": "2023-06-05",
+      "publishedAt": null,
+      "sourceFileDate": "2023-06-05",
       "status": "reported_actual"
     },
     {
       "period": "2022-08",
-      "revenue": 345107.374,
-      "spending": 317579.96,
-      "balance": 27527.413,
-      "revenueCategories": {
-        "tax": 315381.804563,
-        "nonTax": 28502.417444,
-        "eu": 1223.15169
-      },
-      "spendingCategories": {
+      "total": 317579.96,
+      "categories": {
         "grants": 168621.646641,
         "benefits": 33838.981738,
         "operations": 60699.068526,
@@ -1344,20 +1007,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
-      "publishedAt": "2023-06-05",
+      "publishedAt": null,
+      "sourceFileDate": "2023-06-05",
       "status": "reported_actual"
     },
     {
       "period": "2022-09",
-      "revenue": 383133.526,
-      "spending": 355676.066,
-      "balance": 27457.46,
-      "revenueCategories": {
-        "tax": 352076.935047,
-        "nonTax": 29803.853941,
-        "eu": 1252.736882
-      },
-      "spendingCategories": {
+      "total": 355676.066,
+      "categories": {
         "grants": 184659.265628,
         "benefits": 40886.719608,
         "operations": 68499.658568,
@@ -1368,20 +1025,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
-      "publishedAt": "2023-06-05",
+      "publishedAt": null,
+      "sourceFileDate": "2023-06-05",
       "status": "reported_actual"
     },
     {
       "period": "2022-10",
-      "revenue": 425936.016,
-      "spending": 398701.312,
-      "balance": 27234.703,
-      "revenueCategories": {
-        "tax": 392923.274009,
-        "nonTax": 31738.253523,
-        "eu": 1274.488034
-      },
-      "spendingCategories": {
+      "total": 398701.312,
+      "categories": {
         "grants": 203880.862356,
         "benefits": 47038.692905,
         "operations": 76759.088327,
@@ -1392,20 +1043,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
-      "publishedAt": "2023-06-05",
+      "publishedAt": null,
+      "sourceFileDate": "2023-06-05",
       "status": "reported_actual"
     },
     {
       "period": "2022-11",
-      "revenue": 464528.562,
-      "spending": 446252.367,
-      "balance": 18276.196,
-      "revenueCategories": {
-        "tax": 428662.186805,
-        "nonTax": 33811.442802,
-        "eu": 2054.932843
-      },
-      "spendingCategories": {
+      "total": 446252.367,
+      "categories": {
         "grants": 223784.536703,
         "benefits": 52707.892076,
         "operations": 85302.892866,
@@ -1416,20 +1061,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
-      "publishedAt": "2023-06-05",
+      "publishedAt": null,
+      "sourceFileDate": "2023-06-05",
       "status": "reported_actual"
     },
     {
       "period": "2022-12",
-      "revenue": 504820.801,
-      "spending": 517398.907,
-      "balance": -12578.106,
-      "revenueCategories": {
-        "tax": 465456.10934,
-        "nonTax": 36782.345182,
-        "eu": 2582.346952
-      },
-      "spendingCategories": {
+      "total": 517398.907,
+      "categories": {
         "grants": 256142.772289,
         "benefits": 58951.753549,
         "operations": 100295.632149,
@@ -1440,20 +1079,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
-      "publishedAt": "2023-06-05",
+      "publishedAt": null,
+      "sourceFileDate": "2023-06-05",
       "status": "reported_actual"
     },
     {
       "period": "2023-01",
-      "revenue": 54542.675,
-      "spending": 43310.336,
-      "balance": 11232.338,
-      "revenueCategories": {
-        "tax": 49833.310578,
-        "nonTax": 4632.920974,
-        "eu": 76.443173
-      },
-      "spendingCategories": {
+      "total": 43310.336,
+      "categories": {
         "grants": 21455.474804,
         "benefits": 6068.013234,
         "operations": 6800.774791,
@@ -1464,20 +1097,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
-      "publishedAt": "2024-06-04",
+      "publishedAt": null,
+      "sourceFileDate": "2024-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2023-02",
-      "revenue": 93140.143,
-      "spending": 93187.513,
-      "balance": -47.37,
-      "revenueCategories": {
-        "tax": 83714.441453,
-        "nonTax": 9338.994886,
-        "eu": 86.706616
-      },
-      "spendingCategories": {
+      "total": 93187.513,
+      "categories": {
         "grants": 45071.088383,
         "benefits": 12398.094715,
         "operations": 17702.564546,
@@ -1488,20 +1115,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
-      "publishedAt": "2024-06-04",
+      "publishedAt": null,
+      "sourceFileDate": "2024-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2023-03",
-      "revenue": 124691.116,
-      "spending": 136719.553,
-      "balance": -12028.437,
-      "revenueCategories": {
-        "tax": 109231.257008,
-        "nonTax": 15347.941326,
-        "eu": 111.91788
-      },
-      "spendingCategories": {
+      "total": 136719.553,
+      "categories": {
         "grants": 64511.337541,
         "benefits": 19552.15901,
         "operations": 27767.059371,
@@ -1512,20 +1133,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
-      "publishedAt": "2024-06-04",
+      "publishedAt": null,
+      "sourceFileDate": "2024-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2023-04",
-      "revenue": 173651.961,
-      "spending": 183678.793,
-      "balance": -10026.832,
-      "revenueCategories": {
-        "tax": 151850.619215,
-        "nonTax": 21613.369516,
-        "eu": 187.972292
-      },
-      "spendingCategories": {
+      "total": 183678.793,
+      "categories": {
         "grants": 84795.361125,
         "benefits": 26600.160168,
         "operations": 37023.819104,
@@ -1536,20 +1151,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
-      "publishedAt": "2024-06-04",
+      "publishedAt": null,
+      "sourceFileDate": "2024-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2023-05",
-      "revenue": 216356.101,
-      "spending": 237207.643,
-      "balance": -20851.541,
-      "revenueCategories": {
-        "tax": 189784.53546,
-        "nonTax": 26111.088937,
-        "eu": 460.476652
-      },
-      "spendingCategories": {
+      "total": 237207.643,
+      "categories": {
         "grants": 105064.045863,
         "benefits": 32843.058628,
         "operations": 45655.627422,
@@ -1560,20 +1169,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
-      "publishedAt": "2024-06-04",
+      "publishedAt": null,
+      "sourceFileDate": "2024-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2023-06",
-      "revenue": 270606.268,
-      "spending": 283288.513,
-      "balance": -12682.245,
-      "revenueCategories": {
-        "tax": 238485.352866,
-        "nonTax": 31135.665869,
-        "eu": 985.249692
-      },
-      "spendingCategories": {
+      "total": 283288.513,
+      "categories": {
         "grants": 128198.931831,
         "benefits": 39587.644463,
         "operations": 54045.958945,
@@ -1584,20 +1187,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
-      "publishedAt": "2024-06-04",
+      "publishedAt": null,
+      "sourceFileDate": "2024-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2023-07",
-      "revenue": 324012.485,
-      "spending": 337103.26,
-      "balance": -13090.775,
-      "revenueCategories": {
-        "tax": 285552.79045,
-        "nonTax": 37298.58634,
-        "eu": 1161.108045
-      },
-      "spendingCategories": {
+      "total": 337103.26,
+      "categories": {
         "grants": 150180.235529,
         "benefits": 46385.524328,
         "operations": 63190.211168,
@@ -1608,20 +1205,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
-      "publishedAt": "2024-06-04",
+      "publishedAt": null,
+      "sourceFileDate": "2024-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2023-08",
-      "revenue": 373759.195,
-      "spending": 390369.73,
-      "balance": -16610.534,
-      "revenueCategories": {
-        "tax": 328461.335458,
-        "nonTax": 44112.145138,
-        "eu": 1185.714793
-      },
-      "spendingCategories": {
+      "total": 390369.73,
+      "categories": {
         "grants": 177993.190846,
         "benefits": 54271.406989,
         "operations": 72982.363927,
@@ -1632,20 +1223,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
-      "publishedAt": "2024-06-04",
+      "publishedAt": null,
+      "sourceFileDate": "2024-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2023-09",
-      "revenue": 417988.255,
-      "spending": 452682.577,
-      "balance": -34694.321,
-      "revenueCategories": {
-        "tax": 366754.756539,
-        "nonTax": 49659.87411,
-        "eu": 1573.624562
-      },
-      "spendingCategories": {
+      "total": 452682.577,
+      "categories": {
         "grants": 209268.815403,
         "benefits": 61553.98618,
         "operations": 82562.415588,
@@ -1656,20 +1241,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
-      "publishedAt": "2024-06-04",
+      "publishedAt": null,
+      "sourceFileDate": "2024-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2023-10",
-      "revenue": 475392.786,
-      "spending": 511812.331,
-      "balance": -36419.545,
-      "revenueCategories": {
-        "tax": 419215.507607,
-        "nonTax": 54449.401216,
-        "eu": 1727.876918
-      },
-      "spendingCategories": {
+      "total": 511812.331,
+      "categories": {
         "grants": 236318.239829,
         "benefits": 68249.84604,
         "operations": 92791.546611,
@@ -1680,20 +1259,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
-      "publishedAt": "2024-06-04",
+      "publishedAt": null,
+      "sourceFileDate": "2024-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2023-11",
-      "revenue": 530330.456,
-      "spending": 572973.686,
-      "balance": -42643.23,
-      "revenueCategories": {
-        "tax": 468502.817681,
-        "nonTax": 59298.388631,
-        "eu": 2529.249771
-      },
-      "spendingCategories": {
+      "total": 572973.686,
+      "categories": {
         "grants": 261769.538657,
         "benefits": 74760.32956,
         "operations": 103258.129796,
@@ -1704,20 +1277,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
-      "publishedAt": "2024-06-04",
+      "publishedAt": null,
+      "sourceFileDate": "2024-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2023-12",
-      "revenue": 573957.932,
-      "spending": 659586.491,
-      "balance": -85628.559,
-      "revenueCategories": {
-        "tax": 506866.722685,
-        "nonTax": 63709.790634,
-        "eu": 3381.418459
-      },
-      "spendingCategories": {
+      "total": 659586.491,
+      "categories": {
         "grants": 292774.361041,
         "benefits": 81294.034692,
         "operations": 122469.272184,
@@ -1728,20 +1295,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
-      "publishedAt": "2024-06-04",
+      "publishedAt": null,
+      "sourceFileDate": "2024-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2024-01",
-      "revenue": 61510.213706,
-      "spending": 47826.002317,
-      "balance": 13684.211388,
-      "revenueCategories": {
-        "tax": 56379.482541,
-        "nonTax": 5128.467894,
-        "eu": 2.263271
-      },
-      "spendingCategories": {
+      "total": 47826.002317,
+      "categories": {
         "grants": 24988.112364,
         "benefits": 8624.786904,
         "operations": 7623.018311,
@@ -1752,20 +1313,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
-      "publishedAt": "2025-06-03",
+      "publishedAt": null,
+      "sourceFileDate": "2025-06-03",
       "status": "reported_actual"
     },
     {
       "period": "2024-02",
-      "revenue": 104028.574,
-      "spending": 111867.397,
-      "balance": -7838.824,
-      "revenueCategories": {
-        "tax": 93534.310239,
-        "nonTax": 10480.211454,
-        "eu": 14.051928
-      },
-      "spendingCategories": {
+      "total": 111867.397,
+      "categories": {
         "grants": 57326.955953,
         "benefits": 18041.174346,
         "operations": 20828.658971,
@@ -1776,20 +1331,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
-      "publishedAt": "2025-06-03",
+      "publishedAt": null,
+      "sourceFileDate": "2025-06-03",
       "status": "reported_actual"
     },
     {
       "period": "2024-03",
-      "revenue": 146449.665,
-      "spending": 170952.423,
-      "balance": -24502.758,
-      "revenueCategories": {
-        "tax": 131440.014439,
-        "nonTax": 14981.422791,
-        "eu": 28.227931
-      },
-      "spendingCategories": {
+      "total": 170952.423,
+      "categories": {
         "grants": 84943.764159,
         "benefits": 28871.634187,
         "operations": 33053.775862,
@@ -1800,20 +1349,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
-      "publishedAt": "2025-06-03",
+      "publishedAt": null,
+      "sourceFileDate": "2025-06-03",
       "status": "reported_actual"
     },
     {
       "period": "2024-04",
-      "revenue": 214148.321,
-      "spending": 254003.753,
-      "balance": -39855.432,
-      "revenueCategories": {
-        "tax": 193730.376804,
-        "nonTax": 20354.475454,
-        "eu": 63.468568
-      },
-      "spendingCategories": {
+      "total": 254003.753,
+      "categories": {
         "grants": 115635.641121,
         "benefits": 55561.047646,
         "operations": 44301.917416,
@@ -1824,20 +1367,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
-      "publishedAt": "2025-06-03",
+      "publishedAt": null,
+      "sourceFileDate": "2025-06-03",
       "status": "reported_actual"
     },
     {
       "period": "2024-05",
-      "revenue": 261042.696,
-      "spending": 314154.233,
-      "balance": -53111.537,
-      "revenueCategories": {
-        "tax": 236072.236185,
-        "nonTax": 24868.637115,
-        "eu": 101.822634
-      },
-      "spendingCategories": {
+      "total": 314154.233,
+      "categories": {
         "grants": 142054.609908,
         "benefits": 63091.867906,
         "operations": 55045.692363,
@@ -1848,20 +1385,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
-      "publishedAt": "2025-06-03",
+      "publishedAt": null,
+      "sourceFileDate": "2025-06-03",
       "status": "reported_actual"
     },
     {
       "period": "2024-06",
-      "revenue": 303883.785,
-      "spending": 373786.582,
-      "balance": -69902.797,
-      "revenueCategories": {
-        "tax": 272374.646284,
-        "nonTax": 30994.752885,
-        "eu": 514.38605
-      },
-      "spendingCategories": {
+      "total": 373786.582,
+      "categories": {
         "grants": 171597.754919,
         "benefits": 71398.374943,
         "operations": 65470.777521,
@@ -1872,20 +1403,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
-      "publishedAt": "2025-06-03",
+      "publishedAt": null,
+      "sourceFileDate": "2025-06-03",
       "status": "reported_actual"
     },
     {
       "period": "2024-07",
-      "revenue": 356503.906,
-      "spending": 439271.339,
-      "balance": -82767.433,
-      "revenueCategories": {
-        "tax": 318989.633307,
-        "nonTax": 36921.101985,
-        "eu": 593.170979
-      },
-      "spendingCategories": {
+      "total": 439271.339,
+      "categories": {
         "grants": 201063.704575,
         "benefits": 81842.037354,
         "operations": 76450.727113,
@@ -1896,20 +1421,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
-      "publishedAt": "2025-06-03",
+      "publishedAt": null,
+      "sourceFileDate": "2025-06-03",
       "status": "reported_actual"
     },
     {
       "period": "2024-08",
-      "revenue": 409360.683,
-      "spending": 498010.721,
-      "balance": -88650.038,
-      "revenueCategories": {
-        "tax": 365761.225538,
-        "nonTax": 42821.942722,
-        "eu": 777.515055
-      },
-      "spendingCategories": {
+      "total": 498010.721,
+      "categories": {
         "grants": 227445.586328,
         "benefits": 93594.477471,
         "operations": 87168.433616,
@@ -1920,20 +1439,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
-      "publishedAt": "2025-06-03",
+      "publishedAt": null,
+      "sourceFileDate": "2025-06-03",
       "status": "reported_actual"
     },
     {
       "period": "2024-09",
-      "revenue": 460196.34,
-      "spending": 567481.107,
-      "balance": -107284.767,
-      "revenueCategories": {
-        "tax": 411456.788911,
-        "nonTax": 47502.640456,
-        "eu": 1236.910963
-      },
-      "spendingCategories": {
+      "total": 567481.107,
+      "categories": {
         "grants": 257499.756532,
         "benefits": 113157.177171,
         "operations": 98042.946148,
@@ -1944,20 +1457,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
-      "publishedAt": "2025-06-03",
+      "publishedAt": null,
+      "sourceFileDate": "2025-06-03",
       "status": "reported_actual"
     },
     {
       "period": "2024-10",
-      "revenue": 519523.317,
-      "spending": 649310.297,
-      "balance": -129786.98,
-      "revenueCategories": {
-        "tax": 464644.234795,
-        "nonTax": 53605.637424,
-        "eu": 1273.444649
-      },
-      "spendingCategories": {
+      "total": 649310.297,
+      "categories": {
         "grants": 293345.465908,
         "benefits": 123965.120527,
         "operations": 109662.02653,
@@ -1968,20 +1475,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
-      "publishedAt": "2025-06-03",
+      "publishedAt": null,
+      "sourceFileDate": "2025-06-03",
       "status": "reported_actual"
     },
     {
       "period": "2024-11",
-      "revenue": 578752.586,
-      "spending": 720587.971,
-      "balance": -141835.385,
-      "revenueCategories": {
-        "tax": 518286.53346,
-        "nonTax": 58501.699175,
-        "eu": 1964.353524
-      },
-      "spendingCategories": {
+      "total": 720587.971,
+      "categories": {
         "grants": 321826.66709,
         "benefits": 133066.429404,
         "operations": 121531.041237,
@@ -1992,20 +1493,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
-      "publishedAt": "2025-06-03",
+      "publishedAt": null,
+      "sourceFileDate": "2025-06-03",
       "status": "reported_actual"
     },
     {
       "period": "2024-12",
-      "revenue": 623239.831,
-      "spending": 834242.51,
-      "balance": -211002.679,
-      "revenueCategories": {
-        "tax": 555936.540318,
-        "nonTax": 64934.998495,
-        "eu": 2368.291813
-      },
-      "spendingCategories": {
+      "total": 834242.51,
+      "categories": {
         "grants": 366475.021693,
         "benefits": 142732.165785,
         "operations": 144618.97322,
@@ -2016,20 +1511,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
-      "publishedAt": "2025-06-03",
+      "publishedAt": null,
+      "sourceFileDate": "2025-06-03",
       "status": "reported_actual"
     },
     {
       "period": "2025-01",
-      "revenue": 47390.95,
-      "spending": 50596.519,
-      "balance": -3205.569,
-      "revenueCategories": {
-        "tax": 43175.641866,
-        "nonTax": 4124.340265,
-        "eu": 90.968096
-      },
-      "spendingCategories": {
+      "total": 50596.519,
+      "categories": {
         "grants": 22159.359601,
         "benefits": 10332.323099,
         "operations": 8963.666935,
@@ -2040,20 +1529,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
-      "publishedAt": "2026-06-01",
+      "publishedAt": null,
+      "sourceFileDate": "2026-06-01",
       "status": "reported_actual"
     },
     {
       "period": "2025-02",
-      "revenue": 75718.933,
-      "spending": 112060.004,
-      "balance": -36341.07,
-      "revenueCategories": {
-        "tax": 67378.487688,
-        "nonTax": 8216.060248,
-        "eu": 124.385424
-      },
-      "spendingCategories": {
+      "total": 112060.004,
+      "categories": {
         "grants": 46800.974882,
         "benefits": 20367.847803,
         "operations": 23820.370382,
@@ -2064,20 +1547,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
-      "publishedAt": "2026-06-01",
+      "publishedAt": null,
+      "sourceFileDate": "2026-06-01",
       "status": "reported_actual"
     },
     {
       "period": "2025-03",
-      "revenue": 118431.738,
-      "spending": 194716.22,
-      "balance": -76284.482,
-      "revenueCategories": {
-        "tax": 105691.126491,
-        "nonTax": 12602.960215,
-        "eu": 137.650946
-      },
-      "spendingCategories": {
+      "total": 194716.22,
+      "categories": {
         "grants": 94963.932827,
         "benefits": 31806.831491,
         "operations": 37293.319924,
@@ -2088,20 +1565,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
-      "publishedAt": "2026-06-01",
+      "publishedAt": null,
+      "sourceFileDate": "2026-06-01",
       "status": "reported_actual"
     },
     {
       "period": "2025-04",
-      "revenue": 176402.585,
-      "spending": 267824.908,
-      "balance": -91422.323,
-      "revenueCategories": {
-        "tax": 157948.574522,
-        "nonTax": 18281.23395,
-        "eu": 172.776334
-      },
-      "spendingCategories": {
+      "total": 267824.908,
+      "categories": {
         "grants": 115655.05302,
         "benefits": 60191.374051,
         "operations": 49828.685085,
@@ -2112,20 +1583,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
-      "publishedAt": "2026-06-01",
+      "publishedAt": null,
+      "sourceFileDate": "2026-06-01",
       "status": "reported_actual"
     },
     {
       "period": "2025-05",
-      "revenue": 223051.275,
-      "spending": 331345.583,
-      "balance": -108294.308,
-      "revenueCategories": {
-        "tax": 199566.178219,
-        "nonTax": 23109.298692,
-        "eu": 375.798273
-      },
-      "spendingCategories": {
+      "total": 331345.583,
+      "categories": {
         "grants": 141328.377707,
         "benefits": 69859.491954,
         "operations": 61322.897065,
@@ -2136,20 +1601,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
-      "publishedAt": "2026-06-01",
+      "publishedAt": null,
+      "sourceFileDate": "2026-06-01",
       "status": "reported_actual"
     },
     {
       "period": "2025-06",
-      "revenue": 264252.117,
-      "spending": 383948.582,
-      "balance": -119696.464,
-      "revenueCategories": {
-        "tax": 233512.621342,
-        "nonTax": 29917.419279,
-        "eu": 822.076615
-      },
-      "spendingCategories": {
+      "total": 383948.582,
+      "categories": {
         "grants": 164576.273011,
         "benefits": 79553.090541,
         "operations": 73155.771304,
@@ -2160,20 +1619,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
-      "publishedAt": "2026-06-01",
+      "publishedAt": null,
+      "sourceFileDate": "2026-06-01",
       "status": "reported_actual"
     },
     {
       "period": "2025-07",
-      "revenue": 313836.26,
-      "spending": 470559.533,
-      "balance": -156723.273,
-      "revenueCategories": {
-        "tax": 277332.014214,
-        "nonTax": 35609.319437,
-        "eu": 894.92667
-      },
-      "spendingCategories": {
+      "total": 470559.533,
+      "categories": {
         "grants": 206981.313005,
         "benefits": 91158.298911,
         "operations": 85541.813829,
@@ -2184,20 +1637,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
-      "publishedAt": "2026-06-01",
+      "publishedAt": null,
+      "sourceFileDate": "2026-06-01",
       "status": "reported_actual"
     },
     {
       "period": "2025-08",
-      "revenue": 362778.896,
-      "spending": 534797.925,
-      "balance": -172019.029,
-      "revenueCategories": {
-        "tax": 321178.005275,
-        "nonTax": 40660.3214,
-        "eu": 940.569705
-      },
-      "spendingCategories": {
+      "total": 534797.925,
+      "categories": {
         "grants": 232997.235137,
         "benefits": 102784.232628,
         "operations": 97232.930747,
@@ -2208,20 +1655,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
-      "publishedAt": "2026-06-01",
+      "publishedAt": null,
+      "sourceFileDate": "2026-06-01",
       "status": "reported_actual"
     },
     {
       "period": "2025-09",
-      "revenue": 415550.72,
-      "spending": 616985.111,
-      "balance": -201434.391,
-      "revenueCategories": {
-        "tax": 365836.311697,
-        "nonTax": 48440.774576,
-        "eu": 1273.633534
-      },
-      "spendingCategories": {
+      "total": 616985.111,
+      "categories": {
         "grants": 270197.598942,
         "benefits": 123666.987894,
         "operations": 109125.601491,
@@ -2232,20 +1673,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
-      "publishedAt": "2026-06-01",
+      "publishedAt": null,
+      "sourceFileDate": "2026-06-01",
       "status": "reported_actual"
     },
     {
       "period": "2025-10",
-      "revenue": 471669.764,
-      "spending": 698760.071,
-      "balance": -227090.307,
-      "revenueCategories": {
-        "tax": 415945.726859,
-        "nonTax": 54265.215701,
-        "eu": 1458.821897
-      },
-      "spendingCategories": {
+      "total": 698760.071,
+      "categories": {
         "grants": 303010.5351,
         "benefits": 134616.058287,
         "operations": 121828.09847,
@@ -2256,20 +1691,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
-      "publishedAt": "2026-06-01",
+      "publishedAt": null,
+      "sourceFileDate": "2026-06-01",
       "status": "reported_actual"
     },
     {
       "period": "2025-11",
-      "revenue": 526095.406,
-      "spending": 771025.831,
-      "balance": -244930.424,
-      "revenueCategories": {
-        "tax": 465901.420696,
-        "nonTax": 58169.828084,
-        "eu": 2024.157638
-      },
-      "spendingCategories": {
+      "total": 771025.831,
+      "categories": {
         "grants": 331925.781778,
         "benefits": 144321.42748,
         "operations": 134908.640449,
@@ -2280,20 +1709,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
-      "publishedAt": "2026-06-01",
+      "publishedAt": null,
+      "sourceFileDate": "2026-06-01",
       "status": "reported_actual"
     },
     {
       "period": "2025-12",
-      "revenue": 594524.38,
-      "spending": 870190.612,
-      "balance": -275666.233,
-      "revenueCategories": {
-        "tax": 529224.947928,
-        "nonTax": 62080.624436,
-        "eu": 3218.807157
-      },
-      "spendingCategories": {
+      "total": 870190.612,
+      "categories": {
         "grants": 358974.358515,
         "benefits": 155951.76996,
         "operations": 161036.538615,
@@ -2304,20 +1727,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
-      "publishedAt": "2026-06-01",
+      "publishedAt": null,
+      "sourceFileDate": "2026-06-01",
       "status": "reported_actual"
     },
     {
       "period": "2026-01",
-      "revenue": 55559.386,
-      "spending": 59279.205,
-      "balance": -3719.819,
-      "revenueCategories": {
-        "tax": 50742.633127,
-        "nonTax": 4812.016197,
-        "eu": 4.736961
-      },
-      "spendingCategories": {
+      "total": 59279.205,
+      "categories": {
         "grants": 25212.191508,
         "benefits": 10772.336982,
         "operations": 9732.609347,
@@ -2328,20 +1745,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645",
-      "publishedAt": "2026-09-07",
+      "publishedAt": null,
+      "sourceFileDate": "2026-09-07",
       "status": "reported_actual"
     },
     {
       "period": "2026-02",
-      "revenue": 78320.87,
-      "spending": 126804.248,
-      "balance": -48483.377,
-      "revenueCategories": {
-        "tax": 69479.79436,
-        "nonTax": 8828.018985,
-        "eu": 13.057079
-      },
-      "spendingCategories": {
+      "total": 126804.248,
+      "categories": {
         "grants": 52429.89217,
         "benefits": 21474.637531,
         "operations": 25496.267155,
@@ -2352,20 +1763,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645",
-      "publishedAt": "2026-09-07",
+      "publishedAt": null,
+      "sourceFileDate": "2026-09-07",
       "status": "reported_actual"
     },
     {
       "period": "2026-03",
-      "revenue": 125289.692,
-      "spending": 194745.938,
-      "balance": -69456.246,
-      "revenueCategories": {
-        "tax": 112399.085685,
-        "nonTax": 12809.786558,
-        "eu": 80.819891
-      },
-      "spendingCategories": {
+      "total": 194745.938,
+      "categories": {
         "grants": 80296.835977,
         "benefits": 36874.290316,
         "operations": 40054.370336,
@@ -2376,20 +1781,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645",
-      "publishedAt": "2026-09-07",
+      "publishedAt": null,
+      "sourceFileDate": "2026-09-07",
       "status": "reported_actual"
     },
     {
       "period": "2026-04",
-      "revenue": 187000.343,
-      "spending": 276294.615,
-      "balance": -89294.272,
-      "revenueCategories": {
-        "tax": 168370.435456,
-        "nonTax": 18432.418255,
-        "eu": 197.489629
-      },
-      "spendingCategories": {
+      "total": 276294.615,
+      "categories": {
         "grants": 105588.482833,
         "benefits": 63723.33908,
         "operations": 53128.889485,
@@ -2400,20 +1799,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645",
-      "publishedAt": "2026-09-07",
+      "publishedAt": null,
+      "sourceFileDate": "2026-09-07",
       "status": "reported_actual"
     },
     {
       "period": "2026-05",
-      "revenue": 233328.281,
-      "spending": 341542.501,
-      "balance": -108214.22,
-      "revenueCategories": {
-        "tax": 210926.043573,
-        "nonTax": 22148.756181,
-        "eu": 253.48148
-      },
-      "spendingCategories": {
+      "total": 341542.501,
+      "categories": {
         "grants": 133238.925672,
         "benefits": 73796.60844,
         "operations": 65368.928181,
@@ -2424,20 +1817,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645",
-      "publishedAt": "2026-09-07",
+      "publishedAt": null,
+      "sourceFileDate": "2026-09-07",
       "status": "reported_actual"
     },
     {
       "period": "2026-06",
-      "revenue": 278705.92,
-      "spending": 402449.331,
-      "balance": -123743.411,
-      "revenueCategories": {
-        "tax": 245027.710686,
-        "nonTax": 32470.457084,
-        "eu": 1207.752052
-      },
-      "spendingCategories": {
+      "total": 402449.331,
+      "categories": {
         "grants": 160600.03987,
         "benefits": 84576.235231,
         "operations": 77810.289683,
@@ -2448,20 +1835,14 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645",
-      "publishedAt": "2026-09-07",
+      "publishedAt": null,
+      "sourceFileDate": "2026-09-07",
       "status": "reported_actual"
     },
     {
       "period": "2026-07",
-      "revenue": 333904.337,
-      "spending": 474967.476,
-      "balance": -141063.139,
-      "revenueCategories": {
-        "tax": 295657.784037,
-        "nonTax": 36987.657495,
-        "eu": 1258.895776
-      },
-      "spendingCategories": {
+      "total": 474967.476,
+      "categories": {
         "grants": 186688.892708,
         "benefits": 97057.602029,
         "operations": 90561.646535,
@@ -2472,1603 +1853,2221 @@
       },
       "unit": "PLN million",
       "sourceUrl": "https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645",
-      "publishedAt": "2026-09-07",
+      "publishedAt": null,
+      "sourceFileDate": "2026-09-07",
       "status": "reported_actual"
     }
   ],
-  "debt": [
-    {
-      "period": "2018-01",
-      "value": 934690.069719,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2018-02",
-      "value": 952017.388918,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2018-03",
-      "value": 958125.870731,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2018-04",
-      "value": 948739.955315,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2018-05",
-      "value": 962022.992095,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2018-06",
-      "value": 955475.899412,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2018-07",
-      "value": 945895.124109,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2018-08",
-      "value": 948266.501868,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2018-09",
-      "value": 948985.815012,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2018-10",
-      "value": 959861.768234,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2018-11",
-      "value": 954136.89354,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
+  "breakdowns": [
     {
       "period": "2018-12",
-      "value": 954269.263783,
+      "total": 390454.347,
+      "originalPlan": 397197.405,
+      "amendedPlan": 397197.405,
+      "functions": [
+        {
+          "code": "010",
+          "label": "Rolnictwo i łowiectwo",
+          "actual": 9935.903155,
+          "originalPlan": 5143.786,
+          "amendedPlan": 10238.426419
+        },
+        {
+          "code": "020",
+          "label": "Leśnictwo",
+          "actual": 10.602566,
+          "originalPlan": 9.114,
+          "amendedPlan": 11.639502
+        },
+        {
+          "code": "050",
+          "label": "Rybołówstwo i rybactwo",
+          "actual": 171.940858,
+          "originalPlan": 151.055,
+          "amendedPlan": 215.251118
+        },
+        {
+          "code": "100",
+          "label": "Górnictwo i kopalnictwo",
+          "actual": 1552.743532,
+          "originalPlan": 576.276,
+          "amendedPlan": 1576.276
+        },
+        {
+          "code": "150",
+          "label": "Przetwórstwo przemysłowe",
+          "actual": 843.274684,
+          "originalPlan": 905.236,
+          "amendedPlan": 926.796997
+        },
+        {
+          "code": "400",
+          "label": "Wytwarzanie i zaopatrywanie w",
+          "actual": 0.215082,
+          "originalPlan": 0.0,
+          "amendedPlan": 0.215082
+        },
+        {
+          "code": "500",
+          "label": "Handel",
+          "actual": 362.741334,
+          "originalPlan": 364.289,
+          "amendedPlan": 366.910843
+        },
+        {
+          "code": "550",
+          "label": "Hotele i restauracje",
+          "actual": 15.456018,
+          "originalPlan": 18.0,
+          "amendedPlan": 15.702589
+        },
+        {
+          "code": "600",
+          "label": "Transport i łączność",
+          "actual": 17455.555835,
+          "originalPlan": 10899.314,
+          "amendedPlan": 17656.440996
+        },
+        {
+          "code": "630",
+          "label": "Turystyka",
+          "actual": 57.822883,
+          "originalPlan": 57.94,
+          "amendedPlan": 58.079563
+        },
+        {
+          "code": "700",
+          "label": "Gospodarka mieszkaniowa",
+          "actual": 2312.775107,
+          "originalPlan": 1332.054,
+          "amendedPlan": 2341.695917
+        },
+        {
+          "code": "710",
+          "label": "Działalność usługowa",
+          "actual": 442.452037,
+          "originalPlan": 438.923,
+          "amendedPlan": 453.44167
+        },
+        {
+          "code": "720",
+          "label": "Informatyka",
+          "actual": 195.172265,
+          "originalPlan": 195.499,
+          "amendedPlan": 195.733821
+        },
+        {
+          "code": "730",
+          "label": "Nauka",
+          "actual": 6627.757524,
+          "originalPlan": 6347.221,
+          "amendedPlan": 6702.248789
+        },
+        {
+          "code": "750",
+          "label": "Administracja publiczna",
+          "actual": 14101.118791,
+          "originalPlan": 13836.776,
+          "amendedPlan": 14500.266174
+        },
+        {
+          "code": "751",
+          "label": "Urzędy naczelnych organów",
+          "actual": 2836.536892,
+          "originalPlan": 2652.203,
+          "amendedPlan": 3079.560237
+        },
+        {
+          "code": "752",
+          "label": "Obrona narodowa",
+          "actual": 34750.186884,
+          "originalPlan": 33299.427,
+          "amendedPlan": 34906.084172
+        },
+        {
+          "code": "753",
+          "label": "Obowiązkowe ubezpieczenia",
+          "actual": 76770.778281,
+          "originalPlan": 85210.187,
+          "amendedPlan": 76805.337879
+        },
+        {
+          "code": "754",
+          "label": "Bezpieczeństwo publiczne",
+          "actual": 16434.132942,
+          "originalPlan": 14993.881,
+          "amendedPlan": 16483.504645
+        },
+        {
+          "code": "755",
+          "label": "Wymiar sprawiedliwości",
+          "actual": 12540.527167,
+          "originalPlan": 12527.357,
+          "amendedPlan": 12616.071545
+        },
+        {
+          "code": "756",
+          "label": "Dochody od osób prawnych,",
+          "actual": 5.976248,
+          "originalPlan": 0.0,
+          "amendedPlan": 5.976249
+        },
+        {
+          "code": "757",
+          "label": "Obsługa długu publicznego",
+          "actual": 29486.28978,
+          "originalPlan": 30700.0,
+          "amendedPlan": 29700.0
+        },
+        {
+          "code": "758",
+          "label": "Różne rozliczenia",
+          "actual": 79118.082509,
+          "originalPlan": 101616.346,
+          "amendedPlan": 82508.244521
+        },
+        {
+          "code": "801",
+          "label": "Oświata i wychowanie",
+          "actual": 3888.781569,
+          "originalPlan": 1935.346,
+          "amendedPlan": 3981.821712
+        },
+        {
+          "code": "803",
+          "label": "Szkolnictwo wyższe",
+          "actual": 16100.290008,
+          "originalPlan": 16063.403,
+          "amendedPlan": 16156.639676
+        },
+        {
+          "code": "851",
+          "label": "Ochrona zdrowia",
+          "actual": 10643.695819,
+          "originalPlan": 7295.462,
+          "amendedPlan": 10800.073184
+        },
+        {
+          "code": "852",
+          "label": "Pomoc społeczna",
+          "actual": 4576.575405,
+          "originalPlan": 3856.204,
+          "amendedPlan": 4748.202455
+        },
+        {
+          "code": "853",
+          "label": "Pozostałe zadania w zakresie",
+          "actual": 4658.691606,
+          "originalPlan": 4254.482,
+          "amendedPlan": 4737.705065
+        },
+        {
+          "code": "854",
+          "label": "Edukacyjna opieka",
+          "actual": 386.043606,
+          "originalPlan": 113.866,
+          "amendedPlan": 435.797206
+        },
+        {
+          "code": "855",
+          "label": "Rodzina",
+          "actual": 39859.607637,
+          "originalPlan": 38760.545,
+          "amendedPlan": 40564.065069
+        },
+        {
+          "code": "900",
+          "label": "Gospodarka komunalna",
+          "actual": 1630.185702,
+          "originalPlan": 982.669,
+          "amendedPlan": 1671.167519
+        },
+        {
+          "code": "921",
+          "label": "Kultura i ochrona",
+          "actual": 2307.715672,
+          "originalPlan": 2288.005,
+          "amendedPlan": 2358.142204
+        },
+        {
+          "code": "925",
+          "label": "Ogrody botaniczne",
+          "actual": 110.423075,
+          "originalPlan": 114.02,
+          "amendedPlan": 114.4701
+        },
+        {
+          "code": "926",
+          "label": "Kultura fizyczna",
+          "actual": 264.294701,
+          "originalPlan": 258.519,
+          "amendedPlan": 265.416082
+        }
+      ],
       "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "sourceUrl": "https://www.gov.pl/attachment/5fb9b501-2c56-4495-8df1-89f8e8c92f76",
       "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2019-01",
-      "value": 954658.560253,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2019-02",
-      "value": 963574.286464,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2019-03",
-      "value": 978996.930449,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2019-04",
-      "value": 978716.744257,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2019-05",
-      "value": 976141.732813,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2019-06",
-      "value": 975114.054402,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2019-07",
-      "value": 973307.731929,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2019-08",
-      "value": 977610.449546,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2019-09",
-      "value": 978560.978485,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2019-10",
-      "value": 960882.364934,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2019-11",
-      "value": 962013.362646,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
+      "sourceFileDate": "2019-06-11",
       "status": "reported_actual"
     },
     {
       "period": "2019-12",
-      "value": 973338.202435,
+      "total": 414273.014,
+      "originalPlan": 416234.52,
+      "amendedPlan": 416234.52,
+      "functions": [
+        {
+          "code": "010",
+          "label": "Rolnictwo i łowiectwo",
+          "actual": 8371.622388,
+          "originalPlan": 4895.636,
+          "amendedPlan": 8455.473531
+        },
+        {
+          "code": "020",
+          "label": "Leśnictwo",
+          "actual": 11.206488,
+          "originalPlan": 9.013,
+          "amendedPlan": 11.345144
+        },
+        {
+          "code": "050",
+          "label": "Rybołówstwo i rybactwo",
+          "actual": 144.203698,
+          "originalPlan": 82.741,
+          "amendedPlan": 151.330446
+        },
+        {
+          "code": "100",
+          "label": "Górnictwo i kopalnictwo",
+          "actual": 910.040693,
+          "originalPlan": 575.364,
+          "amendedPlan": 918.635417
+        },
+        {
+          "code": "150",
+          "label": "Przetwórstwo przemysłowe",
+          "actual": 816.017913,
+          "originalPlan": 833.206,
+          "amendedPlan": 835.350772
+        },
+        {
+          "code": "400",
+          "label": "Wytwarzanie i zaopatrywanie w",
+          "actual": 1.5,
+          "originalPlan": 0.0,
+          "amendedPlan": 1.5
+        },
+        {
+          "code": "500",
+          "label": "Handel",
+          "actual": 373.04489,
+          "originalPlan": 427.089,
+          "amendedPlan": 374.249639
+        },
+        {
+          "code": "550",
+          "label": "Hotele i restauracje",
+          "actual": 17.623414,
+          "originalPlan": 19.5,
+          "amendedPlan": 18.092512
+        },
+        {
+          "code": "600",
+          "label": "Transport i łączność",
+          "actual": 12011.739162,
+          "originalPlan": 11510.767,
+          "amendedPlan": 12084.106169
+        },
+        {
+          "code": "630",
+          "label": "Turystyka",
+          "actual": 58.308717,
+          "originalPlan": 58.251,
+          "amendedPlan": 58.449733
+        },
+        {
+          "code": "700",
+          "label": "Gospodarka mieszkaniowa",
+          "actual": 767.549656,
+          "originalPlan": 747.97,
+          "amendedPlan": 794.050875
+        },
+        {
+          "code": "710",
+          "label": "Działalność usługowa",
+          "actual": 474.965907,
+          "originalPlan": 467.012,
+          "amendedPlan": 483.362473
+        },
+        {
+          "code": "720",
+          "label": "Informatyka",
+          "actual": 24.385893,
+          "originalPlan": 25.265,
+          "amendedPlan": 24.795062
+        },
+        {
+          "code": "730",
+          "label": "Szkolnictwo wyższe i nauka",
+          "actual": 24007.999176,
+          "originalPlan": 23202.541,
+          "amendedPlan": 24084.770854
+        },
+        {
+          "code": "750",
+          "label": "Administracja publiczna",
+          "actual": 15401.274825,
+          "originalPlan": 14511.767,
+          "amendedPlan": 15643.53692
+        },
+        {
+          "code": "751",
+          "label": "Urzędy naczelnych organów",
+          "actual": 2898.599478,
+          "originalPlan": 2750.003,
+          "amendedPlan": 3073.282417
+        },
+        {
+          "code": "752",
+          "label": "Obrona narodowa",
+          "actual": 35741.076829,
+          "originalPlan": 36452.9,
+          "amendedPlan": 35761.632741
+        },
+        {
+          "code": "753",
+          "label": "Obowiązkowe ubezpieczenia",
+          "actual": 88093.615546,
+          "originalPlan": 88819.232,
+          "amendedPlan": 88204.693637
+        },
+        {
+          "code": "754",
+          "label": "Bezpieczeństwo publiczne",
+          "actual": 18682.565441,
+          "originalPlan": 15905.755,
+          "amendedPlan": 18705.37683
+        },
+        {
+          "code": "755",
+          "label": "Wymiar sprawiedliwości",
+          "actual": 13556.304315,
+          "originalPlan": 13396.411,
+          "amendedPlan": 13616.377972
+        },
+        {
+          "code": "756",
+          "label": "Dochody od osób prawnych,",
+          "actual": 5.587967,
+          "originalPlan": 0.0,
+          "amendedPlan": 5.587967
+        },
+        {
+          "code": "757",
+          "label": "Obsługa długu publicznego",
+          "actual": 27336.115635,
+          "originalPlan": 29200.0,
+          "amendedPlan": 27346.0
+        },
+        {
+          "code": "758",
+          "label": "Różne rozliczenia",
+          "actual": 85336.951683,
+          "originalPlan": 110806.38,
+          "amendedPlan": 85550.182077
+        },
+        {
+          "code": "801",
+          "label": "Oświata i wychowanie",
+          "actual": 3976.273948,
+          "originalPlan": 2085.616,
+          "amendedPlan": 4053.294042
+        },
+        {
+          "code": "803",
+          "label": "Szkolnictwo wyższe",
+          "actual": 0.0,
+          "originalPlan": 0.0,
+          "amendedPlan": 0.0
+        },
+        {
+          "code": "851",
+          "label": "Ochrona zdrowia",
+          "actual": 10931.115512,
+          "originalPlan": 8248.57,
+          "amendedPlan": 11056.344327
+        },
+        {
+          "code": "852",
+          "label": "Pomoc społeczna",
+          "actual": 4641.038467,
+          "originalPlan": 3903.045,
+          "amendedPlan": 4724.806337
+        },
+        {
+          "code": "853",
+          "label": "Pozostałe zadania w zakresie",
+          "actual": 5505.17043,
+          "originalPlan": 5003.094,
+          "amendedPlan": 5529.595425
+        },
+        {
+          "code": "854",
+          "label": "Edukacyjna opieka",
+          "actual": 388.481797,
+          "originalPlan": 125.019,
+          "amendedPlan": 432.137728
+        },
+        {
+          "code": "855",
+          "label": "Rodzina",
+          "actual": 48827.913996,
+          "originalPlan": 37794.82,
+          "amendedPlan": 49192.107196
+        },
+        {
+          "code": "900",
+          "label": "Gospodarka komunalna",
+          "actual": 2032.8276,
+          "originalPlan": 1505.117,
+          "amendedPlan": 2068.884583
+        },
+        {
+          "code": "921",
+          "label": "Kultura i ochrona",
+          "actual": 2542.976428,
+          "originalPlan": 2501.951,
+          "amendedPlan": 2589.71144
+        },
+        {
+          "code": "925",
+          "label": "Ogrody botaniczne",
+          "actual": 112.407595,
+          "originalPlan": 112.172,
+          "amendedPlan": 113.077513
+        },
+        {
+          "code": "926",
+          "label": "Kultura fizyczna",
+          "actual": 271.355367,
+          "originalPlan": 258.313,
+          "amendedPlan": 272.378223
+        }
+      ],
       "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "sourceUrl": "https://www.gov.pl/attachment/46d2ec6b-d531-4e51-84d9-77ed62ff8f3f",
       "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2020-01",
-      "value": 987605.895357,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2020-02",
-      "value": 997398.481361,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2020-03",
-      "value": 1036444.312363,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2020-04",
-      "value": 1077183.957181,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2020-05",
-      "value": 1087385.815678,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2020-06",
-      "value": 1088191.599925,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2020-07",
-      "value": 1094346.620946,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2020-08",
-      "value": 1091384.889687,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2020-09",
-      "value": 1100124.871025,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2020-10",
-      "value": 1103567.3414,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2020-11",
-      "value": 1090187.901409,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
+      "sourceFileDate": "2020-06-04",
+      "status": "reported_actual",
+      "sourceDifference": 1.153146
     },
     {
       "period": "2020-12",
-      "value": 1097480.039197,
+      "total": 504776.148,
+      "originalPlan": 508019.293,
+      "amendedPlan": 508019.293,
+      "functions": [
+        {
+          "code": "010",
+          "label": "Rolnictwo i łowiectwo",
+          "actual": 10951.772812,
+          "originalPlan": 5626.812,
+          "amendedPlan": 11064.550254
+        },
+        {
+          "code": "020",
+          "label": "Leśnictwo",
+          "actual": 11.650476,
+          "originalPlan": 12.329,
+          "amendedPlan": 12.215213
+        },
+        {
+          "code": "050",
+          "label": "Rybołówstwo i rybactwo",
+          "actual": 181.239233,
+          "originalPlan": 123.8,
+          "amendedPlan": 190.147068
+        },
+        {
+          "code": "100",
+          "label": "Górnictwo i kopalnictwo",
+          "actual": 2045.340104,
+          "originalPlan": 2020.359,
+          "amendedPlan": 2054.252979
+        },
+        {
+          "code": "150",
+          "label": "Przetwórstwo przemysłowe",
+          "actual": 583.38271,
+          "originalPlan": 811.832,
+          "amendedPlan": 664.083732
+        },
+        {
+          "code": "400",
+          "label": "Wytwarzanie i zaopatrywanie w",
+          "actual": 1.493165,
+          "originalPlan": 0.0,
+          "amendedPlan": 1.498962
+        },
+        {
+          "code": "500",
+          "label": "Handel",
+          "actual": 2074.395165,
+          "originalPlan": 441.849,
+          "amendedPlan": 2214.597784
+        },
+        {
+          "code": "550",
+          "label": "Hotele i restauracje",
+          "actual": 12.279464,
+          "originalPlan": 21.0,
+          "amendedPlan": 12.309173
+        },
+        {
+          "code": "600",
+          "label": "Transport i łączność",
+          "actual": 29548.653261,
+          "originalPlan": 25996.859,
+          "amendedPlan": 29693.50978
+        },
+        {
+          "code": "630",
+          "label": "Turystyka",
+          "actual": 58.403834,
+          "originalPlan": 58.458,
+          "amendedPlan": 58.654583
+        },
+        {
+          "code": "700",
+          "label": "Gospodarka mieszkaniowa",
+          "actual": 885.107775,
+          "originalPlan": 741.488,
+          "amendedPlan": 900.429484
+        },
+        {
+          "code": "710",
+          "label": "Działalność usługowa",
+          "actual": 493.281751,
+          "originalPlan": 500.335,
+          "amendedPlan": 498.583937
+        },
+        {
+          "code": "720",
+          "label": "Informatyka",
+          "actual": 23.269094,
+          "originalPlan": 23.781,
+          "amendedPlan": 23.45142
+        },
+        {
+          "code": "730",
+          "label": "Szkolnictwo wyższe i nauka",
+          "actual": 25741.174281,
+          "originalPlan": 25439.955,
+          "amendedPlan": 25949.174399
+        },
+        {
+          "code": "750",
+          "label": "Administracja publiczna",
+          "actual": 26303.181299,
+          "originalPlan": 16036.993,
+          "amendedPlan": 26778.602032
+        },
+        {
+          "code": "751",
+          "label": "Urzędy naczelnych organów",
+          "actual": 2931.970689,
+          "originalPlan": 2751.371,
+          "amendedPlan": 3004.132485
+        },
+        {
+          "code": "752",
+          "label": "Obrona narodowa",
+          "actual": 43674.594153,
+          "originalPlan": 43956.841,
+          "amendedPlan": 43721.228439
+        },
+        {
+          "code": "753",
+          "label": "Obowiązkowe ubezpieczenia",
+          "actual": 89420.551961,
+          "originalPlan": 91923.927,
+          "amendedPlan": 89607.660964
+        },
+        {
+          "code": "754",
+          "label": "Bezpieczeństwo publiczne",
+          "actual": 19563.981833,
+          "originalPlan": 18674.477,
+          "amendedPlan": 19580.885633
+        },
+        {
+          "code": "755",
+          "label": "Wymiar sprawiedliwości",
+          "actual": 14839.173414,
+          "originalPlan": 15088.214,
+          "amendedPlan": 14874.361818
+        },
+        {
+          "code": "756",
+          "label": "Dochody od osób prawnych,",
+          "actual": 6.094427,
+          "originalPlan": 0.0,
+          "amendedPlan": 6.094428
+        },
+        {
+          "code": "757",
+          "label": "Obsługa długu publicznego",
+          "actual": 29300.228064,
+          "originalPlan": 29100.0,
+          "amendedPlan": 29301.49
+        },
+        {
+          "code": "758",
+          "label": "Różne rozliczenia",
+          "actual": 93920.824057,
+          "originalPlan": 119863.958,
+          "amendedPlan": 94420.459343
+        },
+        {
+          "code": "801",
+          "label": "Oświata i wychowanie",
+          "actual": 4394.324957,
+          "originalPlan": 2318.856,
+          "amendedPlan": 4478.233378
+        },
+        {
+          "code": "851",
+          "label": "Ochrona zdrowia",
+          "actual": 9937.647793,
+          "originalPlan": 10498.972,
+          "amendedPlan": 10227.322396
+        },
+        {
+          "code": "852",
+          "label": "Pomoc społeczna",
+          "actual": 4685.610437,
+          "originalPlan": 4077.373,
+          "amendedPlan": 4831.228918
+        },
+        {
+          "code": "853",
+          "label": "Pozostałe zadania w zakresie",
+          "actual": 28245.706938,
+          "originalPlan": 27792.677,
+          "amendedPlan": 28270.704638
+        },
+        {
+          "code": "854",
+          "label": "Edukacyjna opieka",
+          "actual": 375.03734,
+          "originalPlan": 140.248,
+          "amendedPlan": 408.155046
+        },
+        {
+          "code": "855",
+          "label": "Rodzina",
+          "actual": 59060.164913,
+          "originalPlan": 58557.322,
+          "amendedPlan": 59504.178673
+        },
+        {
+          "code": "900",
+          "label": "Gospodarka komunalna",
+          "actual": 1528.819395,
+          "originalPlan": 1439.698,
+          "amendedPlan": 1587.628529
+        },
+        {
+          "code": "921",
+          "label": "Kultura i ochrona",
+          "actual": 3573.833713,
+          "originalPlan": 3577.156,
+          "amendedPlan": 3670.495076
+        },
+        {
+          "code": "925",
+          "label": "Ogrody botaniczne",
+          "actual": 117.409472,
+          "originalPlan": 119.031,
+          "amendedPlan": 119.211059
+        },
+        {
+          "code": "926",
+          "label": "Kultura fizyczna",
+          "actual": 285.549696,
+          "originalPlan": 283.322,
+          "amendedPlan": 289.761376
+        }
+      ],
       "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "sourceUrl": "https://www.gov.pl/attachment/43c8b761-8a8d-433b-9781-31f7fe935ccc",
       "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2021-01",
-      "value": 1089613.302941,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2021-02",
-      "value": 1122205.485524,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2021-03",
-      "value": 1131762.957275,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2021-04",
-      "value": 1122147.11271,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2021-05",
-      "value": 1125467.587651,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2021-06",
-      "value": 1133647.462658,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2021-07",
-      "value": 1135089.016071,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2021-08",
-      "value": 1135646.300686,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2021-09",
-      "value": 1144751.580923,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2021-10",
-      "value": 1126980.19938,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2021-11",
-      "value": 1138121.40388,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
+      "sourceFileDate": "2021-06-08",
       "status": "reported_actual"
     },
     {
       "period": "2021-12",
-      "value": 1138034.172713,
+      "total": 521216.817,
+      "originalPlan": 523492.865,
+      "amendedPlan": 523492.865,
+      "functions": [
+        {
+          "code": "010",
+          "label": "Rolnictwo i łowiectwo",
+          "actual": 10837.094542,
+          "originalPlan": 6570.504,
+          "amendedPlan": 10942.591784
+        },
+        {
+          "code": "020",
+          "label": "Leśnictwo",
+          "actual": 13.87397,
+          "originalPlan": 13.185,
+          "amendedPlan": 14.55435
+        },
+        {
+          "code": "050",
+          "label": "Rybołówstwo i rybactwo",
+          "actual": 128.507306,
+          "originalPlan": 116.372,
+          "amendedPlan": 139.761621
+        },
+        {
+          "code": "100",
+          "label": "Górnictwo i kopalnictwo",
+          "actual": 1551.805048,
+          "originalPlan": 1409.287,
+          "amendedPlan": 1554.469018
+        },
+        {
+          "code": "150",
+          "label": "Przetwórstwo przemysłowe",
+          "actual": 848.56345,
+          "originalPlan": 749.58,
+          "amendedPlan": 887.740571
+        },
+        {
+          "code": "400",
+          "label": "Wytwarzanie i zaopatrywanie w",
+          "actual": 0.044495,
+          "originalPlan": 0.0,
+          "amendedPlan": 0.044495
+        },
+        {
+          "code": "500",
+          "label": "Handel",
+          "actual": 1020.919247,
+          "originalPlan": 981.301,
+          "amendedPlan": 1026.7465
+        },
+        {
+          "code": "550",
+          "label": "Hotele i restauracje",
+          "actual": 18.474009,
+          "originalPlan": 20.219,
+          "amendedPlan": 19.60072
+        },
+        {
+          "code": "600",
+          "label": "Transport i łączność",
+          "actual": 20276.350865,
+          "originalPlan": 18976.35,
+          "amendedPlan": 20378.603767
+        },
+        {
+          "code": "630",
+          "label": "Turystyka",
+          "actual": 67.424978,
+          "originalPlan": 69.772,
+          "amendedPlan": 72.525312
+        },
+        {
+          "code": "700",
+          "label": "Gospodarka mieszkaniowa",
+          "actual": 873.737653,
+          "originalPlan": 476.36,
+          "amendedPlan": 985.069044
+        },
+        {
+          "code": "710",
+          "label": "Działalność usługowa",
+          "actual": 544.536314,
+          "originalPlan": 533.093,
+          "amendedPlan": 550.544839
+        },
+        {
+          "code": "720",
+          "label": "Informatyka",
+          "actual": 23.46751,
+          "originalPlan": 25.105,
+          "amendedPlan": 23.753596
+        },
+        {
+          "code": "730",
+          "label": "Szkolnictwo wyższe i nauka",
+          "actual": 27374.542534,
+          "originalPlan": 26723.025,
+          "amendedPlan": 27563.261437
+        },
+        {
+          "code": "750",
+          "label": "Administracja publiczna",
+          "actual": 32595.704975,
+          "originalPlan": 17202.263,
+          "amendedPlan": 32920.333046
+        },
+        {
+          "code": "751",
+          "label": "Urzędy naczelnych organów",
+          "actual": 2750.951485,
+          "originalPlan": 2862.076,
+          "amendedPlan": 2798.048438
+        },
+        {
+          "code": "752",
+          "label": "Obrona narodowa",
+          "actual": 49118.545679,
+          "originalPlan": 49125.102,
+          "amendedPlan": 49137.297959
+        },
+        {
+          "code": "753",
+          "label": "Obowiązkowe ubezpieczenia",
+          "actual": 79301.112756,
+          "originalPlan": 98715.611,
+          "amendedPlan": 79337.042204
+        },
+        {
+          "code": "754",
+          "label": "Bezpieczeństwo publiczne",
+          "actual": 23066.993707,
+          "originalPlan": 20404.751,
+          "amendedPlan": 23082.822653
+        },
+        {
+          "code": "755",
+          "label": "Wymiar sprawiedliwości",
+          "actual": 16089.445847,
+          "originalPlan": 16247.932,
+          "amendedPlan": 16111.213643
+        },
+        {
+          "code": "756",
+          "label": "Dochody od osób prawnych,",
+          "actual": 7.481553,
+          "originalPlan": 0.0,
+          "amendedPlan": 7.481553
+        },
+        {
+          "code": "757",
+          "label": "Obsługa długu publicznego",
+          "actual": 25957.657894,
+          "originalPlan": 26000.0,
+          "amendedPlan": 25975.0
+        },
+        {
+          "code": "758",
+          "label": "Różne rozliczenia",
+          "actual": 116472.026173,
+          "originalPlan": 141273.15,
+          "amendedPlan": 116823.077405
+        },
+        {
+          "code": "801",
+          "label": "Oświata i wychowanie",
+          "actual": 4784.804354,
+          "originalPlan": 2509.69,
+          "amendedPlan": 4869.61611
+        },
+        {
+          "code": "851",
+          "label": "Ochrona zdrowia",
+          "actual": 20499.766581,
+          "originalPlan": 21057.563,
+          "amendedPlan": 20701.859162
+        },
+        {
+          "code": "852",
+          "label": "Pomoc społeczna",
+          "actual": 4594.991454,
+          "originalPlan": 4219.883,
+          "amendedPlan": 4677.088861
+        },
+        {
+          "code": "853",
+          "label": "Pozostałe zadania w zakresie",
+          "actual": 15891.371732,
+          "originalPlan": 2290.427,
+          "amendedPlan": 15912.855392
+        },
+        {
+          "code": "854",
+          "label": "Edukacyjna opieka",
+          "actual": 367.03648,
+          "originalPlan": 154.707,
+          "amendedPlan": 402.691402
+        },
+        {
+          "code": "855",
+          "label": "Rodzina",
+          "actual": 59349.489906,
+          "originalPlan": 58771.447,
+          "amendedPlan": 59648.141958
+        },
+        {
+          "code": "900",
+          "label": "Gospodarka komunalna",
+          "actual": 2464.220963,
+          "originalPlan": 1753.63,
+          "amendedPlan": 2547.472628
+        },
+        {
+          "code": "921",
+          "label": "Kultura i ochrona",
+          "actual": 3869.338684,
+          "originalPlan": 3840.018,
+          "amendedPlan": 3920.138766
+        },
+        {
+          "code": "925",
+          "label": "Ogrody botaniczne",
+          "actual": 115.498949,
+          "originalPlan": 112.398,
+          "amendedPlan": 117.320986
+        },
+        {
+          "code": "926",
+          "label": "Kultura fizyczna",
+          "actual": 341.035687,
+          "originalPlan": 288.064,
+          "amendedPlan": 344.095778
+        }
+      ],
       "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "sourceUrl": "https://www.gov.pl/attachment/acd45f09-cc58-441e-aab7-923929635fa5",
       "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2022-01",
-      "value": 1137132.457913,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2022-02",
-      "value": 1144855.560314,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2022-03",
-      "value": 1148171.255009,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2022-04",
-      "value": 1153767.619238,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2022-05",
-      "value": 1168355.017935,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2022-06",
-      "value": 1198783.741518,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2022-07",
-      "value": 1192004.462159,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2022-08",
-      "value": 1204117.975027,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2022-09",
-      "value": 1205904.547562,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2022-10",
-      "value": 1209461.090387,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2022-11",
-      "value": 1210844.940012,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
+      "sourceFileDate": "2022-05-31",
       "status": "reported_actual"
     },
     {
       "period": "2022-12",
-      "value": 1238470.476851,
+      "total": 517398.907,
+      "originalPlan": 521836.95,
+      "amendedPlan": 521836.95,
+      "functions": [
+        {
+          "code": "010",
+          "label": "Rolnictwo i łowiectwo",
+          "actual": 11713.45364,
+          "originalPlan": 7960.152,
+          "amendedPlan": 12056.549844
+        },
+        {
+          "code": "020",
+          "label": "Leśnictwo",
+          "actual": 21.298611,
+          "originalPlan": 21.553,
+          "amendedPlan": 24.663772
+        },
+        {
+          "code": "050",
+          "label": "Rybołówstwo i rybactwo",
+          "actual": 134.121249,
+          "originalPlan": 143.467,
+          "amendedPlan": 158.844652
+        },
+        {
+          "code": "100",
+          "label": "Górnictwo i kopalnictwo",
+          "actual": 960.355772,
+          "originalPlan": 385.074,
+          "amendedPlan": 961.224392
+        },
+        {
+          "code": "150",
+          "label": "Przetwórstwo przemysłowe",
+          "actual": 756.863384,
+          "originalPlan": 1386.43,
+          "amendedPlan": 919.286838
+        },
+        {
+          "code": "400",
+          "label": "Wytwarzanie i zaopatrywanie w",
+          "actual": 0.0,
+          "originalPlan": 0.0,
+          "amendedPlan": 0.0
+        },
+        {
+          "code": "500",
+          "label": "Handel",
+          "actual": 1450.705639,
+          "originalPlan": 558.916,
+          "amendedPlan": 1459.246948
+        },
+        {
+          "code": "550",
+          "label": "Hotele i restauracje",
+          "actual": 40.466688,
+          "originalPlan": 20.365,
+          "amendedPlan": 40.47742
+        },
+        {
+          "code": "600",
+          "label": "Transport i łączność",
+          "actual": 11534.791037,
+          "originalPlan": 10217.583,
+          "amendedPlan": 11588.080378
+        },
+        {
+          "code": "630",
+          "label": "Turystyka",
+          "actual": 77.906982,
+          "originalPlan": 72.244,
+          "amendedPlan": 81.135826
+        },
+        {
+          "code": "700",
+          "label": "Gospodarka mieszkaniowa",
+          "actual": 1301.921465,
+          "originalPlan": 468.85,
+          "amendedPlan": 1466.457406
+        },
+        {
+          "code": "710",
+          "label": "Działalność usługowa",
+          "actual": 593.418186,
+          "originalPlan": 577.489,
+          "amendedPlan": 607.105073
+        },
+        {
+          "code": "720",
+          "label": "Informatyka",
+          "actual": 53.26013,
+          "originalPlan": 23.517,
+          "amendedPlan": 53.54755
+        },
+        {
+          "code": "730",
+          "label": "Szkolnictwo wyższe i nauka",
+          "actual": 27791.503596,
+          "originalPlan": 27311.695,
+          "amendedPlan": 27952.808071
+        },
+        {
+          "code": "750",
+          "label": "Administracja publiczna",
+          "actual": 34179.881364,
+          "originalPlan": 18140.306,
+          "amendedPlan": 34715.563127
+        },
+        {
+          "code": "751",
+          "label": "Urzędy naczelnych organów",
+          "actual": 2920.706709,
+          "originalPlan": 3052.151,
+          "amendedPlan": 2967.734239
+        },
+        {
+          "code": "752",
+          "label": "Obrona narodowa",
+          "actual": 47317.041884,
+          "originalPlan": 47577.454,
+          "amendedPlan": 47339.876474
+        },
+        {
+          "code": "753",
+          "label": "Obowiązkowe ubezpieczenia",
+          "actual": 86132.304713,
+          "originalPlan": 91388.944,
+          "amendedPlan": 86166.41052
+        },
+        {
+          "code": "754",
+          "label": "Bezpieczeństwo publiczne",
+          "actual": 20369.083181,
+          "originalPlan": 19061.197,
+          "amendedPlan": 20412.958938
+        },
+        {
+          "code": "755",
+          "label": "Wymiar sprawiedliwości",
+          "actual": 17059.156109,
+          "originalPlan": 17213.783,
+          "amendedPlan": 17221.851971
+        },
+        {
+          "code": "756",
+          "label": "Dochody od osób prawnych,",
+          "actual": 350.318698,
+          "originalPlan": 0.0,
+          "amendedPlan": 350.318698
+        },
+        {
+          "code": "757",
+          "label": "Obsługa długu publicznego",
+          "actual": 32718.271061,
+          "originalPlan": 26000.0,
+          "amendedPlan": 32800.0
+        },
+        {
+          "code": "758",
+          "label": "Różne rozliczenia",
+          "actual": 110996.277018,
+          "originalPlan": 149809.73,
+          "amendedPlan": 112077.830686
+        },
+        {
+          "code": "801",
+          "label": "Oświata i wychowanie",
+          "actual": 5048.744284,
+          "originalPlan": 2552.69,
+          "amendedPlan": 5164.355371
+        },
+        {
+          "code": "851",
+          "label": "Ochrona zdrowia",
+          "actual": 20285.325437,
+          "originalPlan": 20944.713,
+          "amendedPlan": 20539.588733
+        },
+        {
+          "code": "852",
+          "label": "Pomoc społeczna",
+          "actual": 7430.049054,
+          "originalPlan": 4311.107,
+          "amendedPlan": 7675.216144
+        },
+        {
+          "code": "853",
+          "label": "Pozostałe zadania w zakresie",
+          "actual": 4830.108055,
+          "originalPlan": 4101.287,
+          "amendedPlan": 4849.734928
+        },
+        {
+          "code": "854",
+          "label": "Edukacyjna opieka",
+          "actual": 379.029526,
+          "originalPlan": 161.788,
+          "amendedPlan": 436.747489
+        },
+        {
+          "code": "855",
+          "label": "Rodzina",
+          "actual": 63083.852648,
+          "originalPlan": 62297.071,
+          "amendedPlan": 63607.508705
+        },
+        {
+          "code": "900",
+          "label": "Gospodarka komunalna",
+          "actual": 2994.183226,
+          "originalPlan": 1702.091,
+          "amendedPlan": 3072.729402
+        },
+        {
+          "code": "921",
+          "label": "Kultura i ochrona",
+          "actual": 3696.393386,
+          "originalPlan": 3754.738,
+          "amendedPlan": 3851.29313
+        },
+        {
+          "code": "925",
+          "label": "Ogrody botaniczne",
+          "actual": 161.050413,
+          "originalPlan": 157.044,
+          "amendedPlan": 162.171888
+        },
+        {
+          "code": "926",
+          "label": "Kultura fizyczna",
+          "actual": 1017.063836,
+          "originalPlan": 463.521,
+          "amendedPlan": 1055.631388
+        }
+      ],
       "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "sourceUrl": "https://www.gov.pl/attachment/848524d8-4af1-49b7-a304-14199eccfc70",
       "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2023-01",
-      "value": 1205870.262655,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2023-02",
-      "value": 1234332.764782,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2023-03",
-      "value": 1240853.622229,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2023-04",
-      "value": 1256204.823868,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2023-05",
-      "value": 1266579.528908,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2023-06",
-      "value": 1277476.143739,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2023-07",
-      "value": 1271360.013645,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2023-08",
-      "value": 1278076.648236,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2023-09",
-      "value": 1306127.322143,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2023-10",
-      "value": 1297015.168947,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2023-11",
-      "value": 1309350.753386,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
+      "sourceFileDate": "2023-06-05",
       "status": "reported_actual"
     },
     {
       "period": "2023-12",
-      "value": 1346200.856546,
+      "total": 659586.491,
+      "originalPlan": 693378.366,
+      "amendedPlan": 693378.366,
+      "functions": [
+        {
+          "code": "010",
+          "label": "Rolnictwo i łowiectwo",
+          "actual": 14775.237007,
+          "originalPlan": 8672.925,
+          "amendedPlan": 16565.257934
+        },
+        {
+          "code": "020",
+          "label": "Leśnictwo",
+          "actual": 13.191473,
+          "originalPlan": 14.27,
+          "amendedPlan": 16.663165
+        },
+        {
+          "code": "050",
+          "label": "Rybołówstwo i rybactwo",
+          "actual": 223.608725,
+          "originalPlan": 194.725,
+          "amendedPlan": 231.230437
+        },
+        {
+          "code": "100",
+          "label": "Górnictwo i kopalnictwo",
+          "actual": 1768.479409,
+          "originalPlan": 1794.091,
+          "amendedPlan": 1794.25337
+        },
+        {
+          "code": "150",
+          "label": "Przetwórstwo przemysłowe",
+          "actual": 2690.20663,
+          "originalPlan": 1336.86,
+          "amendedPlan": 2964.185712
+        },
+        {
+          "code": "400",
+          "label": "Wytwarzanie i zaopatrywanie w",
+          "actual": 1.356,
+          "originalPlan": 0.0,
+          "amendedPlan": 1.856
+        },
+        {
+          "code": "500",
+          "label": "Handel",
+          "actual": 1303.209034,
+          "originalPlan": 1003.512,
+          "amendedPlan": 2227.482591
+        },
+        {
+          "code": "550",
+          "label": "Hotele i restauracje",
+          "actual": 45.293037,
+          "originalPlan": 34.399,
+          "amendedPlan": 45.360425
+        },
+        {
+          "code": "600",
+          "label": "Transport i łączność",
+          "actual": 20142.856581,
+          "originalPlan": 16555.492,
+          "amendedPlan": 21000.331242
+        },
+        {
+          "code": "630",
+          "label": "Turystyka",
+          "actual": 103.918352,
+          "originalPlan": 104.69,
+          "amendedPlan": 106.46005
+        },
+        {
+          "code": "700",
+          "label": "Gospodarka mieszkaniowa",
+          "actual": 2266.524914,
+          "originalPlan": 1656.499,
+          "amendedPlan": 2342.655159
+        },
+        {
+          "code": "710",
+          "label": "Działalność usługowa",
+          "actual": 749.4614,
+          "originalPlan": 735.961,
+          "amendedPlan": 781.71861
+        },
+        {
+          "code": "720",
+          "label": "Informatyka",
+          "actual": 130.914872,
+          "originalPlan": 132.1,
+          "amendedPlan": 133.075765
+        },
+        {
+          "code": "730",
+          "label": "Szkolnictwo wyższe i nauka",
+          "actual": 30634.221257,
+          "originalPlan": 30947.339,
+          "amendedPlan": 30949.047728
+        },
+        {
+          "code": "750",
+          "label": "Administracja publiczna",
+          "actual": 32810.743463,
+          "originalPlan": 21012.43,
+          "amendedPlan": 33518.071267
+        },
+        {
+          "code": "751",
+          "label": "Urzędy naczelnych organów",
+          "actual": 3705.46648,
+          "originalPlan": 3514.891,
+          "amendedPlan": 4003.510478
+        },
+        {
+          "code": "752",
+          "label": "Obrona narodowa",
+          "actual": 85551.985094,
+          "originalPlan": 85691.21,
+          "amendedPlan": 85587.075767
+        },
+        {
+          "code": "753",
+          "label": "Obowiązkowe ubezpieczenia",
+          "actual": 108578.521842,
+          "originalPlan": 112579.365,
+          "amendedPlan": 111633.38265
+        },
+        {
+          "code": "754",
+          "label": "Bezpieczeństwo publiczne",
+          "actual": 25961.153008,
+          "originalPlan": 22856.993,
+          "amendedPlan": 26073.749127
+        },
+        {
+          "code": "755",
+          "label": "Wymiar sprawiedliwości",
+          "actual": 20364.463774,
+          "originalPlan": 20045.701,
+          "amendedPlan": 20533.770086
+        },
+        {
+          "code": "756",
+          "label": "Dochody od osób prawnych,",
+          "actual": 10.750456,
+          "originalPlan": 0.0,
+          "amendedPlan": 10.750456
+        },
+        {
+          "code": "757",
+          "label": "Obsługa długu publicznego",
+          "actual": 61710.339058,
+          "originalPlan": 62000.0,
+          "amendedPlan": 62000.0
+        },
+        {
+          "code": "758",
+          "label": "Różne rozliczenia",
+          "actual": 131956.102086,
+          "originalPlan": 199762.069,
+          "amendedPlan": 153765.947274
+        },
+        {
+          "code": "801",
+          "label": "Oświata i wychowanie",
+          "actual": 5861.08952,
+          "originalPlan": 3054.25,
+          "amendedPlan": 6035.644518
+        },
+        {
+          "code": "851",
+          "label": "Ochrona zdrowia",
+          "actual": 17348.553958,
+          "originalPlan": 17488.446,
+          "amendedPlan": 17908.281201
+        },
+        {
+          "code": "852",
+          "label": "Pomoc społeczna",
+          "actual": 5365.037876,
+          "originalPlan": 4561.393,
+          "amendedPlan": 5536.368701
+        },
+        {
+          "code": "853",
+          "label": "Pozostałe zadania w zakresie",
+          "actual": 11677.707468,
+          "originalPlan": 4391.508,
+          "amendedPlan": 11853.1103
+        },
+        {
+          "code": "854",
+          "label": "Edukacyjna opieka",
+          "actual": 404.693114,
+          "originalPlan": 231.857,
+          "amendedPlan": 470.995886
+        },
+        {
+          "code": "855",
+          "label": "Rodzina",
+          "actual": 63135.18948,
+          "originalPlan": 63650.49,
+          "amendedPlan": 64280.060593
+        },
+        {
+          "code": "900",
+          "label": "Gospodarka komunalna",
+          "actual": 3358.145663,
+          "originalPlan": 2183.529,
+          "amendedPlan": 3473.450345
+        },
+        {
+          "code": "921",
+          "label": "Kultura i ochrona",
+          "actual": 4892.735756,
+          "originalPlan": 5253.886,
+          "amendedPlan": 5339.700574
+        },
+        {
+          "code": "925",
+          "label": "Ogrody botaniczne",
+          "actual": 163.564308,
+          "originalPlan": 160.54,
+          "amendedPlan": 165.228249
+        },
+        {
+          "code": "926",
+          "label": "Kultura fizyczna",
+          "actual": 1881.769885,
+          "originalPlan": 1756.945,
+          "amendedPlan": 2029.690338
+        }
+      ],
       "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "sourceUrl": "https://www.gov.pl/attachment/e38d72d2-4d8e-454d-bbdd-1cae56afab4a",
       "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2024-01",
-      "value": 1364988.687916,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2024-02",
-      "value": 1383019.505455,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2024-03",
-      "value": 1430341.821724,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2024-04",
-      "value": 1445547.564554,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2024-05",
-      "value": 1449227.648138,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2024-06",
-      "value": 1475039.220159,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2024-07",
-      "value": 1476771.674464,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2024-08",
-      "value": 1492694.689432,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2024-09",
-      "value": 1516496.318246,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2024-10",
-      "value": 1537035.053022,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2024-11",
-      "value": 1568552.584687,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
+      "sourceFileDate": "2024-06-04",
       "status": "reported_actual"
     },
     {
       "period": "2024-12",
-      "value": 1629339.92269,
+      "total": 834242.51,
+      "originalPlan": 866375.747,
+      "amendedPlan": 866375.747,
+      "functions": [
+        {
+          "code": "010",
+          "label": "Rolnictwo i łowiectwo",
+          "actual": 17009.249208,
+          "originalPlan": 10423.439,
+          "amendedPlan": 18071.047373
+        },
+        {
+          "code": "020",
+          "label": "Leśnictwo",
+          "actual": 10.167577,
+          "originalPlan": 9.729,
+          "amendedPlan": 12.496926
+        },
+        {
+          "code": "050",
+          "label": "Rybołówstwo i rybactwo",
+          "actual": 146.137586,
+          "originalPlan": 121.201,
+          "amendedPlan": 151.498448
+        },
+        {
+          "code": "100",
+          "label": "Górnictwo i kopalnictwo",
+          "actual": 2340.557874,
+          "originalPlan": 2379.411,
+          "amendedPlan": 2384.776023
+        },
+        {
+          "code": "150",
+          "label": "Przetwórstwo przemysłowe",
+          "actual": 4175.240922,
+          "originalPlan": 1742.143,
+          "amendedPlan": 4908.735612
+        },
+        {
+          "code": "400",
+          "label": "Wytwarzanie i zaopatrywanie w",
+          "actual": 1.696184,
+          "originalPlan": 0.0,
+          "amendedPlan": 2.055833
+        },
+        {
+          "code": "500",
+          "label": "Handel",
+          "actual": 886.996958,
+          "originalPlan": 1614.589,
+          "amendedPlan": 1623.752086
+        },
+        {
+          "code": "550",
+          "label": "Hotele i restauracje",
+          "actual": 63.851493,
+          "originalPlan": 71.328,
+          "amendedPlan": 77.549301
+        },
+        {
+          "code": "600",
+          "label": "Transport i łączność",
+          "actual": 22280.714537,
+          "originalPlan": 19146.145,
+          "amendedPlan": 22883.329232
+        },
+        {
+          "code": "630",
+          "label": "Turystyka",
+          "actual": 108.906598,
+          "originalPlan": 111.065,
+          "amendedPlan": 112.493055
+        },
+        {
+          "code": "700",
+          "label": "Gospodarka mieszkaniowa",
+          "actual": 3183.443843,
+          "originalPlan": 2615.87,
+          "amendedPlan": 3280.133873
+        },
+        {
+          "code": "710",
+          "label": "Działalność usługowa",
+          "actual": 891.476632,
+          "originalPlan": 885.429,
+          "amendedPlan": 918.215363
+        },
+        {
+          "code": "720",
+          "label": "Informatyka",
+          "actual": 205.778126,
+          "originalPlan": 213.107,
+          "amendedPlan": 213.161959
+        },
+        {
+          "code": "730",
+          "label": "Szkolnictwo wyższe i nauka",
+          "actual": 37645.729214,
+          "originalPlan": 38036.356,
+          "amendedPlan": 38019.266463
+        },
+        {
+          "code": "750",
+          "label": "Administracja publiczna",
+          "actual": 40003.148679,
+          "originalPlan": 27251.294,
+          "amendedPlan": 41333.009672
+        },
+        {
+          "code": "751",
+          "label": "Urzędy naczelnych organów",
+          "actual": 4673.293787,
+          "originalPlan": 4079.416,
+          "amendedPlan": 4929.457829
+        },
+        {
+          "code": "752",
+          "label": "Obrona narodowa",
+          "actual": 104439.412569,
+          "originalPlan": 104647.871,
+          "amendedPlan": 104545.72696
+        },
+        {
+          "code": "753",
+          "label": "Obowiązkowe ubezpieczenia",
+          "actual": 158926.339916,
+          "originalPlan": 169619.717,
+          "amendedPlan": 164828.825823
+        },
+        {
+          "code": "754",
+          "label": "Bezpieczeństwo publiczne",
+          "actual": 31578.907026,
+          "originalPlan": 29563.41,
+          "amendedPlan": 31690.173077
+        },
+        {
+          "code": "755",
+          "label": "Wymiar sprawiedliwości",
+          "actual": 23970.173734,
+          "originalPlan": 24531.131,
+          "amendedPlan": 24542.729583
+        },
+        {
+          "code": "756",
+          "label": "Dochody od osób prawnych,",
+          "actual": 15.727382,
+          "originalPlan": 0.0,
+          "amendedPlan": 15.727382
+        },
+        {
+          "code": "757",
+          "label": "Obsługa długu publicznego",
+          "actual": 65791.191028,
+          "originalPlan": 66500.0,
+          "amendedPlan": 66500.0
+        },
+        {
+          "code": "758",
+          "label": "Różne rozliczenia",
+          "actual": 155346.209534,
+          "originalPlan": 216712.895,
+          "amendedPlan": 170134.736723
+        },
+        {
+          "code": "801",
+          "label": "Oświata i wychowanie",
+          "actual": 9044.156095,
+          "originalPlan": 3699.131,
+          "amendedPlan": 9289.33068
+        },
+        {
+          "code": "851",
+          "label": "Ochrona zdrowia",
+          "actual": 31999.498026,
+          "originalPlan": 31920.889,
+          "amendedPlan": 32324.442555
+        },
+        {
+          "code": "852",
+          "label": "Pomoc społeczna",
+          "actual": 8553.030922,
+          "originalPlan": 4974.999,
+          "amendedPlan": 9174.750757
+        },
+        {
+          "code": "853",
+          "label": "Pozostałe zadania w zakresie",
+          "actual": 5304.938324,
+          "originalPlan": 5136.202,
+          "amendedPlan": 5497.486731
+        },
+        {
+          "code": "854",
+          "label": "Edukacyjna opieka",
+          "actual": 433.156474,
+          "originalPlan": 266.928,
+          "amendedPlan": 496.227065
+        },
+        {
+          "code": "855",
+          "label": "Rodzina",
+          "actual": 92556.14193,
+          "originalPlan": 89175.201,
+          "amendedPlan": 94115.109176
+        },
+        {
+          "code": "900",
+          "label": "Gospodarka komunalna",
+          "actual": 3437.537795,
+          "originalPlan": 2447.191,
+          "amendedPlan": 3698.868774
+        },
+        {
+          "code": "921",
+          "label": "Kultura i ochrona",
+          "actual": 7335.71563,
+          "originalPlan": 5776.553,
+          "amendedPlan": 7850.452778
+        },
+        {
+          "code": "925",
+          "label": "Ogrody botaniczne",
+          "actual": 203.85613,
+          "originalPlan": 187.58,
+          "amendedPlan": 214.287192
+        },
+        {
+          "code": "926",
+          "label": "Kultura fizyczna",
+          "actual": 1680.127904,
+          "originalPlan": 2515.527,
+          "amendedPlan": 2535.892698
+        }
+      ],
       "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "sourceUrl": "https://www.gov.pl/attachment/82b401b8-5a99-4f98-8541-8fb5203fa6af",
       "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2025-01",
-      "value": 1657287.889492,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2025-02",
-      "value": 1709630.558209,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2025-03",
-      "value": 1740639.535553,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2025-04",
-      "value": 1750445.122746,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2025-05",
-      "value": 1772500.387563,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2025-06",
-      "value": 1802104.761097,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2025-07",
-      "value": 1832369.032817,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2025-08",
-      "value": 1852962.767625,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2025-09",
-      "value": 1868603.884684,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2025-10",
-      "value": 1894102.444687,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2025-11",
-      "value": 1908835.192175,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
+      "sourceFileDate": "2025-06-03",
       "status": "reported_actual"
     },
     {
       "period": "2025-12",
-      "value": 1951939.76393,
+      "total": 870190.612,
+      "originalPlan": 921618.215,
+      "amendedPlan": 921618.215,
+      "functions": [
+        {
+          "code": "010",
+          "label": "Rolnictwo i łowiectwo",
+          "actual": 17822.37439,
+          "originalPlan": 11091.653,
+          "amendedPlan": 18493.595757
+        },
+        {
+          "code": "020",
+          "label": "Leśnictwo",
+          "actual": 9.677625,
+          "originalPlan": 8.044,
+          "amendedPlan": 10.990973
+        },
+        {
+          "code": "050",
+          "label": "Rybołówstwo i rybactwo",
+          "actual": 244.611179,
+          "originalPlan": 141.839,
+          "amendedPlan": 248.319404
+        },
+        {
+          "code": "100",
+          "label": "Górnictwo i kopalnictwo",
+          "actual": 3288.845049,
+          "originalPlan": 3670.317,
+          "amendedPlan": 3683.708793
+        },
+        {
+          "code": "150",
+          "label": "Przetwórstwo przemysłowe",
+          "actual": 2901.405131,
+          "originalPlan": 2071.172,
+          "amendedPlan": 3632.963882
+        },
+        {
+          "code": "400",
+          "label": "Wytwarzanie i zaopatrywanie w",
+          "actual": 6.593757,
+          "originalPlan": 0.0,
+          "amendedPlan": 6.604792
+        },
+        {
+          "code": "500",
+          "label": "Handel",
+          "actual": 983.398514,
+          "originalPlan": 1536.504,
+          "amendedPlan": 1541.382335
+        },
+        {
+          "code": "550",
+          "label": "Hotele i restauracje",
+          "actual": 74.229482,
+          "originalPlan": 61.438,
+          "amendedPlan": 74.233682
+        },
+        {
+          "code": "600",
+          "label": "Transport i łączność",
+          "actual": 28159.939117,
+          "originalPlan": 24786.78,
+          "amendedPlan": 28629.017019
+        },
+        {
+          "code": "630",
+          "label": "Turystyka",
+          "actual": 121.216656,
+          "originalPlan": 118.109,
+          "amendedPlan": 123.927939
+        },
+        {
+          "code": "700",
+          "label": "Gospodarka mieszkaniowa",
+          "actual": 5185.834798,
+          "originalPlan": 2957.808,
+          "amendedPlan": 5278.775107
+        },
+        {
+          "code": "710",
+          "label": "Działalność usługowa",
+          "actual": 962.933753,
+          "originalPlan": 983.002,
+          "amendedPlan": 1003.665126
+        },
+        {
+          "code": "720",
+          "label": "Informatyka",
+          "actual": 283.448394,
+          "originalPlan": 287.116,
+          "amendedPlan": 287.116
+        },
+        {
+          "code": "730",
+          "label": "Szkolnictwo wyższe i nauka",
+          "actual": 39698.450079,
+          "originalPlan": 39846.996,
+          "amendedPlan": 39862.062596
+        },
+        {
+          "code": "750",
+          "label": "Administracja publiczna",
+          "actual": 52873.779968,
+          "originalPlan": 30032.922,
+          "amendedPlan": 53808.532273
+        },
+        {
+          "code": "751",
+          "label": "Urzędy naczelnych organów",
+          "actual": 4638.91316,
+          "originalPlan": 4421.283,
+          "amendedPlan": 4899.971931
+        },
+        {
+          "code": "752",
+          "label": "Obrona narodowa",
+          "actual": 108958.11855,
+          "originalPlan": 109583.16,
+          "amendedPlan": 109853.166652
+        },
+        {
+          "code": "753",
+          "label": "Obowiązkowe ubezpieczenia",
+          "actual": 162821.451866,
+          "originalPlan": 184064.401,
+          "amendedPlan": 178959.51021
+        },
+        {
+          "code": "754",
+          "label": "Bezpieczeństwo publiczne",
+          "actual": 33798.377055,
+          "originalPlan": 31434.956,
+          "amendedPlan": 33923.409088
+        },
+        {
+          "code": "755",
+          "label": "Wymiar sprawiedliwości",
+          "actual": 27142.604025,
+          "originalPlan": 27412.628,
+          "amendedPlan": 27550.866539
+        },
+        {
+          "code": "756",
+          "label": "Dochody od osób prawnych,",
+          "actual": 4.994954,
+          "originalPlan": 0.0,
+          "amendedPlan": 4.994954
+        },
+        {
+          "code": "757",
+          "label": "Obsługa długu publicznego",
+          "actual": 107490.619758,
+          "originalPlan": 110162.332,
+          "amendedPlan": 110162.332
+        },
+        {
+          "code": "758",
+          "label": "Różne rozliczenia",
+          "actual": 88820.823343,
+          "originalPlan": 173163.699,
+          "amendedPlan": 110448.906369
+        },
+        {
+          "code": "801",
+          "label": "Oświata i wychowanie",
+          "actual": 5142.0379,
+          "originalPlan": 4351.286,
+          "amendedPlan": 5374.455489
+        },
+        {
+          "code": "851",
+          "label": "Ochrona zdrowia",
+          "actual": 48560.637026,
+          "originalPlan": 40503.11,
+          "amendedPlan": 48796.356427
+        },
+        {
+          "code": "852",
+          "label": "Pomoc społeczna",
+          "actual": 8394.494497,
+          "originalPlan": 5971.709,
+          "amendedPlan": 8643.844096
+        },
+        {
+          "code": "853",
+          "label": "Pozostałe zadania w zakresie",
+          "actual": 4972.668438,
+          "originalPlan": 5369.816,
+          "amendedPlan": 5618.529703
+        },
+        {
+          "code": "854",
+          "label": "Edukacyjna opieka",
+          "actual": 456.685205,
+          "originalPlan": 299.136,
+          "amendedPlan": 499.553331
+        },
+        {
+          "code": "855",
+          "label": "Rodzina",
+          "actual": 103128.393868,
+          "originalPlan": 97191.947,
+          "amendedPlan": 106260.25113
+        },
+        {
+          "code": "900",
+          "label": "Gospodarka komunalna",
+          "actual": 4056.672653,
+          "originalPlan": 2587.033,
+          "amendedPlan": 4216.032207
+        },
+        {
+          "code": "921",
+          "label": "Kultura i ochrona",
+          "actual": 7424.78479,
+          "originalPlan": 5671.481,
+          "amendedPlan": 7857.433912
+        },
+        {
+          "code": "925",
+          "label": "Ogrody botaniczne",
+          "actual": 214.245305,
+          "originalPlan": 231.352,
+          "amendedPlan": 234.754314
+        },
+        {
+          "code": "926",
+          "label": "Kultura fizyczna",
+          "actual": 1547.351925,
+          "originalPlan": 1605.186,
+          "amendedPlan": 1628.95097
+        }
+      ],
       "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "sourceUrl": "https://www.gov.pl/attachment/ea76e3d1-87c6-47b5-8c35-aae7451f9df5",
       "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2026-01",
-      "value": 1998319.849414,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2026-02",
-      "value": 2037497.39367,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2026-03",
-      "value": 2050713.70551,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2026-04",
-      "value": 2088843.584224,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2026-05",
-      "value": 2135611.008247,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "period": "2026-06",
-      "value": 2191476.656137,
-      "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
-      "publishedAt": null,
+      "sourceFileDate": "2026-06-01",
       "status": "reported_actual"
     },
     {
       "period": "2026-07",
-      "value": 2213110.703857,
+      "total": 474967.476,
+      "originalPlan": 918940.0,
+      "amendedPlan": 918940.0,
+      "functions": [
+        {
+          "code": "010",
+          "label": "Rolnictwo i łowiectwo",
+          "actual": 8368.270416,
+          "originalPlan": 9575.45,
+          "amendedPlan": 12576.497653
+        },
+        {
+          "code": "020",
+          "label": "Leśnictwo",
+          "actual": 4.087653,
+          "originalPlan": 7.658,
+          "amendedPlan": 9.20702
+        },
+        {
+          "code": "050",
+          "label": "Rybołówstwo i rybactwo",
+          "actual": 126.649702,
+          "originalPlan": 243.33,
+          "amendedPlan": 245.323039
+        },
+        {
+          "code": "100",
+          "label": "Górnictwo i kopalnictwo",
+          "actual": 2804.560997,
+          "originalPlan": 5634.233,
+          "amendedPlan": 5729.729926
+        },
+        {
+          "code": "150",
+          "label": "Przetwórstwo przemysłowe",
+          "actual": 1226.570442,
+          "originalPlan": 2224.221,
+          "amendedPlan": 2552.49542
+        },
+        {
+          "code": "400",
+          "label": "Wytwarzanie i zaopatrywanie w",
+          "actual": 0.019155,
+          "originalPlan": 0.0,
+          "amendedPlan": 2.618816
+        },
+        {
+          "code": "500",
+          "label": "Handel",
+          "actual": 553.49803,
+          "originalPlan": 1324.009,
+          "amendedPlan": 1435.797819
+        },
+        {
+          "code": "550",
+          "label": "Hotele i restauracje",
+          "actual": 48.18455,
+          "originalPlan": 70.718,
+          "amendedPlan": 70.853314
+        },
+        {
+          "code": "600",
+          "label": "Transport i łączność",
+          "actual": 12111.944974,
+          "originalPlan": 21820.688,
+          "amendedPlan": 22910.4395
+        },
+        {
+          "code": "630",
+          "label": "Turystyka",
+          "actual": 81.062506,
+          "originalPlan": 131.585,
+          "amendedPlan": 132.996174
+        },
+        {
+          "code": "700",
+          "label": "Gospodarka mieszkaniowa",
+          "actual": 5449.115956,
+          "originalPlan": 7033.79,
+          "amendedPlan": 7192.533052
+        },
+        {
+          "code": "710",
+          "label": "Działalność usługowa",
+          "actual": 530.021599,
+          "originalPlan": 1029.995,
+          "amendedPlan": 1052.2604
+        },
+        {
+          "code": "720",
+          "label": "Informatyka",
+          "actual": 232.329198,
+          "originalPlan": 298.326,
+          "amendedPlan": 298.326
+        },
+        {
+          "code": "730",
+          "label": "Szkolnictwo wyższe i nauka",
+          "actual": 24122.005311,
+          "originalPlan": 41241.437,
+          "amendedPlan": 41129.27612
+        },
+        {
+          "code": "750",
+          "label": "Administracja publiczna",
+          "actual": 19565.04013,
+          "originalPlan": 30207.86,
+          "amendedPlan": 33700.929531
+        },
+        {
+          "code": "751",
+          "label": "Urzędy naczelnych organów",
+          "actual": 2501.523842,
+          "originalPlan": 4690.337,
+          "amendedPlan": 4709.44198
+        },
+        {
+          "code": "752",
+          "label": "Obrona narodowa",
+          "actual": 47330.037067,
+          "originalPlan": 109231.48,
+          "amendedPlan": 109585.411554
+        },
+        {
+          "code": "753",
+          "label": "Obowiązkowe ubezpieczenia",
+          "actual": 97489.461891,
+          "originalPlan": 195970.695,
+          "amendedPlan": 195971.65882
+        },
+        {
+          "code": "754",
+          "label": "Bezpieczeństwo publiczne",
+          "actual": 19680.363094,
+          "originalPlan": 31139.276,
+          "amendedPlan": 33176.495939
+        },
+        {
+          "code": "755",
+          "label": "Wymiar sprawiedliwości",
+          "actual": 15494.920018,
+          "originalPlan": 28682.245,
+          "amendedPlan": 28782.953238
+        },
+        {
+          "code": "756",
+          "label": "Dochody od osób prawnych,",
+          "actual": 6.576667,
+          "originalPlan": 0.0,
+          "amendedPlan": 7.494483
+        },
+        {
+          "code": "757",
+          "label": "Obsługa długu publicznego",
+          "actual": 46938.704953,
+          "originalPlan": 90388.313,
+          "amendedPlan": 90388.313
+        },
+        {
+          "code": "758",
+          "label": "Różne rozliczenia",
+          "actual": 60366.267532,
+          "originalPlan": 162527.526,
+          "amendedPlan": 142063.167109
+        },
+        {
+          "code": "801",
+          "label": "Oświata i wychowanie",
+          "actual": 3375.129277,
+          "originalPlan": 4700.145,
+          "amendedPlan": 5650.541778
+        },
+        {
+          "code": "851",
+          "label": "Ochrona zdrowia",
+          "actual": 31172.695212,
+          "originalPlan": 54242.749,
+          "amendedPlan": 57907.570358
+        },
+        {
+          "code": "852",
+          "label": "Pomoc społeczna",
+          "actual": 4725.992746,
+          "originalPlan": 6911.63,
+          "amendedPlan": 8182.683978
+        },
+        {
+          "code": "853",
+          "label": "Pozostałe zadania w zakresie",
+          "actual": 1454.273453,
+          "originalPlan": 2213.5,
+          "amendedPlan": 2556.687697
+        },
+        {
+          "code": "854",
+          "label": "Edukacyjna opieka",
+          "actual": 247.623839,
+          "originalPlan": 290.956,
+          "amendedPlan": 392.227266
+        },
+        {
+          "code": "855",
+          "label": "Rodzina",
+          "actual": 63032.647564,
+          "originalPlan": 97921.791,
+          "amendedPlan": 99474.670343
+        },
+        {
+          "code": "900",
+          "label": "Gospodarka komunalna",
+          "actual": 1405.377113,
+          "originalPlan": 2692.013,
+          "amendedPlan": 3064.63351
+        },
+        {
+          "code": "921",
+          "label": "Kultura i ochrona",
+          "actual": 3863.528367,
+          "originalPlan": 5488.396,
+          "amendedPlan": 6979.321081
+        },
+        {
+          "code": "925",
+          "label": "Ogrody botaniczne",
+          "actual": 127.629047,
+          "originalPlan": 232.531,
+          "amendedPlan": 232.158693
+        },
+        {
+          "code": "926",
+          "label": "Kultura fizyczna",
+          "actual": 531.364156,
+          "originalPlan": 773.117,
+          "amendedPlan": 775.285387
+        }
+      ],
       "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/8df598c4-5ba8-4802-8979-8abf3656437e",
+      "sourceUrl": "https://www.gov.pl/attachment/ebd9b857-ec5f-4575-8a0d-542ac6d63645",
       "publishedAt": null,
-      "status": "reported_actual"
-    }
-  ],
-  "rates": [
-    {
-      "effectiveDate": "1998-02-26",
-      "value": 24.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "1998-04-23",
-      "value": 23.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "1998-05-21",
-      "value": 21.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "1998-07-17",
-      "value": 19.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "1998-09-10",
-      "value": 18.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "1998-10-29",
-      "value": 17.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "1998-12-10",
-      "value": 15.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "1999-01-21",
-      "value": 13.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "1999-09-23",
-      "value": 14.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "1999-11-18",
-      "value": 16.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2000-02-24",
-      "value": 17.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2000-08-31",
-      "value": 19.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2001-03-01",
-      "value": 18.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2001-03-29",
-      "value": 17.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2001-06-28",
-      "value": 15.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2001-08-23",
-      "value": 14.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2001-10-26",
-      "value": 13.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2001-11-29",
-      "value": 11.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2001-12-01",
-      "value": 11.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2002-01-31",
-      "value": 10.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2002-04-26",
-      "value": 9.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2002-05-30",
-      "value": 9.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2002-06-27",
-      "value": 8.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2002-08-29",
-      "value": 8.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2002-09-26",
-      "value": 7.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2002-10-24",
-      "value": 7.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2002-11-28",
-      "value": 6.75,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2003-01-30",
-      "value": 6.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2003-02-27",
-      "value": 6.25,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2003-03-27",
-      "value": 6.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2003-04-25",
-      "value": 5.75,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2003-05-29",
-      "value": 5.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2003-06-26",
-      "value": 5.25,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2004-07-01",
-      "value": 5.75,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2004-07-29",
-      "value": 6.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2004-08-26",
-      "value": 6.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2005-03-31",
-      "value": 6.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2005-04-28",
-      "value": 5.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2005-06-30",
-      "value": 5.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2005-07-28",
-      "value": 4.75,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2005-09-01",
-      "value": 4.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2006-02-01",
-      "value": 4.25,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2006-03-01",
-      "value": 4.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2007-04-26",
-      "value": 4.25,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2007-06-28",
-      "value": 4.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2007-08-30",
-      "value": 4.75,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2007-11-29",
-      "value": 5.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2008-01-31",
-      "value": 5.25,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2008-02-28",
-      "value": 5.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2008-03-27",
-      "value": 5.75,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2008-06-26",
-      "value": 6.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2008-11-27",
-      "value": 5.75,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2008-12-24",
-      "value": 5.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2009-01-28",
-      "value": 4.25,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2009-02-26",
-      "value": 4.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2009-03-26",
-      "value": 3.75,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2009-06-25",
-      "value": 3.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2010-01-01",
-      "value": 3.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2011-01-20",
-      "value": 3.75,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2011-04-06",
-      "value": 4.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2011-05-12",
-      "value": 4.25,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2011-06-09",
-      "value": 4.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2012-05-10",
-      "value": 4.75,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2012-11-08",
-      "value": 4.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2012-12-06",
-      "value": 4.25,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2013-01-10",
-      "value": 4.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2013-02-07",
-      "value": 3.75,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2013-03-07",
-      "value": 3.25,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2013-05-09",
-      "value": 3.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2013-06-06",
-      "value": 2.75,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2013-07-04",
-      "value": 2.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2014-10-09",
-      "value": 2.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2015-03-05",
-      "value": 1.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2020-03-18",
-      "value": 1.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2020-04-09",
-      "value": 0.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2020-05-29",
-      "value": 0.1,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2021-10-07",
-      "value": 0.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2021-11-04",
-      "value": 1.25,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2021-12-09",
-      "value": 1.75,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2022-01-05",
-      "value": 2.25,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2022-02-09",
-      "value": 2.75,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2022-03-09",
-      "value": 3.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2022-04-07",
-      "value": 4.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2022-05-06",
-      "value": 5.25,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2022-06-09",
-      "value": 6.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2022-07-08",
-      "value": 6.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2022-09-08",
-      "value": 6.75,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2023-09-07",
-      "value": 6.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2023-10-05",
-      "value": 5.75,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2025-05-08",
-      "value": 5.25,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2025-07-03",
-      "value": 5.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2025-09-04",
-      "value": 4.75,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2025-10-09",
-      "value": 4.5,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2025-11-06",
-      "value": 4.25,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2025-12-04",
-      "value": 4.0,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
-      "status": "reported_actual"
-    },
-    {
-      "effectiveDate": "2026-03-05",
-      "value": 3.75,
-      "unit": "percent",
-      "sourceUrl": "https://static.nbp.pl/dane/stopy/stopy_procentowe_archiwum.xml",
-      "publishedAt": null,
+      "sourceFileDate": "2026-09-07",
       "status": "reported_actual"
     }
   ]
