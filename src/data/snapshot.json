@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T14:27:31+00:00",
+  "generatedAt": "2026-11-05T15:37:44+00:00",
   "unit": "PLN million",
   "spending": [
     {
@@ -1744,9 +1744,9 @@
         "euProjects": 908.076033
       },
       "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/19b83040-9820-4e21-a8bc-7576fdae6d88",
+      "sourceUrl": "https://www.gov.pl/attachment/1b66a224-18ba-4959-94f6-cf0e2b6964fa",
       "publishedAt": null,
-      "sourceFileDate": "2026-10-09",
+      "sourceFileDate": "2026-11-05",
       "status": "reported_actual"
     },
     {
@@ -1762,9 +1762,9 @@
         "euProjects": 1751.124197
       },
       "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/19b83040-9820-4e21-a8bc-7576fdae6d88",
+      "sourceUrl": "https://www.gov.pl/attachment/1b66a224-18ba-4959-94f6-cf0e2b6964fa",
       "publishedAt": null,
-      "sourceFileDate": "2026-10-09",
+      "sourceFileDate": "2026-11-05",
       "status": "reported_actual"
     },
     {
@@ -1780,9 +1780,9 @@
         "euProjects": 2518.724568
       },
       "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/19b83040-9820-4e21-a8bc-7576fdae6d88",
+      "sourceUrl": "https://www.gov.pl/attachment/1b66a224-18ba-4959-94f6-cf0e2b6964fa",
       "publishedAt": null,
-      "sourceFileDate": "2026-10-09",
+      "sourceFileDate": "2026-11-05",
       "status": "reported_actual"
     },
     {
@@ -1798,9 +1798,9 @@
         "euProjects": 3173.73964
       },
       "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/19b83040-9820-4e21-a8bc-7576fdae6d88",
+      "sourceUrl": "https://www.gov.pl/attachment/1b66a224-18ba-4959-94f6-cf0e2b6964fa",
       "publishedAt": null,
-      "sourceFileDate": "2026-10-09",
+      "sourceFileDate": "2026-11-05",
       "status": "reported_actual"
     },
     {
@@ -1816,9 +1816,9 @@
         "euProjects": 3952.64082
       },
       "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/19b83040-9820-4e21-a8bc-7576fdae6d88",
+      "sourceUrl": "https://www.gov.pl/attachment/1b66a224-18ba-4959-94f6-cf0e2b6964fa",
       "publishedAt": null,
-      "sourceFileDate": "2026-10-09",
+      "sourceFileDate": "2026-11-05",
       "status": "reported_actual"
     },
     {
@@ -1834,9 +1834,9 @@
         "euProjects": 4643.240898
       },
       "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/19b83040-9820-4e21-a8bc-7576fdae6d88",
+      "sourceUrl": "https://www.gov.pl/attachment/1b66a224-18ba-4959-94f6-cf0e2b6964fa",
       "publishedAt": null,
-      "sourceFileDate": "2026-10-09",
+      "sourceFileDate": "2026-11-05",
       "status": "reported_actual"
     },
     {
@@ -1852,9 +1852,9 @@
         "euProjects": 5315.160691
       },
       "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/19b83040-9820-4e21-a8bc-7576fdae6d88",
+      "sourceUrl": "https://www.gov.pl/attachment/1b66a224-18ba-4959-94f6-cf0e2b6964fa",
       "publishedAt": null,
-      "sourceFileDate": "2026-10-09",
+      "sourceFileDate": "2026-11-05",
       "status": "reported_actual"
     },
     {
@@ -1870,9 +1870,27 @@
         "euProjects": 5983.363082
       },
       "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/19b83040-9820-4e21-a8bc-7576fdae6d88",
+      "sourceUrl": "https://www.gov.pl/attachment/1b66a224-18ba-4959-94f6-cf0e2b6964fa",
       "publishedAt": null,
-      "sourceFileDate": "2026-10-09",
+      "sourceFileDate": "2026-11-05",
+      "status": "reported_actual"
+    },
+    {
+      "period": "2026-09",
+      "total": 611027.556,
+      "categories": {
+        "grants": 238153.815762,
+        "benefits": 130123.553633,
+        "operations": 115603.490128,
+        "capital": 34152.558675,
+        "debtService": 55233.284942,
+        "euContribution": 30478.729855,
+        "euProjects": 7282.122794
+      },
+      "unit": "PLN million",
+      "sourceUrl": "https://www.gov.pl/attachment/1b66a224-18ba-4959-94f6-cf0e2b6964fa",
+      "publishedAt": null,
+      "sourceFileDate": "2026-11-05",
       "status": "reported_actual"
     }
   ],
@@ -3845,150 +3863,150 @@
       "status": "reported_actual"
     },
     {
-      "period": "2026-08",
-      "total": 538267.651,
+      "period": "2026-09",
+      "total": 611027.556,
       "originalPlan": 918940.0,
       "amendedPlan": 918940.0,
       "functions": [
         {
           "code": "010",
           "label": "Rolnictwo i łowiectwo",
-          "actual": 9274.914199,
+          "actual": 10575.516524,
           "originalPlan": 9575.45,
-          "amendedPlan": 12597.83097
+          "amendedPlan": 14090.567145
         },
         {
           "code": "020",
           "label": "Leśnictwo",
-          "actual": 4.64417,
+          "actual": 5.281462,
           "originalPlan": 7.658,
           "amendedPlan": 9.20702
         },
         {
           "code": "050",
           "label": "Rybołówstwo i rybactwo",
-          "actual": 144.727138,
+          "actual": 167.568263,
           "originalPlan": 243.33,
-          "amendedPlan": 245.378319
+          "amendedPlan": 248.712269
         },
         {
           "code": "100",
           "label": "Górnictwo i kopalnictwo",
-          "actual": 3508.850244,
+          "actual": 4072.50183,
           "originalPlan": 5634.233,
-          "amendedPlan": 5729.729926
+          "amendedPlan": 6079.729926
         },
         {
           "code": "150",
           "label": "Przetwórstwo przemysłowe",
-          "actual": 1323.788104,
+          "actual": 1373.805299,
           "originalPlan": 2224.221,
-          "amendedPlan": 2572.888722
+          "amendedPlan": 2580.652722
         },
         {
           "code": "400",
           "label": "Wytwarzanie i zaopatrywanie w",
-          "actual": 0.019155,
+          "actual": 0.183655,
           "originalPlan": 0.0,
-          "amendedPlan": 2.830918
+          "amendedPlan": 3.283534
         },
         {
           "code": "500",
           "label": "Handel",
-          "actual": 582.779613,
+          "actual": 612.271987,
           "originalPlan": 1324.009,
-          "amendedPlan": 1435.797819
+          "amendedPlan": 1436.073119
         },
         {
           "code": "550",
           "label": "Hotele i restauracje",
-          "actual": 56.150795,
+          "actual": 66.346912,
           "originalPlan": 70.718,
-          "amendedPlan": 70.853314
+          "amendedPlan": 76.109384
         },
         {
           "code": "600",
           "label": "Transport i łączność",
-          "actual": 13949.463604,
+          "actual": 15551.476416,
           "originalPlan": 21820.688,
-          "amendedPlan": 22950.954057
+          "amendedPlan": 23298.751371
         },
         {
           "code": "630",
           "label": "Turystyka",
-          "actual": 98.381701,
+          "actual": 105.704411,
           "originalPlan": 131.585,
-          "amendedPlan": 133.105193
+          "amendedPlan": 136.6787
         },
         {
           "code": "700",
           "label": "Gospodarka mieszkaniowa",
-          "actual": 6287.583692,
+          "actual": 6503.561067,
           "originalPlan": 7033.79,
-          "amendedPlan": 7248.854223
+          "amendedPlan": 7611.194922
         },
         {
           "code": "710",
           "label": "Działalność usługowa",
-          "actual": 625.558751,
+          "actual": 718.431907,
           "originalPlan": 1029.995,
-          "amendedPlan": 1069.351769
+          "amendedPlan": 1092.37089
         },
         {
           "code": "720",
           "label": "Informatyka",
-          "actual": 264.151329,
+          "actual": 275.225151,
           "originalPlan": 298.326,
           "amendedPlan": 298.326
         },
         {
           "code": "730",
           "label": "Szkolnictwo wyższe i nauka",
-          "actual": 27213.984723,
+          "actual": 30250.962202,
           "originalPlan": 41241.437,
-          "amendedPlan": 41134.210117
+          "amendedPlan": 41182.085976
         },
         {
           "code": "750",
           "label": "Administracja publiczna",
-          "actual": 22982.74953,
+          "actual": 25255.299725,
           "originalPlan": 30207.86,
-          "amendedPlan": 35022.75458
+          "amendedPlan": 35412.012693
         },
         {
           "code": "751",
           "label": "Urzędy naczelnych organów",
-          "actual": 2833.259381,
+          "actual": 3201.029815,
           "originalPlan": 4690.337,
-          "amendedPlan": 4711.366268
+          "amendedPlan": 4714.663519
         },
         {
           "code": "752",
           "label": "Obrona narodowa",
-          "actual": 53793.168651,
+          "actual": 61908.169632,
           "originalPlan": 109231.48,
-          "amendedPlan": 109563.868127
+          "amendedPlan": 109683.2113
         },
         {
           "code": "753",
           "label": "Obowiązkowe ubezpieczenia",
-          "actual": 110767.353641,
+          "actual": 131873.452937,
           "originalPlan": 195970.695,
-          "amendedPlan": 190971.65882
+          "amendedPlan": 190971.660176
         },
         {
           "code": "754",
           "label": "Bezpieczeństwo publiczne",
-          "actual": 22181.309004,
+          "actual": 25060.901047,
           "originalPlan": 31139.276,
-          "amendedPlan": 33303.204287
+          "amendedPlan": 34508.969989
         },
         {
           "code": "755",
           "label": "Wymiar sprawiedliwości",
-          "actual": 17605.34905,
+          "actual": 19852.719926,
           "originalPlan": 28682.245,
-          "amendedPlan": 28870.738344
+          "amendedPlan": 28872.870951
         },
         {
           "code": "756",
@@ -4000,92 +4018,92 @@
         {
           "code": "757",
           "label": "Obsługa długu publicznego",
-          "actual": 49762.85507,
+          "actual": 55572.222442,
           "originalPlan": 90388.313,
           "amendedPlan": 90388.313
         },
         {
           "code": "758",
           "label": "Różne rozliczenia",
-          "actual": 68207.354776,
+          "actual": 76343.659327,
           "originalPlan": 162527.526,
-          "amendedPlan": 139889.268357
+          "amendedPlan": 132184.68982
         },
         {
           "code": "801",
           "label": "Oświata i wychowanie",
-          "actual": 3956.630035,
+          "actual": 4335.170183,
           "originalPlan": 4700.145,
-          "amendedPlan": 5802.969902
+          "amendedPlan": 5846.850851
         },
         {
           "code": "851",
           "label": "Ochrona zdrowia",
-          "actual": 36792.279982,
+          "actual": 40359.032722,
           "originalPlan": 54242.749,
-          "amendedPlan": 57920.818248
+          "amendedPlan": 57953.174707
         },
         {
           "code": "852",
           "label": "Pomoc społeczna",
-          "actual": 5493.311506,
+          "actual": 6165.525391,
           "originalPlan": 6911.63,
-          "amendedPlan": 8301.467848
+          "amendedPlan": 8313.601652
         },
         {
           "code": "853",
           "label": "Pozostałe zadania w zakresie",
-          "actual": 1647.116186,
+          "actual": 1857.064138,
           "originalPlan": 2213.5,
-          "amendedPlan": 2567.644484
+          "amendedPlan": 2620.963204
         },
         {
           "code": "854",
           "label": "Edukacyjna opieka",
-          "actual": 272.443509,
+          "actual": 324.732778,
           "originalPlan": 290.956,
-          "amendedPlan": 419.001314
+          "amendedPlan": 469.731832
         },
         {
           "code": "855",
           "label": "Rodzina",
-          "actual": 71782.298292,
+          "actual": 81040.817121,
           "originalPlan": 97921.791,
-          "amendedPlan": 104615.81668
+          "amendedPlan": 107431.789539
         },
         {
           "code": "900",
           "label": "Gospodarka komunalna",
-          "actual": 1536.365729,
+          "actual": 1676.561965,
           "originalPlan": 2692.013,
-          "amendedPlan": 3084.636901
+          "amendedPlan": 3175.790437
         },
         {
           "code": "921",
           "label": "Kultura i ochrona",
-          "actual": 4559.846669,
+          "actual": 5101.775361,
           "originalPlan": 5488.396,
-          "amendedPlan": 6992.065696
+          "amendedPlan": 7226.196176
         },
         {
           "code": "925",
           "label": "Ogrody botaniczne",
-          "actual": 149.524183,
+          "actual": 154.946775,
           "originalPlan": 232.531,
           "amendedPlan": 232.158693
         },
         {
           "code": "926",
           "label": "Kultura fizyczna",
-          "actual": 601.793863,
+          "actual": 657.992724,
           "originalPlan": 773.117,
-          "amendedPlan": 775.285387
+          "amendedPlan": 781.963785
         }
       ],
       "unit": "PLN million",
-      "sourceUrl": "https://www.gov.pl/attachment/19b83040-9820-4e21-a8bc-7576fdae6d88",
+      "sourceUrl": "https://www.gov.pl/attachment/1b66a224-18ba-4959-94f6-cf0e2b6964fa",
       "publishedAt": null,
-      "sourceFileDate": "2026-10-09",
+      "sourceFileDate": "2026-11-05",
       "status": "reported_actual"
     }
   ]
